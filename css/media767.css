@@ -1,0 +1,262 @@
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    /*@media only screen and (max-width: 767px) {*/
+    .caythue-navbar{
+        line-height: 32px;
+
+    }
+    .navbar-nav{
+        padding-bottom: 28px;
+    }
+    .navbar .navbar-toggler{
+        border-color: #FBBF4D!important;
+    }
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+    /*.product_carousel .owl-stage-outer{*/
+    /*    min-height: 150px!important;*/
+    /*    border-radius: 20px!important;*/
+    /*}*/
+    .product_content h4 a{
+        color: #CCCCCC;
+        font-size: 16px!important;
+        line-height: 32px;
+    }
+    .single_product{
+        padding: 25px 30px 0 30px!important;
+    }
+    .section-tt-aaa{
+        text-align: center;
+        justify-content: center;
+    }
+    .section-tt-aaa__bb{
+        align-items: center!important;
+        padding-left: 46%;
+        padding-bottom: 20px;
+    }
+    .section-three{
+        font-size: 24px!important;
+        width: 60px;
+        height: 60px;
+        /*line-height: 43px;*/
+    }
+
+    .section-contt__mdd{
+        padding: 50px 0;
+    }
+    .post_desc{
+        padding-top: 60px;
+    }
+    .avatar-logo{
+        width: 100%!important;
+    }
+    .single_blog{
+        /*height: auto;*/
+    }
+    .post_desc{
+        font-size: 20px;
+    }
+    .section-tt-aaa_span_two{
+        line-height: 32px;
+    }
+
+    /*.section-tt-aaa__bb{*/
+    /*    align-items: center!important;*/
+    /*    padding-left: 337px;*/
+    /*    padding-bottom: 20px;*/
+    /*}*/
+    .games_thecao,
+    .games_tk,
+    .games_thetk,
+    .games_nc{
+        padding-top: 40px;
+    }
+    .secvices-title__title{
+        font-size: 36px!important;
+    }
+    .secvices-body__tool{
+        padding-top: 30px;
+    }
+    .secvices-body__tool__span{
+        padding-top: 30px!important;
+    }
+    .footer-banner-s{
+        /*min-height: 970px;*/
+    }
+    .footer-header__top{
+        padding-left: 120px;
+    }
+    .footer-header__left__td_span_two{
+        /*padding-top: 15px;*/
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .span-fot{
+        margin-left: 30px;
+    }
+    .footer-header__left{
+        height: 250px;
+    }
+    .footer-header__left__td_span__boosters{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    .footer__tt{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer-header__games{
+        padding-top: 20px;
+        border-left: none;
+    }
+
+    .footer-header__games_h3{
+        text-align: center;
+        padding-left: 0!important;
+    }
+    .ftco-footer__footer{
+        padding-bottom: 30px;
+    }
+    .section-contt__span__one{
+        line-height: 42px!important;
+    }
+    .blog_content__span__0{
+        /*padding-top: 20px;*/
+    }
+    .blog_content__span{
+        line-height: 42px!important;
+    }
+    .blog_contents{
+        padding-top: 20px;
+    }
+    .post_desc{
+        padding: 10px 0 !important;
+        font-size: 16px!important;
+        line-height: 32px!important;
+    }
+    .secvices-title{
+        margin-top: -100px!important;
+    }
+    .nav-link:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .navbar .main-btn{
+        padding: 10px 20px;
+        margin-left: 25px!important;
+    }
+    .main-icon{
+        margin-left: 160px!important;
+    }
+    .google-tool{
+        padding-top: 20px!important;
+    }
+    .tooll{
+        padding-left: 100px!important;
+        /*text-align: center!important;*/
+    }
+
+
+
+    #hero .hero-container{
+        text-align: center;
+        padding-left: 20%!important;
+        padding-right: 20%!important;
+    }
+    .secvices-title__body{
+        font-size: 20px!important;
+
+    }
+    .secvices-title__body_s{
+        padding-top: 30px!important;
+    }
+    .footer-header__games_h3__left__header{
+        /*text-align: center;*/
+        padding-left: 180px;
+        padding-bottom: 0!important;
+    }
+    .footer-header__games_h3__left__footer{
+        padding-left: 220px;
+        margin-top: -13px;
+    }
+
+/*     details  */
+    .arena__title_nen__span__color{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .arena__title_img{
+        padding-left: 80px;
+    }
+    .content-detailss_title_span{
+        font-size: 20px;
+    }
+
+    .content-detailss__desc__select__ht{
+        /*padding-left: 30px;*/
+        padding: 0!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .content-detailss__desc__select__mm{
+        padding: 0!important;
+        /*padding-top: 30px;*/
+        padding-top: 30px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+
+        /*padding-left: 30px!important;*/
+        /*padding-right: 18px!important;*/
+    }
+    .content-detailss__desc__select__mv{
+        padding: 0!important;
+        padding-top: 10px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .content-detailss__desc__select__xl{
+        padding: 0!important;
+        padding-top: 30px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .content-detailss__footer_title{
+        font-size: 18px;
+
+    }
+    .content-detailss__footer{
+        padding-top: 30px!important;
+    }
+    .content-detailss__footer__check{
+        padding-left: 30px;
+    }
+    .content-detailss__desc__span{
+        text-align: left!important;
+        padding-top: 10px!important;
+    }
+    .content-detailss__desc__tt{
+        padding-left: 100px;
+        padding-bottom: 30px!important;
+    }
+
+
+    .secvices-title__kk{
+        display: none;
+    }
+    .content-detailss__hr{
+        padding-bottom: 130px!important;
+    }
+    .secvices-title__details{
+        margin-top: -100px!important;
+    }
+    .secvices-title__footer__details{
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff;
+    }
+    .secvices-title__footer_image{
+        padding: 20px 0!important;
+    }
+}

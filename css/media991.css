@@ -1,0 +1,165 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .caythue-navbar{
+        line-height: 32px;
+    }
+    .navbar-nav{
+        padding-bottom: 28px;
+    }
+    .navbar-collapse{
+        padding-bottom: 30px;
+    }
+    .navbar .navbar-toggler{
+        border-color: #FBBF4D!important;
+    }
+
+    .single_product{
+        padding: 25px 30px 0 30px!important;
+    }
+    .arena__title__row{
+        text-align: center!important;
+        justify-content: center!important;
+    }
+    .arena__title__button{
+        text-align: center;
+        justify-content: center;
+    }
+    .section-tt-aaa{
+        text-align: center;
+        justify-content: center;
+    }
+    .section-three{
+        font-size: 24px!important;
+        width: 60px;
+        height: 60px;
+        /*line-height: 43px;*/
+    }
+    .section-tt-aaa__bb{
+        align-items: center!important;
+        padding-left: 337px;
+        padding-bottom: 20px;
+    }
+    .blog_section{
+        padding-top: 20px!important;
+    }
+    .games_thecao,
+    .games_tk,
+    .games_thetk,
+    .games_nc{
+        padding-top: 30px;
+    }
+    .secvices-body__tool{
+        padding-top: 30px;
+    }
+    .footer-banner-s{
+        /*min-height: 780px;*/
+    }
+    .footer-banner-s{
+        padding-bottom: 50px;
+    }
+    .footer-headers{
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-header__h3{
+        /*padding-left: 40px!important;*/
+    }
+    .footer-header__games{
+        padding-top: 30px;
+        border-left: none;
+    }
+    .footer-header__games_h3{
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .footer__tt{
+        padding-left: 0!important;
+    }
+    .footer-header__h3_ul{
+        padding: 0!important;
+    }
+    .footer-header__games_h3__left{
+        padding-left: 150px;
+    }
+    .about-pic .play-btn{
+        position: absolute;
+        left: 70%;
+        top: 80%;
+    }
+    .section-tt-aaa_span_two{
+        line-height: 42px!important;
+    }
+    .section-contt__span__one{
+        line-height: 32px!important;
+    }
+    .blog_content__span__0{
+        padding-top: 20px;
+    }
+
+    .blog_contents{
+        padding-top: 30px;
+    }
+    .post_desc{
+        padding: 10px 0 !important;
+        font-size: 16px!important;
+        line-height: 32px!important;
+    }
+    .secvices-title{
+        margin-top: -120px!important;
+    }
+    .nav-link:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .main-icon{
+        margin-left: 250px!important;
+    }
+    .navbar .main-btn{
+        padding: 10px 20px;
+        margin-left: 25px!important;
+    }
+    #hero .hero-container{
+        text-align: center;
+        padding-left: 20%!important;
+        padding-right: 20%!important;
+    }
+    .secvices-title__footer{
+        padding-top: 30px;
+    }
+
+/*     details         */
+    .arena__title_img{
+        padding-left: 165px;
+    }
+    .content-detailss_title_span{
+        font-size: 24px;
+    }
+    .content-detailss__desc__tt{
+        padding-left: 180px;
+        padding-bottom: 30px!important;
+    }
+
+    .secvices-title__kk{
+        display: none;
+    }
+    .content-detailss__hr{
+        padding-bottom: 130px!important;
+    }
+    .secvices-title__details{
+        margin-top: -100px!important;
+    }
+    .secvices-title__footer__details{
+        font-size: 16px;
+        line-height: 32px;
+        color: #ffffff;
+    }
+    .secvices-title__footer_image{
+        padding: 10px 0!important;
+    }
+}
+/* mmmmmmmmmmmmmmmmmmmmmmmmm*/
