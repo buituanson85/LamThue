@@ -1,4 +1,4 @@
-@media only screen and (min-width: 480px) and (max-width: 640px) {
+@media only screen and (min-width: 480px) and (max-width: 574px) {
 
     .arena__title__button{
         text-align: center;
@@ -251,5 +251,10 @@
 
     .arena-image{
         background-image: url('../images/mediaimage0.jpg')!important;
+    }
+    .modal-caythue .modal{
+        position: fixed;
+        left: 13%;
+        top: 13%;
     }
 }

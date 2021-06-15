@@ -33,7 +33,7 @@ jQuery(document).ready(function( $ ) {
     $('body').append( '<div id="mobile-body-overly"></div>' );
     $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
 
-    $(document).on('click', '.menu-has-children i', function(e){
+    $(document).on('click', '.menu-has-children a', function(e){
       $(this).next().toggleClass('menu-item-active');
       $(this).nextAll('ul').eq(0).slideToggle();
       $(this).toggleClass("fa-chevron-up fa-chevron-down");

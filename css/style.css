@@ -217,18 +217,18 @@ body {
   padding-right: 30px;
 }
 
-.sf-arrows .sf-with-ul:after {
-  content: "\f107";
-  position: absolute;
-  right: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
+/*.sf-arrows .sf-with-ul:after {*/
+/*  !*content: "\f078";*!*/
+/*  position: absolute;*/
+/*  right: 15px;*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*  font-style: normal;*/
+/*  font-weight: normal;*/
+/*}*/
 
-.sf-arrows ul .sf-with-ul:after {
-  content: "\f105";
-}
+/*.sf-arrows ul .sf-with-ul:after {*/
+/*  content: "\f105";*/
+/*}*/
 
 /* Nav Meu Container */
 #nav-menu-container {

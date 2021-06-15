@@ -54,6 +54,7 @@ body{
     height: 580px;
     background-image: url('../images/bg1.png');
     background-size: cover;
+    object-fit: contain;
     z-index: -1;
     width: 100%;
     display: inline-block;
@@ -840,7 +841,11 @@ body{
     font-size: 16px;
 }
 
-
+.modal-caythue .modal{
+    position: fixed;
+    /*left: 13%;*/
+    top: 15%;
+}
 
 
 

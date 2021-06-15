@@ -7,7 +7,7 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
@@ -52,7 +52,7 @@ Header
     <div class="container">
 
         <div id="logo" class="pull-left">
-            <a href="#hero"><img src="images/Group%205.png" alt="" title="" /></a>
+            <a href="#hero"><img src="images/logo.png" alt="" title="" /></a>
         </div>
 
         <nav id="nav-menu-container">
@@ -808,7 +808,7 @@ Header
                 <div class="row footer-headers"  style="padding: 0">
                     <div class="col-md-12">
                         <h3 class="footer-header__h3">THÔNG TIN</h3>
-                        <ul class="footer-header__h3_ul">
+                        <ul id="multiCollapseExample1" class="footer-header__h3_ul multi-collapse">
                             <li><a href="#">Về chúng tôi</a></li>
                             <li><a href="#">Hướng dẫn mua hàn</a></li>
                             <li><a href="">Phương thức thanh toán</a></li>
@@ -821,16 +821,19 @@ Header
             <div class="col-lg-5 col-md-12 footer-header__games">
                 <h3 class="footer-header__games_h3">GAMES</h3>
                 <div class="row footer-header__games_h3__left">
-                    <div class="col-md-7 col-sm-12 col-12 footer-header__games_h3__left__header">
+                    <div class="col-md-7 col-sm-7 footer-header__games_h3__left__header">
                         <ul>
-                            <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;CS.GO</a></li>
+                            <li>
+                                <a href="#"><i class="fas fa-chevron-right"></i>&ensp;CS.GO</a>
+                                <hr>
+                            </li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Dota 2</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Đấu trường chân lý</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Free Fire</a></li>
                             <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Liên minh huyền thoại</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-5 col-sm-12 col-12 footer-header__games_h3__left__footer">
+                    <div class="col-md-5 col-sm-5 footer-header__games_h3__left__footer">
                         <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Liên quân mobie</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;PUBG Mobie</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i>&ensp;Valarant</a></li>
@@ -857,7 +860,7 @@ Header
 
 
 <!--Modal  popop-->
-<div class="container">
+<div class="container modal-caythue">
 
     <div class="modal fade login" id="loginModal">
         <div class="modal-dialog login animated">
@@ -866,6 +869,7 @@ Header
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Xin mời đăng nhập</h4>
+                    <button style="color: #ffffff;font-size: 24px" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="box">
@@ -914,10 +918,10 @@ Header
                     </div>
                     <hr style="background-color: rgba(255, 255, 255, 0.1);">
                     <div class="row tooll">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
                             <a href="#" class="fb btn"><i class="fab fa-facebook-square"></i>&ensp; Facebook</a>
                         </div>
-                        <div class="col-md-6 col-sm-12 google-tool">
+                        <div class="col-md-6 col-sm-6 google-tool">
                             <a href="#" class="google btn"><i class="fab fa-google-plus-g"></i>&ensp;Google+</a>
                         </div>
                     </div>
@@ -955,8 +959,7 @@ Header
     $(document).ready(function(){
         openLoginModal();
     });
-
-
 </script>
+
 </body>
 </html>

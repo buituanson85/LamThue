@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px) and (max-width: 767px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
     /*@media only screen and (max-width: 767px) {*/
     .caythue-navbar{
         line-height: 32px;
@@ -115,6 +115,15 @@
         text-align: center;
         padding-left: 0!important;
     }
+
+    .footer-header__games_h3__left__header ul li a{
+        /*text-align: center;*/
+        font-size: 18px;
+    }
+    /*.footer-header__games_h3__left__footer{*/
+    /*    padding-left: 220px;*/
+    /*    margin-top: -13px;*/
+    /*}*/
     .ftco-footer__footer{
         padding-bottom: 30px;
     }
@@ -150,15 +159,6 @@
     .main-icon{
         margin-left: 160px!important;
     }
-    .google-tool{
-        padding-top: 20px!important;
-    }
-    .tooll{
-        padding-left: 100px!important;
-        /*text-align: center!important;*/
-    }
-
-
 
     #hero .hero-container{
         text-align: center;
@@ -172,15 +172,7 @@
     .secvices-title__body_s{
         padding-top: 30px!important;
     }
-    .footer-header__games_h3__left__header{
-        /*text-align: center;*/
-        padding-left: 180px;
-        padding-bottom: 0!important;
-    }
-    .footer-header__games_h3__left__footer{
-        padding-left: 220px;
-        margin-top: -13px;
-    }
+
 
 /*     details  */
     .arena__title_nen__span__color{
@@ -259,4 +251,5 @@
     .secvices-title__footer_image{
         padding: 20px 0!important;
     }
+
 }

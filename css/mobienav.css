@@ -93,7 +93,7 @@
     padding-left: 30px;
 }
 
-#mobile-nav ul .menu-has-children i {
+#mobile-nav ul .menu-has-children i{
     position: absolute;
     right: 0;
     z-index: 99;
@@ -153,4 +153,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     padding-bottom: 40px;
     color: #999;
+}
+.sf-with-ul::before{
+    display: none!important;
 }

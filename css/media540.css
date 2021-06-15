@@ -247,4 +247,9 @@
     .secvices-title__footer_image{
         padding: 20px 0!important;
     }
+    .modal-caythue .modal{
+        position: fixed;
+        left: 10%;
+        top: 13%;
+    }
 }
