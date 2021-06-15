@@ -148,6 +148,7 @@ figure{
     transition-timing-function: linear;
     z-index: 3;
     mix-blend-mode: overlay;
+    image-rendering: pixelated;
     /*box-shadow: 0 0 200px black inset;*/
     /*filter: contrast(1.8) brightness(1.5) grayscale(1);*/
 }
