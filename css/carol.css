@@ -121,7 +121,7 @@ figure{
 
 
 .product_column4 .product_thumb {
-    width: 120px;
+    width: 150px;
     height: 70px;
     justify-content: center;
     justify-items: center;
@@ -129,7 +129,7 @@ figure{
     margin: 0 auto;
     /*transition-property: translate();*/
     transition-duration: 1.5s;
-    box-shadow: -1px 1px 15px rgba(21,6,24,0.73);
+    /*box-shadow: -1px 1px 15px rgba(21,6,24,0.73);*/
 
 }
 .product_column4 .single_product:hover .product_thumb{
@@ -137,6 +137,8 @@ figure{
 }
 
 .product_column4 .product_thumb img{
+    object-fit: contain;
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -148,7 +150,8 @@ figure{
     transition-timing-function: linear;
     z-index: 3;
     mix-blend-mode: overlay;
-    image-rendering: pixelated;
+    /*image-rendering: pixelated;*/
+
     /*box-shadow: 0 0 200px black inset;*/
     /*filter: contrast(1.8) brightness(1.5) grayscale(1);*/
 }
