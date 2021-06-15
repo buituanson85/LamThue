@@ -129,6 +129,7 @@ figure{
     margin: 0 auto;
     /*transition-property: translate();*/
     transition-duration: 1.5s;
+    box-shadow: -1px 1px 15px rgba(21,6,24,0.73);
 }
 .product_column4 .single_product:hover .product_thumb{
     transform: translate(0, -20px);
@@ -144,7 +145,7 @@ figure{
     max-height: 100%;
     max-width: 100%;
     transition-timing-function: linear;
-    box-shadow: 2px 2px 2px 2px #150618;
+
 }
 
 /*.product_thumb img{*/
