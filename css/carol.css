@@ -122,7 +122,7 @@ figure{
 
 .product_column4 .product_thumb {
     width: 120px;
-    height: 60px;
+    height: 70px;
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -130,6 +130,7 @@ figure{
     /*transition-property: translate();*/
     transition-duration: 1.5s;
     box-shadow: -1px 1px 15px rgba(21,6,24,0.73);
+
 }
 .product_column4 .single_product:hover .product_thumb{
     transform: translate(0, -20px);
@@ -145,7 +146,10 @@ figure{
     max-height: 100%;
     max-width: 100%;
     transition-timing-function: linear;
-
+    z-index: 3;
+    mix-blend-mode: overlay;
+    /*box-shadow: 0 0 200px black inset;*/
+    /*filter: contrast(1.8) brightness(1.5) grayscale(1);*/
 }
 
 /*.product_thumb img{*/
