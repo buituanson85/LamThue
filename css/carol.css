@@ -120,19 +120,40 @@ figure{
 }
 
 
-.product_thumb{
-    /*width: 100px;*/
+.product_column4 .product_thumb {
+    width: 120px;
     height: 60px;
     justify-content: center;
-
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    /*transition-property: translate();*/
+    transition-duration: 1.5s;
 }
-.product_thumb img{
+.product_column4 .single_product:hover .product_thumb{
+    transform: translate(0, -20px);
+}
+
+.product_column4 .product_thumb img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     max-height: 100%;
     max-width: 100%;
+    transition-timing-function: linear;
+    box-shadow: 2px 2px 2px 2px #150618;
 }
+
+/*.product_thumb img{*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    max-height: 100%;*/
+/*    max-width: 100%;*/
+/*}*/
 
 .product_content{
     display: inline-block;

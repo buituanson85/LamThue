@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="28b619a6-4335-414d-90b7-becfa379275a" name="demo" url="http://localhost:8080/LamThue">
+        <fileTransfer mountedRoot="D:\Setup\Xampp\htdocs\LamThue" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
