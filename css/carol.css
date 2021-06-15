@@ -121,15 +121,16 @@ figure{
 
 
 .product_column4 .product_thumb {
-    width: 150px;
-    height: 70px;
+    /*width: 180px;*/
+    height: 60px;
     justify-content: center;
     justify-items: center;
     align-items: center;
     margin: 0 auto;
     /*transition-property: translate();*/
     transition-duration: 1.5s;
-    /*box-shadow: -1px 1px 15px rgba(21,6,24,0.73);*/
+    box-shadow: -1px 1px 15px rgba(21,6,24,0.73);
+
 
 }
 .product_column4 .single_product:hover .product_thumb{
@@ -138,7 +139,6 @@ figure{
 
 .product_column4 .product_thumb img{
     object-fit: contain;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
