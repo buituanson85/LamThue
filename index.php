@@ -108,7 +108,7 @@ Header
                                     <figure>
                                         <div class="product_thumb">
                                             <a href="details.php" class="primary_img">
-                                                <img src="images/luu-lqht2.png" alt="men">
+                                                <img src="images/l-m-h-t.png" alt="men">
                                             </a>
                                         </div>
                                         <figcaption class="product_content">
