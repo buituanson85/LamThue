@@ -249,6 +249,10 @@
         padding: 20px 0!important;
     }
 
+    .secvices-title{
+        margin-top: -20px!important;
+    }
+
     .arena-image{
         background-image: url('../images/mediaimage0.jpg')!important;
     }

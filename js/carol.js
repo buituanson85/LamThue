@@ -2,7 +2,7 @@
     "use strict";
 
 //    Product  column 4 activation
-    $(".product_column4_2").on("changed.owl.carousel initialized.owl.carousel", function (event){
+    $(".product_carousel_2").on("changed.owl.carousel initialized.owl.carousel", function (event){
         $(event.target)
             .find(".owl-item")
             .removeClass("last")
@@ -74,8 +74,6 @@ $(".product_column4").on("changed.owl.carousel initialized.owl.carousel", functi
         },
     },
 });
-
-
 
 //    activation of blog section
 $(".blog_column3").owlCarousel({

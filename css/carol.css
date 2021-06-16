@@ -244,6 +244,10 @@ figure{
     overflow: hidden;
 }
 
+/*.tab-content_2{*/
+/*    position: relative;*/
+/*}*/
+
 .product_carousel_2 .product_thumb_2 a img{
     width: 100%;
     margin: 0 auto;
@@ -262,7 +266,7 @@ figure{
     visibility:  visible;
 }
 .product_carousel_2 .owl-nav.disabled{
-    /*display: block;*/
+    display: block!important;
 }
 
 .product_carousel_2 .owl-nav .owl-next i{

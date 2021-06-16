@@ -881,90 +881,85 @@ Header
                 </div>
             </div>
             <div class="tab-content_2">
-                <div class="tab-panel fade show active" role="tabpanel">
-                    <div class="row">
-                        <div class="product_carousel_2 product_column4_2 owl-carousel">
-                            <div class="col-lg-3">
-                                <article class="single_product_2">
-                                    <figure>
-                                        <div class="product_thumb_2">
-                                            <a href="#" class="primary_img_2">
-                                                <img src="images/notify/thecao.jpg" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content_2">
-                                            <h4 class="product_name">
-                                                <a href="#">Mua thẻ cào</a>
-                                            </h4>
-                                            <span>
+                <div class="product_carousel_2 product_column4_2 owl-carousel">
+                    <div class="col-lg-3">
+                        <article class="single_product_2">
+                            <figure>
+                                <div class="product_thumb_2">
+                                    <a href="#" class="primary_img_2">
+                                        <img src="images/notify/thecao.jpg" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_2">
+                                    <h4 class="product_name">
+                                        <a href="#">Mua thẻ cào</a>
+                                    </h4>
+                                    <span>
                                                 Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game
                                             </span>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
 
-                            <div class="col-lg-3">
-                                <article class="single_product_2">
-                                    <figure>
-                                        <div class="product_thumb_2">
-                                            <a href="#" class="primary_img_2">
-                                                <img src="images/notify/gate.jpg" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content_2">
-                                            <h4 class="product_name">
-                                                <a href="#">Mua tài khoản</a>
-                                            </h4>
-                                            <span>
+                    <div class="col-lg-3">
+                        <article class="single_product_2">
+                            <figure>
+                                <div class="product_thumb_2">
+                                    <a href="#" class="primary_img_2">
+                                        <img src="images/notify/gate.jpg" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_2">
+                                    <h4 class="product_name">
+                                        <a href="#">Mua tài khoản</a>
+                                    </h4>
+                                    <span>
                                                 Cung cấp hầu hết các tài khoản game nhiều cấp độ
                                             </span>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
 
-                            <div class="col-lg-3">
-                                <article class="single_product_2">
-                                    <figure>
-                                        <div class="product_thumb_2">
-                                            <a href="#" class="primary_img_2">
-                                                <img src="images/notify/ck.jpg" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content_2">
-                                            <h4 class="product_name">
-                                                <a href="#">Thuê tài khoản</a>
-                                            </h4>
-                                            <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
+                    <div class="col-lg-3">
+                        <article class="single_product_2">
+                            <figure>
+                                <div class="product_thumb_2">
+                                    <a href="#" class="primary_img_2">
+                                        <img src="images/notify/ck.jpg" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_2">
+                                    <h4 class="product_name">
+                                        <a href="#">Thuê tài khoản</a>
+                                    </h4>
+                                    <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
 
-                            <div class="col-lg-3">
-                                <article class="single_product_2">
-                                    <figure>
-                                        <div class="product_thumb_2">
-                                            <a href="#" class="primary_img_2">
-                                                <img src="images/notify/gare.jpg" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content_2">
-                                            <h4 class="product_name">
-                                                <a href="#">Thuê người chơi</a>
-                                            </h4>
-                                            <span>
+                    <div class="col-lg-3">
+                        <article class="single_product_2">
+                            <figure>
+                                <div class="product_thumb_2">
+                                    <a href="#" class="primary_img_2">
+                                        <img src="images/notify/gare.jpg" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_2">
+                                    <h4 class="product_name">
+                                        <a href="#">Thuê người chơi</a>
+                                    </h4>
+                                    <span>
                                                 Giúp bạn cày rank đơn giản và rất hiệu quả
                                             </span>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-                        </div>
+                                </figcaption>
+                            </figure>
+                        </article>
                     </div>
                 </div>
-
             </div>
 <!--            <div class="row games">-->
 <!--                <div class="col-lg-3 col-md-6 col-sm-12 games_thecao">-->
