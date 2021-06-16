@@ -256,7 +256,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-image: url("../images/login-banner.png");
+    background-image: url("../images/slider/login-banner.png");
     border-radius: 15px;
     z-index: 1;
 }

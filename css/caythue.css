@@ -52,7 +52,7 @@ body{
     left: 0;
     top: 0;
     height: 580px;
-    background-image: url('../images/bg1.png');
+    background-image: url('../images/slider/bg1.png');
     background-size: cover;
     object-fit: contain;
     z-index: -1;
@@ -127,9 +127,9 @@ body{
 }
 
 .section-three{
-    width: 45px;
-    height: 45px;
-    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
     /*line-height: 43px;*/
     text-align: center;
     border: 1px solid #150618;
@@ -158,7 +158,7 @@ body{
 }
 .section-tt{
     background: linear-gradient(180deg, #321238 0%, #230C28 42.45%);
-    padding-top: 90px;
+    padding-top: 90px!important;
     /*z-index: 9;*/
     /*position: absolute;*/
     position: relative;
@@ -168,7 +168,7 @@ body{
 
 .section-contt{
     /*position: absolute;*/
-    padding: 130px 0;
+    padding: 130px 0!important;
     margin-top: -56px;
     z-index: -9;
     background: linear-gradient(180deg, #100113 0%, #0d0110 100%);
@@ -213,7 +213,7 @@ body{
     /*padding: 0 30px;*/
     margin-bottom: 0;
     /*max-height: 240px;*/
-    padding: 0;
+    padding: 0 30px;
     width: 100%;
     height: auto;
 }
@@ -331,7 +331,7 @@ body{
     /*!*text-transform: uppercase;*!*/
     display: inline-block;
     /*font-weight: 700;*/
-    background-color: #150618;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
     border: 1px solid #CCCCCC!important;
     border-radius: 10px;
 }
@@ -380,6 +380,7 @@ body{
     /*border-radius: 50%;*/
     background-size: cover!important;
     /*border-radius:50%;*/
+    object-fit: contain;
 }
 .blog_ca{
     width: 100%;
@@ -405,7 +406,7 @@ body{
     padding: 0!important;
 }
 .post_desc{
-    height: 70%;
+    height: 60px;
 }
 .btn_more{
     padding-top: 10px;
@@ -492,7 +493,7 @@ body{
     height: 100%;
     padding-bottom: 50px;
     /*opacity: 0.7;*/
-    background: url(../images/bg-banner-ss.png) top center fixed;
+    background: url(../images/slider/bg-banner-ss.png) top center fixed;
 }
 .footer-banner-s{
     /*display: table-cell;*/
@@ -561,7 +562,7 @@ body{
     left: 0;
     top: 0;
     height: 580px;
-    background: url(../images/imagess.png) top center fixed;
+    background: url(../images/slider/imagess.png) top center fixed;
     background-size: cover;
     z-index: -10;
     width: 100%;
@@ -591,7 +592,7 @@ body{
 .arena__title_nen{
     height: 40px;
     width: 100%;
-    background-image: url("../images/logo/nennavbar.png");
+    background-image: url("../images/slider/nennavbar.png");
     background-size: cover;
     margin-top: -40px;
 }
@@ -786,7 +787,7 @@ body{
 .fored{
     color: #FBBF4D;
     font-size: 14px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .blog_content__span{
     font-size: 16px;
@@ -845,6 +846,15 @@ body{
     position: fixed;
     /*left: 13%;*/
     top: 15%;
+}
+
+.avatar-shadow{
+    transition-duration: 2s;
+    box-shadow: 1px -1px 10px rgba(204,204,204,0.79);
+}
+
+.avatar-shadow:hover{
+    transform: translate(0, -20px);
 }
 
 

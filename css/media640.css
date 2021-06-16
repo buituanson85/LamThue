@@ -257,4 +257,8 @@
         left: 13%;
         top: 13%;
     }
+
+    .blog_two{
+        padding: 0 30px;
+    }
 }

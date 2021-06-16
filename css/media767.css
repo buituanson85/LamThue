@@ -251,5 +251,7 @@
     .secvices-title__footer_image{
         padding: 20px 0!important;
     }
-
+    .blog_two{
+        padding: 0 30px;
+    }
 }
