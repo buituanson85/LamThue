@@ -880,84 +880,173 @@ Header
                     <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
                 </div>
             </div>
-            <div class="row games">
-                <div class="col-lg-3 col-md-6 col-sm-12 games_thecao">
-                    <div class="row games_image">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/thecao.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3 secvices-title__body_s">
-                        <div class="col-md-12">
-                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua thẻ cào</span></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game
-                            </span>
+            <div class="tab-content_2">
+                <div class="tab-panel fade show active" role="tabpanel">
+                    <div class="row">
+                        <div class="product_carousel_2 product_column4_2 owl-carousel">
+                            <div class="col-lg-3">
+                                <article class="single_product_2">
+                                    <figure>
+                                        <div class="product_thumb_2">
+                                            <a href="#" class="primary_img_2">
+                                                <img src="images/notify/thecao.jpg" alt="men">
+                                            </a>
+                                        </div>
+                                        <figcaption class="product_content_2">
+                                            <h4 class="product_name">
+                                                <a href="#">Mua thẻ cào</a>
+                                            </h4>
+                                            <span>
+                                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game
+                                            </span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <article class="single_product_2">
+                                    <figure>
+                                        <div class="product_thumb_2">
+                                            <a href="#" class="primary_img_2">
+                                                <img src="images/notify/gate.jpg" alt="men">
+                                            </a>
+                                        </div>
+                                        <figcaption class="product_content_2">
+                                            <h4 class="product_name">
+                                                <a href="#">Mua tài khoản</a>
+                                            </h4>
+                                            <span>
+                                                Cung cấp hầu hết các tài khoản game nhiều cấp độ
+                                            </span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <article class="single_product_2">
+                                    <figure>
+                                        <div class="product_thumb_2">
+                                            <a href="#" class="primary_img_2">
+                                                <img src="images/notify/ck.jpg" alt="men">
+                                            </a>
+                                        </div>
+                                        <figcaption class="product_content_2">
+                                            <h4 class="product_name">
+                                                <a href="#">Thuê tài khoản</a>
+                                            </h4>
+                                            <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <article class="single_product_2">
+                                    <figure>
+                                        <div class="product_thumb_2">
+                                            <a href="#" class="primary_img_2">
+                                                <img src="images/notify/gare.jpg" alt="men">
+                                            </a>
+                                        </div>
+                                        <figcaption class="product_content_2">
+                                            <h4 class="product_name">
+                                                <a href="#">Thuê người chơi</a>
+                                            </h4>
+                                            <span>
+                                                Giúp bạn cày rank đơn giản và rất hiệu quả
+                                            </span>
+                                        </figcaption>
+                                    </figure>
+                                </article>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 games_tk">
-                    <div class="row games_image">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/gate.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua tài khoản</span></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Cung cấp hầu hết các tài khoản game nhiều cấp độ
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 games_thetk">
-                    <div class="row games_image">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/ck.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê tài khoản</span></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Một giải pháp kinh tế cho những trải nghiệm mới
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 games_nc">
-                    <div class="row games_image">
-                        <div class="col-md-12">
-                            <a href="#"><img src="images/notify/gare.jpg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê người chơi</span></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Giúp bạn cày rank đơn giản và rất hiệu quả
-                            </span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
+<!--            <div class="row games">-->
+<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_thecao">-->
+<!--                    <div class="row games_image">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a href=""><img src="images/notify/thecao.jpg" alt=""></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3 secvices-title__body_s">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua thẻ cào</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <span class="secvices-title__footer">-->
+<!--                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_tk">-->
+<!--                    <div class="row games_image">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a href=""><img src="images/notify/gate.jpg" alt=""></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua tài khoản</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <span class="secvices-title__footer">-->
+<!--                                Cung cấp hầu hết các tài khoản game nhiều cấp độ-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_thetk">-->
+<!--                    <div class="row games_image">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a href=""><img src="images/notify/ck.jpg" alt=""></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê tài khoản</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <span class="secvices-title__footer">-->
+<!--                                Một giải pháp kinh tế cho những trải nghiệm mới-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_nc">-->
+<!--                    <div class="row games_image">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a href="#"><img src="images/notify/gare.jpg" alt=""></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê người chơi</span></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row pt-3">-->
+<!--                        <div class="col-md-12">-->
+<!--                            <span class="secvices-title__footer">-->
+<!--                                Giúp bạn cày rank đơn giản và rất hiệu quả-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <div class="container secvices-body pt-5">
             <div class="row">
