@@ -82,6 +82,21 @@
     .footer-header__h3_ul{
         padding: 0!important;
     }
+    .footer-header__h3_ul li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__header li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__footer li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .arena__title_spansss{
+        text-align: center!important;
+    }
     .footer-header__games_h3__left{
         padding-left: 120px;
     }
@@ -134,7 +149,7 @@
 
 /*     details         */
     .arena__title_img{
-        padding-left: 165px;
+        padding-left: 200px;
     }
     .content-detailss_title_span{
         font-size: 24px;
@@ -160,6 +175,15 @@
     }
     .secvices-title__footer_image{
         padding: 10px 0!important;
+    }
+    .footer-header__left__tdht{
+        /*width: 330px!important;*/
+        /*height: 220px!important;*/
+        padding-top: 0!important;
+        /*justify-content: center;*/
+    }
+    .footer-header__left__td_spanss{
+        text-align: left;
     }
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmm*/

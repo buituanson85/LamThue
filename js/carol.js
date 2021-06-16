@@ -45,7 +45,7 @@ $(".blog_column3").owlCarousel({
     nav: true,
     autoplayTimeout: 5000,
     items : 4,
-    dots: true,
+    dots: false,
     responsiveClass: true,
     responsive: {
         0: {

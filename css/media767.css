@@ -1,4 +1,4 @@
-@media only screen and (min-width: 575px) and (max-width: 767px) {
+@media only screen and (min-width: 640px) and (max-width: 767px) {
     /*@media only screen and (max-width: 767px) {*/
     .caythue-navbar{
         line-height: 32px;
@@ -65,6 +65,10 @@
     /*    padding-left: 337px;*/
     /*    padding-bottom: 20px;*/
     /*}*/
+    .arena__title_spansss{
+        text-align: center!important;
+    }
+
     .games_thecao,
     .games_tk,
     .games_thetk,
@@ -103,27 +107,14 @@
         margin-left: 20px;
     }
     .footer__tt{
-        padding-top: 30px;
-        text-align: center;
+        padding-top: 50px;
+        /*text-align: center;*/
     }
     .footer-header__games{
         padding-top: 20px;
         border-left: none;
     }
 
-    .footer-header__games_h3{
-        text-align: center;
-        padding-left: 0!important;
-    }
-
-    .footer-header__games_h3__left__header ul li a{
-        /*text-align: center;*/
-        font-size: 18px;
-    }
-    /*.footer-header__games_h3__left__footer{*/
-    /*    padding-left: 220px;*/
-    /*    margin-top: -13px;*/
-    /*}*/
     .ftco-footer__footer{
         padding-bottom: 30px;
     }
@@ -180,7 +171,7 @@
         line-height: 32px;
     }
     .arena__title_img{
-        padding-left: 80px;
+        padding-left: 90px;
     }
     .content-detailss_title_span{
         font-size: 20px;
@@ -233,15 +224,14 @@
         padding-bottom: 30px!important;
     }
 
-
-    .secvices-title__kk{
-        display: none;
-    }
     .content-detailss__hr{
-        padding-bottom: 130px!important;
+        padding-bottom: 200px!important;
+    }
+    .secvices-title__kk{
+        display: none!important;
     }
     .secvices-title__details{
-        margin-top: -100px!important;
+        margin-top: -150px!important;
     }
     .secvices-title__footer__details{
         font-size: 16px;
@@ -253,5 +243,40 @@
     }
     .blog_two{
         padding: 0 30px;
+    }
+
+
+    .footer-header__left{
+        width: 330px!important;
+        height: 290px!important;
+    }
+    .footer-header__h3_ul li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__header li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__footer li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__footer{
+        padding-left: 58px;
+        margin-top: -13px;
+    }
+
+    .footer-header__games_h3{
+        /*text-align: center;*/
+        padding-left: 0!important;
+    }
+
+    .footer-header__games_h3__left__header ul li a{
+        /*text-align: center;*/
+        font-size: 16px;
+    }
+    .footer-header__h3_ul__colapse{
+        padding-left: 40px;
     }
 }

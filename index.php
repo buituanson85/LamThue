@@ -38,6 +38,7 @@
     <link href="css/media767.css" rel="stylesheet">
     <link href="css/media640.css" rel="stylesheet">
     <link href="css/media540.css" rel="stylesheet">
+    <link href="css/media375.css" rel="stylesheet">
 </head>
 
 <body>
@@ -647,7 +648,7 @@ Header
                                     </p>
                                     <footer class="btn_more pr-3">
                                         <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 pt-3">
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
                                                 <div class="avatar-shadow">
                                                     <img class="avatar-logo" src="images/logo/Liên_quan_mobile.png" alt="">
                                                 </div>
@@ -708,7 +709,7 @@ Header
                                         Dịch vụ Cày thuê CS:GO chuyên nghiệp: Tất cả các cấp bậc đều được hỗ trợ, thậm chí là Global Elite.                                    </p>
                                     <footer class="btn_more pr-3">
                                         <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 pt-3">
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
                                                 <div class="avatar-shadow">
                                                     <img class="avatar-logo" src="images/logo/sgoc.png" alt="">
                                                 </div>
@@ -769,7 +770,7 @@ Header
                                         Từ cày rank, cày calibration đầu mùa, cày Battte Cup cho tới cày Book TI 2010, chúng tôi có đầy đủ các dịch vụ Dota 2 cho các bạn.                                    </p>
                                     <footer class="btn_more pr-3">
                                         <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 pt-3">
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
                                                 <div class="avatar-shadow">
                                                     <img class="avatar-logo" src="images/logo/dota-2-logo-black-2.jpg" alt="">
                                                 </div>
@@ -831,7 +832,7 @@ Header
                                     </p>
                                     <footer class="btn_more pr-3">
                                         <div class="row">
-                                            <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-12 pt-3">
+                                            <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
                                                 <div class="avatar-shadow">
                                                     <img class="avatar-logo" src="images/logo/team-anim.png" alt="">
                                                 </div>
@@ -1037,11 +1038,11 @@ Header
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">
                 <div class="row footer-headers footer-header__left">
                     <div class="col-md-12">
-                        <div class="row pt-2 pl-2 footer-header__left__tdht">
+                        <div class="row pt-4 pl-2 footer-header__left__tdht">
                             <div class="col-md-1 col-sm-2 col-2">
                                 <img src="images/logo/Vector%20(4).png" alt="">
                             </div>
-                            <div  class="col-md-8 col-sm-10 col-10"><span class="footer-header__left__td">Tổng đài hỗ trợ</span></div>
+                            <div  class="col-md-8 col-sm-10 col-10 footer-header__left__td_spanss"><span class="footer-header__left__td">Tổng đài hỗ trợ</span></div>
                         </div>
                         <div class="row pt-3 pl-2">
                             <div class="col-md-7 col-sm-12">
@@ -1080,23 +1081,31 @@ Header
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 footer__tt">
-                <div class="row footer-headers"  style="padding: 0">
+                <div class="row footer-headers p-0">
                     <div class="col-md-12">
-                        <h3 class="footer-header__h3">THÔNG TIN</h3>
-                        <ul id="multiCollapseExample1" class="footer-header__h3_ul multi-collapse">
-                            <li><a href="#">Về chúng tôi</a></li>
-                            <li><a href="#">Hướng dẫn mua hàn</a></li>
-                            <li><a href="">Phương thức thanh toán</a></li>
-                            <li><a href="#">Theo dõi tiến độ</a></li>
-                            <li><a href="#">Đăng ký Booster</a></li>
-                        </ul>
+                        <h3 class="footer-header__h3">
+                            <a id="ftco-footer__collapse" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" >THÔNG TIN</a>
+                        </h3>
+                        <div id="collapseExample3" class="row footer-header__h3_ul__colapse">
+                            <div class="col-md-12">
+                                <ul class="footer-header__h3_ul">
+                                    <li><a href="#">Về chúng tôi</a></li>
+                                    <li><a href="#">Hướng dẫn mua hàn</a></li>
+                                    <li><a href="">Phương thức thanh toán</a></li>
+                                    <li><a href="#">Theo dõi tiến độ</a></li>
+                                    <li><a href="#">Đăng ký Booster</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 footer-header__games">
-                <h3 class="footer-header__games_h3">GAMES</h3>
-                <div class="row footer-header__games_h3__left">
-                    <div class="col-md-7 col-sm-7 footer-header__games_h3__left__header">
+                <h3 class="footer-header__games_h3">
+                    <a id="footer-header__games__collapse" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">GAMES</a>
+                </h3>
+                <div class="row footer-header__games_h3__left" id="multiCollapseExample1">
+                    <div class="col-md-7 col-sm-12 footer-header__games_h3__left__header">
                         <ul>
                             <li>
                                 <a href="#"><i class="fas fa-chevron-right"></i>&ensp;CS.GO</a>
@@ -1115,7 +1124,7 @@ Header
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-5 col-sm-5 footer-header__games_h3__left__footer">
+                    <div class="col-md-5 col-sm-12 footer-header__games_h3__left__footer">
                         <li>
                             <a href="#"><i class="fas fa-chevron-right"></i>&ensp;Liên quân mobie</a>
                         </li>
@@ -1244,6 +1253,34 @@ Header
 <script type="text/javascript">
     $(document).ready(function(){
         // openLoginModal();
+        jQuery(document).ready(function($) {
+            var alterClass = function() {
+                var ww = document.body.clientWidth;
+                if (ww > 767) {
+                    $('.footer-header__h3_ul__colapse').removeClass('collapse');
+
+                } else if (ww <= 767) {
+                    $('.footer-header__h3_ul__colapse').addClass('collapse');
+                }
+            };
+
+            var alterClass2 = function() {
+                var ww = document.body.clientWidth;
+                if (ww > 767) {
+                    $('.footer-header__games_h3__left').removeClass('collapse');
+
+                } else if (ww <= 767) {
+                    $('.footer-header__games_h3__left').addClass('collapse');
+                }
+            };
+            $(window).resize(function(){
+                alterClass();
+                alterClass2();
+            });
+            //Fire it when the page first loads:
+            alterClass();
+            alterClass2();
+        });
     });
 </script>
 

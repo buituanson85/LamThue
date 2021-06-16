@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 376px) and (max-width: 540px) {
     .arena__title__button{
         text-align: center;
         justify-content: center;
@@ -7,6 +7,9 @@
         text-align: center;
         padding-left: 10%!important;
         padding-right: 10%!important;
+    }
+    .arena__title_nen_row{
+        /*margin: 0 auto!important;*/
     }
     .banner-slider{
         /*padding-top: 30px;*/
@@ -35,8 +38,11 @@
     }
     .section-tt-aaa__bb{
         align-items: center!important;
-        padding-left: 44%;
+        padding-left: 43.5%;
         padding-bottom: 20px;
+    }
+    .fored{
+        padding: 0!important;
     }
     .section-three{
         font-size: 24px!important;
@@ -65,21 +71,13 @@
         padding-right: 0!important;
     }
     .post_desc{
+        padding: 30px 0!important;
         font-size: 16px!important;
     }
     .avatar-logo{
         /*width: 100%!important;*/
     }
-    .blog_ca{
-        /*padding-bottom: 100px!important;*/
-    }
-    .blog_carousel .owl-stage-outer .owl-stage{
-        /*padding: 100px 0!important;*/
-    }
-    .avatar-logo{
-        width: 65%!important;
-        padding-left: 38%;
-    }
+
     .blog_section__title{
         /*padding-top: 50px!important;*/
         text-align: center;
@@ -89,6 +87,9 @@
     }
     .btn_more{
         padding: 0!important;
+    }
+    .secvices-title{
+        padding-top: 50px!important;
     }
     .secvices-title__body{
         font-size: 20px!important;
@@ -104,10 +105,8 @@
         padding: 30px 0!important;
     }
 
-
-
     .footer-header__top{
-        padding-left: 40px;
+        padding-left: 60px;
     }
     .footer-header__left__td_span_two{
         /*padding-top: 15px;*/
@@ -118,38 +117,34 @@
     .span-fot{
         margin-left: 30px;
     }
-    .footer-header__left{
-        height: 250px;
-    }
+    /*.footer-header__left{*/
+    /*    height: 250px;*/
+    /*}*/
     .footer-header__left__td_span__boosters{
         padding-top: 10px;
         margin-left: 20px;
     }
-    .footer__tt{
-        padding-top: 30px;
-        text-align: center;
-    }
+    /*.footer__tt{*/
+    /*    padding-top: 30px;*/
+    /*    text-align: center;*/
+    /*}*/
     .footer-header__games{
         padding-top: 20px;
         border-left: none;
     }
 
-    .footer-header__games_h3{
-        text-align: center;
-        padding-left: 0!important;
-    }
     .ftco-footer__footer{
         padding-bottom: 30px;
     }
-    .footer-header__games_h3__left__header{
-        /*text-align: center;*/
-        padding-left: 130px;
-        padding-bottom: 0!important;
-    }
-    .footer-header__games_h3__left__footer{
-        padding-left: 170px;
-        margin-top: -13px;
-    }
+    /*.footer-header__games_h3__left__header{*/
+    /*    !*text-align: center;*!*/
+    /*    !*padding-left: 130px;*!*/
+    /*    padding-bottom: 0!important;*/
+    /*}*/
+    /*.footer-header__games_h3__left__footer{*/
+    /*    padding-left: 170px;*/
+    /*    margin-top: -13px;*/
+    /*}*/
     .arena__title_nen__span__color{
         font-size: 16px;
         line-height: 32px;
@@ -158,15 +153,18 @@
         margin-top: -220px;
     }
     .arena__title_nen__ab{
-        margin-top: -140px;
+        margin-top: -10px;
     }
     .arena__title_nen__ac{
-        margin-top: -100px;
+        margin-top: -10px;
     }
     .arena__title_nen__ad{
-        margin-top: -60px;
+        margin-top: -10px;
     }
-
+    .arena__title_nen,
+    .arena__title_nen_row{
+        max-width: 100%;
+    }
     .content-detailss_title_span{
         font-size: 16px;
         color: #FBBF4D!important;
@@ -255,4 +253,80 @@
     .blog_two{
         padding: 0 30px;
     }
+
+    .footer-header__left{
+        width: 330px!important;
+        height: 290px!important;
+        /*padding-left: 60px;*/
+    }
+    .footer-header__h3_ul li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__header li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__footer li a{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-header__games_h3__left__footer{
+        padding-left: 58px;
+        margin-top: -13px;
+    }
+
+    .footer-header__games_h3{
+        /*text-align: center;*/
+        padding-left: 0!important;
+    }
+
+    .footer-header__games_h3__left__header ul li a{
+        /*text-align: center;*/
+        font-size: 16px;
+    }
+    .footer-header__h3_ul__colapse{
+        padding-left: 40px;
+    }
+    .footer__tt{
+        padding-top: 50px!important;
+        padding-left: 50px!important;
+    }
+    .footer-header__games{
+        padding-top: 50px!important;
+        padding-left: 50px!important;
+    }
+    .footer-header__top span{
+        font-size: 16px;
+    }
+    .ftco-footer__footer span{
+        font-size: 14px;
+    }
+    .ftco-footer__ii{
+        padding-top: 30px!important;
+    }
+    /*.avatar-logo{*/
+    /*    width: 65%!important;*/
+    /*    padding-left: 38%;*/
+    /*}*/
+    .avatar-logo{
+        width: 100%!important;
+        background-size: cover!important;
+        /*border-radius:50%;*/
+        object-fit: contain!important;
+        height: 50px!important;
+    }
+    .avatar-shadow{
+        max-width: 150px!important;
+        height: auto;
+        margin: 0 auto;
+    }
+    .btn_more__row{
+        padding: 50px 0 10px 0!important;
+    }
+
+    .blog_ca .owl-carousel .owl-stage-outer{
+        height: 450px;
+    }
+
 }

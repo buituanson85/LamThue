@@ -1,5 +1,4 @@
-@media only screen and (min-width: 541px) and (max-width: 639px) {
-
+@media only screen and (max-width: 376px) {
     .arena__title__button{
         text-align: center;
         justify-content: center;
@@ -9,39 +8,6 @@
         padding-left: 10%!important;
         padding-right: 10%!important;
     }
-    .section-tt-aaa_span_two{
-        line-height: 32px;
-    }
-    .section-tt-aaa{
-        text-align: center!important;
-    }
-    .section-tt-aaa__bb{
-        align-items: center!important;
-        padding-left: 46%;
-        padding-bottom: 20px;
-    }
-    .section-three{
-        font-size: 24px!important;        /*padding: 0!important;*/
-
-        width: 60px;
-        height: 60px;
-    }
-    .section-contt__span{
-        line-height: 32px!important;
-    }
-    .section-contt__body{
-        padding-bottom: 30px!important;
-    }
-    .blog_content__span__0{
-        padding-top: 20px;
-    }
-    .blog_contents{
-        padding-top: 40px;
-        padding-left: 50px!important;
-    }
-    .section-contt__span__one{
-        padding-top: 30px!important;
-    }
     .banner-slider{
         /*padding-top: 30px;*/
         margin-top: -230px!important;
@@ -49,43 +15,79 @@
         padding-right: 60px!important;
     }
     .product_carousel .owl-stage-outer{
-        min-height: 190px!important;
+        min-height: 150px!important;
         border-radius: 20px!important;
     }
     .section-tt{
         margin-top: -90px!important;
     }
     #hero .hero-container{
-        padding: 50px!important;
+        padding: 0 20px!important;
     }
-    .product_thumb{
-        /*width: 100px;*/
-        height: 100px;
-        justify-content: center;
+    .product_content h4 a{
+        font-size: 16px!important;
     }
-    .single_product{
-        padding: 25px 30px 0 30px!important;
+    .section-tt-aaa_span_two{
+        line-height: 24px;
+    }
+    .section-tt-aaa{
+        text-align: center!important;
+    }
+    .section-tt-aaa__bb{
+        align-items: center!important;
+        padding-left: 39%;
+        padding-bottom: 20px;
+    }
+    .fored{
+        padding: 0!important;
+    }
+    .section-three{
+        font-size: 24px!important;
+        width: 60px;
+        height: 60px;
+    }
+    .section-contt__body{
+        padding-bottom: 30px!important;
+    }
+    .blog_thumb{
+        position: absolute;
+        left: 40%;
+        top: -20%;
+        /*background: #456BD9;*/
+        height: 80px;
+        width: 80px;
+        border-radius:50%;
+        -moz-border-radius:50%;
+        -webkit-border-radius:50%;
+    }
+    .product_rating ul li a{
+        margin-left: 5px!important;
+    }
+    .product_rating{
+        padding-top: 20px!important;
+        padding-right: 0!important;
     }
     .post_desc{
         font-size: 16px!important;
-        line-height: 32px;
-    }
-    .blog_contents{
-        /*padding-top: 20px;*/
-        padding-top: 0;
-    }
-    .blog_content__span__0{
-        padding: 0;
-    }
-    .blog_content__0{
-        padding-left: 35px;
+        padding: 0!important;
     }
     .avatar-logo{
-        width: 65%!important;
-        padding-left: 38%;
+        /*width: 100%!important;*/
     }
-    .blog_content__0__r{
+
+    .blog_section__title{
+        /*padding-top: 50px!important;*/
+        text-align: center;
+    }
+    .blog_content__span{
+        font-size: 16px!important;
+    }
+
+    .btn_more{
         padding: 0!important;
+    }
+    .secvices-title{
+        padding-top: 50px!important;
     }
     .secvices-title__body{
         font-size: 20px!important;
@@ -101,9 +103,8 @@
         padding: 30px 0!important;
     }
 
-
     .footer-header__top{
-        padding-left: 120px;
+        padding-left: 30px;
     }
     .footer-header__left__td_span_two{
         /*padding-top: 15px;*/
@@ -114,9 +115,9 @@
     .span-fot{
         margin-left: 30px;
     }
-    .footer-header__left{
-        height: 250px;
-    }
+    /*.footer-header__left{*/
+    /*    height: 250px;*/
+    /*}*/
     .footer-header__left__td_span__boosters{
         padding-top: 10px;
         margin-left: 20px;
@@ -130,46 +131,40 @@
         border-left: none;
     }
 
-    /*.footer-header__games_h3{*/
-    /*    text-align: center;*/
-    /*    padding-left: 0!important;*/
-    /*}*/
     .ftco-footer__footer{
         padding-bottom: 30px;
     }
-    .footer-header__games_h3__left__header{
-        /*text-align: center;*/
-        /*padding-left: 180px;*/
-        padding-bottom: 0!important;
-    }
-    .footer-header__games_h3__left__footer{
-        /*padding-left: 220px;*/
-        margin-top: -13px;
-    }
+    /*.footer-header__games_h3__left__header{*/
+    /*    !*text-align: center;*!*/
+    /*    !*padding-left: 130px;*!*/
+    /*    padding-bottom: 0!important;*/
+    /*}*/
+    /*.footer-header__games_h3__left__footer{*/
+    /*    padding-left: 170px;*/
+    /*    margin-top: -13px;*/
+    /*}*/
     .arena__title_nen__span__color{
         font-size: 16px;
         line-height: 32px;
     }
-    .arena__title_img{
-        padding-left: 80px;
-    }
     .arena__bdy{
-        margin-top: -200px;
+        margin-top: -220px;
     }
     .arena__title_nen__ab{
-        margin-top: -30px;
+        margin-top: -140px;
     }
     .arena__title_nen__ac{
-        margin-top: -30px;
+        margin-top: -100px;
     }
     .arena__title_nen__ad{
-        margin-top: -30px;
+        margin-top: -60px;
     }
-    .content-detailss_title_span{
-        font-size: 20px;
-        color: #FBBF4D!important;
 
+    .content-detailss_title_span{
+        font-size: 16px;
+        color: #FBBF4D!important;
     }
+
 
     .content-detailss_title_span_s{
         text-align: center;
@@ -177,8 +172,9 @@
     .content-detailss_title_i{
         padding-top: 30px;
         font-size: 14px;
-        margin-left: -80px;
+        margin-left: -45px;
     }
+
     .content-detailss__desc{
         padding: 0 30px;
     }
@@ -223,13 +219,9 @@
         padding-top: 10px!important;
     }
     .content-detailss__desc__tt{
-        padding-left: 60px!important;
+        /*padding-left: 60px!important;*/
         padding-bottom: 30px!important;
     }
-    .banner-footer{
-        width: 340px;
-    }
-
 
     .secvices-title__kk{
         display: none;
@@ -248,23 +240,19 @@
     .secvices-title__footer_image{
         padding: 20px 0!important;
     }
-
-    .arena-image{
-        background-image: url('../images/mediaimage0.jpg')!important;
-    }
     .modal-caythue .modal{
         position: fixed;
-        left: 13%;
+        left: 10%;
         top: 13%;
     }
-
     .blog_two{
-        padding: 0 30px;
+        padding: 0 10px;
     }
 
     .footer-header__left{
-        width: 330px!important;
+        width: 290px!important;
         height: 290px!important;
+        /*padding-left: 60px;*/
     }
     .footer-header__h3_ul li a{
         font-size: 16px;
@@ -295,7 +283,6 @@
     .footer-header__h3_ul__colapse{
         padding-left: 40px;
     }
-
     .footer__tt{
         padding-top: 50px!important;
         padding-left: 50px!important;
@@ -303,10 +290,6 @@
     .footer-header__games{
         padding-top: 50px!important;
         padding-left: 50px!important;
-    }
-    .arena__title_nen,
-    .arena__title_nen_row{
-        max-width: 100%;
     }
     .footer-header__top span{
         font-size: 16px;
@@ -317,14 +300,32 @@
     .ftco-footer__ii{
         padding-top: 30px!important;
     }
-    .arena__title_nen_row span{
-        /*font-size: 16px!important;*/
+    .avatar-logo{
+        width: 100%!important;
+        background-size: cover!important;
+        /*border-radius:50%;*/
+        object-fit: contain!important;
+        height: 50px!important;
+    }
+    .avatar-shadow{
+        max-width: 150px!important;
+        height: auto;
+        margin: 0 auto;
     }
 
-    .arena__bodysss{
-        margin-top: -100px;
+    .btn_more__row{
+        padding: 60px 0 10px 0!important;
     }
-    .arena__title_spansss{
-        text-align: center;
+
+    .blog_ca .owl-carousel .owl-stage-outer{
+        height: 450px;
+    }
+    .about-pic{
+        margin-bottom: 30px;
+    }
+    .about-pic .play-btn{
+        position: absolute;
+        left: 70%;
+        top: 85%;
     }
 }

@@ -79,6 +79,11 @@
     .secvices-title__details{
         margin-top: -100px!important;
     }
+
+    .footer-header__left{
+        width: 330px!important;
+        /*height: 220px!important;*/
+    }
 }
 /* oooooooooooooooooooo*/
 
