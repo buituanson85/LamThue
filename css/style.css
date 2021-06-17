@@ -568,15 +568,35 @@ header#main-header.menu-sticky{
   border: 2px solid #FBBF4D;
   background-color: #FBBF4D;
   color: #171717;
-}
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
 
-#hero .btn-get-started:hover {
-  background: #CCCCCC;
-  border: 2px solid #CCCCCC;
-  text-decoration: none;
-  color: #FBBF4D;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
-
+#hero .btn-get-started:before{
+  content:" ";
+  display:block;
+  width:200px;
+  height:80px;
+  background:rgba(255, 255, 255, .1);
+  position:absolute;
+  top:-10px;
+  left:-200px;
+  transform:rotate(-45deg);
+  transition:all .15s ease-in-out;
+}
 /* responsive*/
 
 @media (min-width: 1300px)  {
