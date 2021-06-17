@@ -110,7 +110,7 @@ $(".product_column4").on("changed.owl.carousel initialized.owl.carousel", functi
 
 //    activation of blog section
 $(".blog_column3").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     loop: true,
     nav: false,
     autoplayTimeout: 5000,

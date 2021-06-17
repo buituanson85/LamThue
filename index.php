@@ -605,7 +605,7 @@ Header
         </div>
 
         <section class="blog_section blog_two color_two">
-            <div class="row p-0" style="width: 100%;">
+            <div class="row p-5" style="width: 100%;">
                 <div class="col-md-12 ">
                     <div class="text-center blog_section__title">
                         <span>Người dùng nói về chúng tôi</span>
@@ -1030,64 +1030,7 @@ Header
                         </article>
                     </div>
                 </div>
-                <!--            <div class="row pt-3 pl-3 pr-3">-->
-                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
-                <!--                    <div class="row">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <a href=""><img src="images/notify/cerbebus.png" alt=""></a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <span class="secvices-title__footer">-->
-                <!--                                Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc-->
-                <!--                            </span>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
-                <!--                    <div class="row">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <a href=""><img src="images/notify/tonghop.png" alt=""></a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <span class="secvices-title__footer">-->
-                <!--                                [VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...-->
-                <!--                            </span>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
-                <!--                    <div class="row">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <a href=""><img src="images/notify/sofm.png" alt=""></a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <span class="secvices-title__footer">-->
-                <!--                                LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...-->
-                <!--                            </span>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
-                <!--                    <div class="row">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <a href=""><img src="images/notify/tuonghtml.png" alt=""></a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
-                <!--                        <div class="col-md-12">-->
-                <!--                            <span class="secvices-title__footer">-->
-                <!--                                Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11-->
-                <!--                            </span>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--            </div>-->
+
             </div>
 
 </section>

@@ -227,8 +227,34 @@ body{
     visibility: visible;
 }
 .blog_carousel .owl-nav.disabled{
-    display: block;
+    display: none!important;
 }
+
+.blog_carousel .owl-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+}
+.blog_carousel .owl-nav button.owl-next, .blog_carousel .owl-nav button.owl-prev, .blog_carousel button.owl-dot {
+    /*position: absolute;*/
+    background: #CCCCCC;
+    width: 10px;
+    height: 10px;
+    color: inherit;
+    border: 1px solid #CCCCCC;
+    padding: 10px 10px;
+    font: inherit;
+    left: 50%;
+    border-radius: 50%;
+    margin-left: 15px;
+
+}
+
+.blog_carousel button.owl-dot:hover{
+    border: #FBBF4D;
+    background-color: #FBBF4D;
+}
+
 /*.blog_carousel .owl-nav i{*/
 /*    position: absolute;*/
 /*    top: 50%;*/
@@ -349,9 +375,12 @@ body{
     font-size: 24px;
     /*background: #f8f8f8;*/
     color: #FBBF4D;
+    padding: 60px 0!important;
 }
 
-
+.blog_carousel .owl-drag .owl-item.active:nth-child(2){
+    margin-top: -90px!important;
+}
 
 .blog_thumb{
     position: absolute;

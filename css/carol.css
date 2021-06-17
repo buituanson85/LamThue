@@ -515,6 +515,21 @@ figure{
     display: block;
 }
 
+.acbc3 .owl-nav button.owl-next,.acbc3 .owl-nav button.owl-prev, .acbc3 button.owl-dot{
+    background: 0 0!important;
+    border: none!important;
+}
+
+.product_carousel_2 .owl-nav button.owl-next,.product_carousel_2 .owl-nav button.owl-prev, .product_carousel_2 button.owl-dot{
+    background: 0 0!important;
+    border: none!important;
+}
+
+.product_column4 .owl-nav button.owl-next,.product_column4 .owl-nav button.owl-prev, .product_column4 button.owl-dot{
+    background: 0 0!important;
+    border: none!important;
+}
+
 
 
 
