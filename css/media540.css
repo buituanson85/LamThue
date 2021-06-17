@@ -149,6 +149,13 @@
         font-size: 16px;
         line-height: 32px;
     }
+    .section-nen-tt__imgs{
+        margin-top: -290px!important;
+    }
+    .secvices-title{
+        margin-top: -30px;
+        /*padding-top: 50px!important;*/
+    }
     .arena__bdy{
         margin-top: -220px;
     }

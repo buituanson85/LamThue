@@ -109,31 +109,54 @@ $(".product_column4").on("changed.owl.carousel initialized.owl.carousel", functi
 });
 
 //    activation of blog section
-$(".blog_column3").owlCarousel({
-    autoplay: true,
-    loop: true,
-    nav: false,
-    autoplayTimeout: 5000,
-    items : 4,
-    dots: true,
-    responsiveClass: true,
-    responsive: {
-        0: {
-            items : 1,
-        },
-        768: {
-            items : 1,
-        },
-        992 : {
-            items : 2,
-        },
-        1200:{
-            items : 3,
+// $(".blog_column3").owlCarousel({
+//     autoplay: true,
+//     loop: true,
+//     nav: false,
+//     autoplayTimeout: 5000,
+//     items : 4,
+//     dots: true,
+//     responsiveClass: true,
+//     responsive: {
+//         0: {
+//             items : 1,
+//         },
+//         768: {
+//             items : 1,
+//         },
+//         992 : {
+//             items : 2,
+//         },
+//         1200:{
+//             items : 3,
+//         }
+//     },
+// });
+
+    $('.blog_column3').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        dots:true,
+        autoplayTimeout: 8500,
+        smartSpeed: 450,
+        responsive: {
+            0: {
+                items : 1,
+            },
+            768: {
+                items : 1,
+            },
+            992 : {
+                items : 2,
+            },
+            1200:{
+                items : 3,
+            }
         }
-    },
-});
-
-
+    });
 
 
 })(jQuery);

@@ -230,30 +230,75 @@ body{
     display: none!important;
 }
 
-.blog_carousel .owl-dots{
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
+.blog_carousel .owl-dots .owl-dot.active span,
+.blog_carousel .owl-dots .owl-dot:hover span {
+    background: #FBBF4D;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
-.blog_carousel .owl-nav button.owl-next, .blog_carousel .owl-nav button.owl-prev, .blog_carousel button.owl-dot {
-    /*position: absolute;*/
+
+.blog_carousel .owl-dots .owl-dot:focus span{
+    border: none!important;
+}
+.blog_carousel  .owl-dots{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.blog_carousel  .owl-dots .owl-dot{
+    display: inline-block;
+}
+.blog_carousel  .owl-dots .owl-dot span {
     background: #CCCCCC;
-    width: 10px;
-    height: 10px;
-    color: inherit;
-    border: 1px solid #CCCCCC;
-    padding: 10px 10px;
-    font: inherit;
-    left: 50%;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
     border-radius: 50%;
-    margin-left: 15px;
-
 }
-
-.blog_carousel button.owl-dot:hover{
-    border: #FBBF4D;
-    background-color: #FBBF4D;
+.blog_carousel .item {
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+.blog_carousel .owl-item.active.center .item {
+    /*margin-top: -30px!important;*/
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+.blog_carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+    margin: 0 auto 17px;
+}
+/*.blog_carousel .owl-dots{*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    bottom: 10%;*/
+/*}*/
+/*.blog_carousel .owl-nav button.owl-next, .blog_carousel .owl-nav button.owl-prev, .blog_carousel button.owl-dot {*/
+/*    !*position: absolute;*!*/
+/*    background: #CCCCCC;*/
+/*    width: 10px;*/
+/*    height: 10px;*/
+/*    color: inherit;*/
+/*    border: 1px solid #CCCCCC;*/
+/*    padding: 10px 10px;*/
+/*    font: inherit;*/
+/*    left: 50%;*/
+/*    border-radius: 50%;*/
+/*    margin-left: 15px;*/
+
+/*}*/
+
+/*.blog_carousel button.owl-dot:hover{*/
+/*    border: #FBBF4D;*/
+/*    background-color: #FBBF4D;*/
+/*}*/
 
 /*.blog_carousel .owl-nav i{*/
 /*    position: absolute;*/
@@ -375,16 +420,14 @@ body{
     font-size: 24px;
     /*background: #f8f8f8;*/
     color: #FBBF4D;
-    padding: 60px 0!important;
+    /*padding: 60px 0!important;*/
 }
 
-.blog_carousel .owl-drag .owl-item.active:nth-child(2){
-    margin-top: -90px!important;
-}
+
 
 .blog_thumb{
     position: absolute;
-    left: 43%;
+    left: 40%;
     top: -20%;
     /*background: #456BD9;*/
     height: 80px;
@@ -416,10 +459,10 @@ body{
     margin: 0 auto;
 }
 .blog_carousel{
-    padding: 30px 0;
+    padding: 0 0 50px 0;
 }
 .blog_ca .owl-carousel .owl-stage-outer{
-    padding: 50px 0 70px 0!important;
+    padding: 90px 0 70px 0!important;
 }
 .single_blog{
     position: relative;

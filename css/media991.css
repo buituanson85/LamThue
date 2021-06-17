@@ -126,6 +126,11 @@
     .secvices-title{
         margin-top: -100px!important;
     }
+    .blog_thumb{
+        position: absolute;
+        left: 45%;
+        top: -20%;
+    }
     .nav-link:before {
         position: absolute;
         bottom: 0;

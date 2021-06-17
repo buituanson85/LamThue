@@ -605,7 +605,7 @@ Header
         </div>
 
         <section class="blog_section blog_two color_two">
-            <div class="row p-5" style="width: 100%;">
+            <div class="row pt-5 pb-5" style="width: 100%;">
                 <div class="col-md-12 ">
                     <div class="text-center blog_section__title">
                         <span>Người dùng nói về chúng tôi</span>
@@ -622,7 +622,7 @@ Header
                                     <a href="#">
                                         <img  class="avatar" src="images/user/hl14.jpeg" alt="">
                                     </a>
-                                    <div class="product_rating pt-3">
+                                    <div class="product_rating">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -684,7 +684,7 @@ Header
                                     <a href="#">
                                         <img  class="avatar" src="images/user/phuonghang.jpg" alt="">
                                     </a>
-                                    <div class="product_rating pt-3">
+                                    <div class="product_rating">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -745,7 +745,7 @@ Header
                                     <a href="#">
                                         <img  class="avatar" src="images/user/181713_dm_4.jpg" alt="">
                                     </a>
-                                    <div class="product_rating pt-3">
+                                    <div class="product_rating">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -800,13 +800,13 @@ Header
                     </div>
 
                     <div class="col-lg-3">
-                        <div class=" single_blog">
+                        <div class="item single_blog">
                             <figure>
                                 <div class="blog_thumb">
                                     <a href="#">
                                         <img  class="avatar" src="images/user/1623502474-2.jpg" alt="">
                                     </a>
-                                    <div class="product_rating pt-3">
+                                    <div class="product_rating">
                                         <ul>
                                             <li>
                                                 <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -832,12 +832,12 @@ Header
                                     </p>
                                     <footer class="btn_more pr-3">
                                         <div class="row">
-                                            <div class="col-xl-3 col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
                                                 <div class="avatar-shadow">
-                                                    <img class="avatar-logo" src="images/logo/team-anim.png" alt="">
+                                                    <img class="avatar-logo" src="images/logo/dota-2-logo-black-2.jpg" alt="">
                                                 </div>
                                             </div>
-                                            <div class="col-xl-9 col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
+                                            <div class="col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
                                                 <div class="row pt-3 blog_content__0__r ">
                                                     <div class="col-lg-8 col-md-10 col-sm-9 col-8 blog_content__span__0">
                                                         <div class="row">

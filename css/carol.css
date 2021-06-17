@@ -173,15 +173,18 @@ figure{
 }
 .product_rating{
     float: right;
-}
 
+}
+.product_rating ul li{
+    margin-left: 3px!important;
+}
 .product_rating ul li a{
     color: yellow!important;
-
 }
 .product_rating ul{
     display: flex;
     list-style: none!important;
+    padding-left: 40px!important;
 }
 
 
