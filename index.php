@@ -64,7 +64,7 @@ Header
                                 <!--                                    <span class="navbar-toggler-icon navbar-toggler-icon&#45;&#45;bottom"></span>-->
                             </div>
                         </a>
-                        <a href="index.html" class="navbar-brand">
+                        <a href="index.php" class="navbar-brand">
                             <img src="images/logo/logoct.png" class="img-fluid logo" alt="">
                         </a>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -894,9 +894,7 @@ Header
                                     <h4 class="product_name">
                                         <a href="#">Mua thẻ cào</a>
                                     </h4>
-                                    <span>
-                                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game
-                                            </span>
+                                    <span>Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game</span>
                                 </figcaption>
                             </figure>
                         </article>
@@ -914,9 +912,7 @@ Header
                                     <h4 class="product_name">
                                         <a href="#">Mua tài khoản</a>
                                     </h4>
-                                    <span>
-                                                Cung cấp hầu hết các tài khoản game nhiều cấp độ
-                                            </span>
+                                    <span>Cung cấp hầu hết các tài khoản game nhiều cấp độ</span>
                                 </figcaption>
                             </figure>
                         </article>
@@ -952,97 +948,16 @@ Header
                                     <h4 class="product_name">
                                         <a href="#">Thuê người chơi</a>
                                     </h4>
-                                    <span>
-                                                Giúp bạn cày rank đơn giản và rất hiệu quả
-                                            </span>
+                                    <span>Giúp bạn cày rank đơn giản và rất hiệu quả</span>
                                 </figcaption>
                             </figure>
                         </article>
                     </div>
                 </div>
             </div>
-<!--            <div class="row games">-->
-<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_thecao">-->
-<!--                    <div class="row games_image">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a href=""><img src="images/notify/thecao.jpg" alt=""></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3 secvices-title__body_s">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua thẻ cào</span></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <span class="secvices-title__footer">-->
-<!--                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_tk">-->
-<!--                    <div class="row games_image">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a href=""><img src="images/notify/gate.jpg" alt=""></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Mua tài khoản</span></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <span class="secvices-title__footer">-->
-<!--                                Cung cấp hầu hết các tài khoản game nhiều cấp độ-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_thetk">-->
-<!--                    <div class="row games_image">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a href=""><img src="images/notify/ck.jpg" alt=""></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê tài khoản</span></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <span class="secvices-title__footer">-->
-<!--                                Một giải pháp kinh tế cho những trải nghiệm mới-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-lg-3 col-md-6 col-sm-12 games_nc">-->
-<!--                    <div class="row games_image">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a href="#"><img src="images/notify/gare.jpg" alt=""></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <a class="secvices-title__body_a" href="#"><span class="secvices-title__body">Thuê người chơi</span></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row pt-3">-->
-<!--                        <div class="col-md-12">-->
-<!--                            <span class="secvices-title__footer">-->
-<!--                                Giúp bạn cày rank đơn giản và rất hiệu quả-->
-<!--                            </span>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+
         </div>
+
         <div class="container secvices-body pt-5">
             <div class="row">
                 <div class="col-md-7 col-sm-7">
@@ -1052,69 +967,133 @@ Header
                     <a href="#">Xem thêm&ensp;<i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="row pt-3 pl-3 pr-3">
-                <div class="col-lg-3 col-md-6 secvices-body__tool">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/cerbebus.png" alt=""></a>
-                        </div>
+
+            <div class="tab-content_3">
+                <div class="product_carousel_3 acbc3 owl-carousel">
+                    <div class="col-lg-3">
+                        <article class="single_product_3">
+                            <figure>
+                                <div class="product_thumb_3">
+                                    <a href="#" class="primary_img_3">
+                                        <img src="images/notify/cerbebus.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_3">
+                                    <span>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                     </div>
-                    <div class="row pt-3 secvices-body__tool__span">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc
-                            </span>
-                        </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product_3">
+                            <figure>
+                                <div class="product_thumb_3">
+                                    <a href="#" class="primary_img_3">
+                                        <img src="images/notify/tonghop.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_3">
+                                    <span>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...</span>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product_3">
+                            <figure>
+                                <div class="product_thumb_3">
+                                    <a href="#" class="primary_img_3">
+                                        <img src="images/notify/tonghop.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_3">
+                                    <span>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...</span>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <article class="single_product_3">
+                            <figure>
+                                <div class="product_thumb_3">
+                                    <a href="#" class="primary_img_3">
+                                        <img src="images/notify/sofm.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content_3">
+                                    <span>Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11</span>
+                                </figcaption>
+                            </figure>
+                        </article>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 secvices-body__tool">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/tonghop.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3 secvices-body__tool__span">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                [VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 secvices-body__tool">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/sofm.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3 secvices-body__tool__span">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 secvices-body__tool">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <a href=""><img src="images/notify/tuonghtml.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="row pt-3 secvices-body__tool__span">
-                        <div class="col-md-12">
-                            <span class="secvices-title__footer">
-                                Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11
-                            </span>
-                        </div>
-                    </div>
-                </div>
+                <!--            <div class="row pt-3 pl-3 pr-3">-->
+                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
+                <!--                    <div class="row">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <a href=""><img src="images/notify/cerbebus.png" alt=""></a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <span class="secvices-title__footer">-->
+                <!--                                Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc-->
+                <!--                            </span>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
+                <!--                    <div class="row">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <a href=""><img src="images/notify/tonghop.png" alt=""></a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <span class="secvices-title__footer">-->
+                <!--                                [VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...-->
+                <!--                            </span>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
+                <!--                    <div class="row">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <a href=""><img src="images/notify/sofm.png" alt=""></a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <span class="secvices-title__footer">-->
+                <!--                                LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...-->
+                <!--                            </span>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--                <div class="col-lg-3 col-md-6 secvices-body__tool">-->
+                <!--                    <div class="row">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <a href=""><img src="images/notify/tuonghtml.png" alt=""></a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                    <div class="row pt-3 secvices-body__tool__span">-->
+                <!--                        <div class="col-md-12">-->
+                <!--                            <span class="secvices-title__footer">-->
+                <!--                                Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11-->
+                <!--                            </span>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <!--            </div>-->
             </div>
-        </div>
-    </section>
 
 </section>
 
+
+</section>
 <footer class="ftco-footer" id="ftco-footer">
     <div class="container-fluid footer-banner-s"></div>
     <div class="container">
