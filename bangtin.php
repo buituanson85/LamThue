@@ -906,7 +906,7 @@ Header
                         </div>
                     </div>
 
-                    <div class="row hoso__content__tttk p-3">
+                    <div class="row hoso__content__tttk pt-5 pb-3 pl-3 pr-3">
                         <div class="col-md-12">
                             <div class="hoso__content__tttk_sodu">
                                 <div class="row">
