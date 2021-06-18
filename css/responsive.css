@@ -84,6 +84,24 @@
         width: 330px!important;
         /*height: 220px!important;*/
     }
+
+/*     bang tin   */
+    #hero_bangtin .hero-container_bangtin {
+        padding-left: 10%!important;
+    }
+
+    .bangtin__content__right__body__left{
+        max-height: 320px;
+    }
+    .bangtin__content__right__body__left_ht{
+        max-height: 350px!important;
+    }
+    .bangtin__content__right__footer{
+        padding-bottom: 100px!important;
+    }
+    .bangtin__content__right__body__left__bottom__cc{
+        padding-top: 10px!important;
+    }
 }
 /* oooooooooooooooooooo*/
 

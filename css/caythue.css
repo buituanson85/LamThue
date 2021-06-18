@@ -275,53 +275,7 @@ body{
     max-width: 90px;
     margin: 0 auto 17px;
 }
-/*.blog_carousel .owl-dots{*/
-/*    position: absolute;*/
-/*    left: 50%;*/
-/*    bottom: 10%;*/
-/*}*/
-/*.blog_carousel .owl-nav button.owl-next, .blog_carousel .owl-nav button.owl-prev, .blog_carousel button.owl-dot {*/
-/*    !*position: absolute;*!*/
-/*    background: #CCCCCC;*/
-/*    width: 10px;*/
-/*    height: 10px;*/
-/*    color: inherit;*/
-/*    border: 1px solid #CCCCCC;*/
-/*    padding: 10px 10px;*/
-/*    font: inherit;*/
-/*    left: 50%;*/
-/*    border-radius: 50%;*/
-/*    margin-left: 15px;*/
 
-/*}*/
-
-/*.blog_carousel button.owl-dot:hover{*/
-/*    border: #FBBF4D;*/
-/*    background-color: #FBBF4D;*/
-/*}*/
-
-/*.blog_carousel .owl-nav i{*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    transform: translateY(-50%);*/
-/*    left: 0;*/
-/*    font-size: 18px;*/
-/*    width: 45px;*/
-/*    height: 45px;*/
-/*    line-height: 43px;*/
-/*    text-align: center;*/
-/*    border: 1px solid #150618;*/
-/*    transition: 0.3s;*/
-/*    !*opacity: 0;*!*/
-/*    !*visibility: hidden;*!*/
-/*    background: #150618;*/
-/*    border-radius: 50%;*/
-/*}*/
-/*@media only screen and (max-width: 767px) {*/
-/*    .blog_carousel .owl-nav i{*/
-/*        display: none;*/
-/*    }*/
-/*}*/
 .blog_carousel .owl-nav i:hover{
     color: #fff;
     background: #f6692a;
@@ -345,11 +299,7 @@ body{
 .blog_content{
     padding: 80px 30px 0 30px;
 }
-/*@media only screen and (max-width: 767px) {*/
-/*    .blog_content{*/
-/*        padding-top: 14px;*/
-/*    }*/
-/*}*/
+
 
 .blog_content p.post_desc{
     font-size: 14px;
@@ -436,6 +386,7 @@ body{
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
 }
+
 .avatar{
     /*vertical-align: middle;*/
     width: 100%;
@@ -772,6 +723,7 @@ body{
     line-height: 24px;
     color: #CCCCCC;
 }
+
 .content-detailss__desc__select{
     border: 1px solid #CCCCCC;
 }
@@ -781,7 +733,7 @@ body{
 .content-detailss__desc__select .form-control{
     display: block;
     width: 100%;
-    padding: 0;
+    padding: 10px 20px;
     font-size: 1rem;
     line-height: 1.5;
     color: #CCCCCC;

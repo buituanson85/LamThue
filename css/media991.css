@@ -190,5 +190,37 @@
     .footer-header__left__td_spanss{
         text-align: left;
     }
+
+/*          */
+    #hero_bangtin .hero-container_bangtin {
+        padding-left: 15%!important;
+    }
+
+    .bangtin__content__right__body__nep,
+    .bangtin__content__right__body__giai{
+        padding: 40px 30px 0 30px;
+    }
+    .bangtin__content__right__footer__ht{
+        padding: 0 15px;
+    }
+    .bangtin__content__right__footer__center{
+        padding-bottom: 50px;
+    }
+    .hr_one{
+        display: none;
+    }
+    /*.bangtin__content__right__body__left{*/
+    /*    padding: 0!important;*/
+    /*}*/
+    .hoso__content__tttk__sotrang{
+        margin-top: -10px;
+    }
+    .btn-get-started__tk a{
+        padding: 8px 10px!important;
+
+    }
+    .trang{
+        display: none;
+    }
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmm*/

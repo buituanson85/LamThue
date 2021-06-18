@@ -336,4 +336,76 @@
         left: 70%;
         top: 85%;
     }
+
+/*          */
+
+    .bangtin__banner{
+        display: none;
+    }
+
+    .hr_one{
+        display: none;
+    }
+
+    .bangtin__content__right__body__giai{
+        padding: 30px 30px;
+    }
+    .bangtin__content__right__body__nep{
+        padding: 0 30px;
+    }
+    .bangtin__content__right__footer__ht{
+        padding: 0 15px;
+    }
+    .bangtin__content__right__body{
+        padding: 0!important;
+    }
+    .bangtin__content__right__title h3{
+        font-size: 20px!important;
+    }
+    .bangtin__content__right__body__giai{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .bangtin__content__right__body__left__circle{
+        padding-left: 30px;
+    }
+
+    .bangtin__content__right__body__left,
+    .bangtin__content__right__body__left_ht{
+        max-height: 380px!important;
+        min-width: 300px!important;
+    }
+    .bangtin__content__right__body__left__bottom__cidel,
+    .bangtin__content__right__body__left__bottom__cidel__spam,
+    .bangtin__content__right__body__nep,
+    .bangtin__content__right__footer__ht,
+    .bangtin__content__right__footer__center{
+        padding: 0!important;
+    }
+    .bangtin__content__right__body__left__bottom_c,
+    .bangtin__content__right__body__left__bottom_ht{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .bangtin__content__right__body__left__bottom__cc i,
+    .bangtin__content__right__body__left__bottom i{
+        display: none;
+    }
+    .hero-container_bangtin{
+        text-align: center;
+        padding-left: 0!important;
+    }
+    .hoso__content__tttk{
+        width: 300px;
+    }
+    .input__tp{
+        padding-top: 30px;
+    }
+    .aaa_in{
+        padding-left: 0!important;
+    }
+    .trang{
+        display: none;
+    }
+
 }

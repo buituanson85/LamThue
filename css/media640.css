@@ -331,4 +331,36 @@
     .arena__title_spansss{
         text-align: center;
     }
+
+/*            */
+    .bangtin__banner{
+        display: none;
+    }
+
+    .hr_one{
+        display: none;
+    }
+
+    .bangtin__content__right__body__giai{
+        padding: 30px 30px;
+    }
+    .bangtin__content__right__body__nep{
+        padding: 0 30px;
+    }
+    .bangtin__content__right__footer__ht{
+        padding: 0 15px;
+    }
+    .hovaten{
+        padding-top: 50px!important;
+    }
+    .trang{
+        display: none;
+    }
+    .hoso__content__tttk_sodu_vi{
+        text-align: center!important;
+    }
+    .btn-get-started__tk{
+        text-align: center!important;
+        padding-top: 30px!important;
+    }
 }

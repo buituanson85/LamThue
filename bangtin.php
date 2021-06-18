@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="css/carol.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/main.min.css" integrity="sha512-NK4HHauNM/PN8erIU9un7qlAoRfjrk8rXxJOBXrksOn0232Kq1l5A9yGBuhIDuvLUr/plS0j1RDhsXHlXwoaEA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
     <link rel="stylesheet" href="css/caythue.css">
-<!--    <link rel="stylesheet" href="css/mobienav.css">-->
+    <!--    <link rel="stylesheet" href="css/mobienav.css">-->
     <link rel="stylesheet" href="css/login-register.css">
     <link rel="stylesheet" href="lib/appleple-modal/css/modal-video.min.css">
 
@@ -170,41 +170,19 @@ Header
                                         </li>
 
                                         <li class="nav-item nav-icon">
-                                            <a href="bangtin.php" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                                            <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
                                                 <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="">
                                             </a>
                                             <div class="iq-sub-dropdown iq-user-dropdown">
                                                 <div class="iq-card shadow-none m-0">
                                                     <div class="iq-card-body p-0 pl-3 pr-3">
-                                                        <a href="bangtin.php" class="iq-sub-card setting-dropdown">
-                                                            <div class="media align-items-center">
-                                                                <div class="right-icon">
-                                                                    <i class="fa fa-newspaper text-primary"></i>
-                                                                </div>
-                                                                <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Bảng tin</h6>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="bangtin.php" class="iq-sub-card setting-dropdown">
-                                                            <div class="media align-items-center">
-                                                                <div class="right-icon">
-                                                                    <i class="fa fa-user-friends text-primary"></i>
-                                                                </div>
-                                                                <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Thông tin cá nhân</h6>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
                                                         <a href="#" class="iq-sub-card setting-dropdown">
                                                             <div class="media align-items-center">
                                                                 <div class="right-icon">
-                                                                    <i class="fa fa-rupee-sign text-primary"></i>
+                                                                    <i class="fa fa-user text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Thông tin thanh toán</h6>
+                                                                    <h6 class="mb-0">Manage Profile</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -215,7 +193,18 @@ Header
                                                                     <i class="fa fa-cog text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Cấu hình</h6>
+                                                                    <h6 class="mb-0">Settings</h6>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+
+                                                        <a href="#" class="iq-sub-card setting-dropdown">
+                                                            <div class="media align-items-center">
+                                                                <div class="right-icon">
+                                                                    <i class="fa fa-rupee-sign text-primary"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0">Pricing Plan</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -226,7 +215,7 @@ Header
                                                                     <i class="fa fa-sign-out-alt text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Thoát</h6>
+                                                                    <h6 class="mb-0">Logout</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -304,7 +293,7 @@ Header
                                     <div class="iq-sub-dropdown iq-user-dropdown">
                                         <div class="iq-card shadow-none m-0">
                                             <div class="iq-card-body p-0 pl-3 pr-3">
-                                                <a href="bangtin.php" class="iq-sub-card setting-dropdown">
+                                                <a href="#" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
                                                             <i class="fa fa-newspaper text-primary"></i>
@@ -315,7 +304,7 @@ Header
                                                     </div>
                                                 </a>
 
-                                                <a href="bangtin.php" class="iq-sub-card setting-dropdown">
+                                                <a href="#" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
                                                             <i class="fa fa-user-friends text-primary"></i>
@@ -375,690 +364,677 @@ Header
 <!--==========================
   Hero Section
 ============================-->
-<section id="hero">
-    <div class="hero-container">
-        <h1 class="arena__title__h1">Level Up dễ dàng</h1>
-        <h2>Nếu bạn không có nhiều thời gian, chúng tôi có thể giúp bạn.  Đội ngũ booster chuyên nghiệp của chúng tôi sẽ giúp tài khoản của bạn sẽ level up dễ dàng...</h2>
-        <a href="#" class="btn-get-started"><span>Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
+<section id="hero_bangtin">
+    <div class="hero-container_bangtin">
+        <span class="arena__title__h1">My Pages</span><span class="arena__title__h1">/</span><span class="arena__title__h1">Bảng tin</span>
     </div>
 </section><!-- #hero -->
 
-<section class="arena__nen"></section>
-<section class="arena__nen_nen">
-
-</section>
-
-<div class="container banner-slider">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="tab-content">
-                <div class="tab-pane fade show active">
-                    <div class="row">
-                        <div class="product_carousel product_column4 owl-carousel">
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/l-m-h-t.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">LMHT</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
+<section class="arena__nen anhnen__bangtin"></section>
+<hr style="background-color: rgba(255, 255, 255, 0.2);z-index: -1">
+<section class="bangtin__content">
+    <div class="container">
+        <div class="row bangtin__content__left__active">
+            <div class="col-xl-3 col-lg-3 col-md-4">
+                <div class="bangtin__content__left nav nav-tabs">
+                    <div class="row bangtin__content__left__active">
+                        <div class="col-md-12 p-0">
+                            <div class="nen-profile"></div>
+                        </div>
+                    </div>
+                    <div class="row bangtin__content__left__profile">
+                        <div class="col-md-12 bangtin__content__left__avantar p-0">
+                            <div class="profile_bangtin">
+                                <img  class="avatar__bangtin" src="images/user/hl14.jpeg" alt="">
                             </div>
+                        </div>
+                        <div class="col-md-12 bangtin__content__left__ten">
+                            <span>Hoài Linh 19</span>
+                        </div>
+                        <div class="col-md-12 bangtin__content__left__TK">
+                            <small>Thành viên VIP</small>
+                        </div>
+                        <div class="col-md-12 bangtin__content__left__id">
+                            <span>ID: 22192021</span>
+                        </div>
+                    </div>
 
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/ll_logo.svg.png" alt="men">
-                                            </a>
+                    <div class="row active bangtin__content__left__active thth">
+                        <div class="col-md-12 ">
+                            <div class="bangtin__content__left__bt pt-2 pb-2">
+                                <a data-toggle="tab" href="#bangtin">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2 col-2">
+                                            <i class="fa fa-newspaper"></i>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">Tốc chiến</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/team-anim.png" alt="men">
-                                            </a>
+                                        <div class="col-md-10 col-sm-10 col-10">
+                                            <span class="bangtin__content__left__bt__span">Bảng tin</span>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a  href="details.php">Đấu trường chân lý</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
+                                    </div>
+                                </a>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/Liên_quan_mobile.png" alt="men">
-                                            </a>
+                    <div class="row bangtin__content__left__active">
+                        <div class="col-md-12 ">
+                            <div class="bangtin__content__left__bt pt-2 pb-2">
+                                <a data-toggle="tab" href="#ttcn">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2 col-2">
+                                            <i class="fa fa-user-friends"></i>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">Liên quân Mobile</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/sgoc.png" alt="men">
-                                            </a>
+                                        <div class="col-md-10 col-sm-10 col-10">
+                                            <span class="bangtin__content__left__bt__span">Thông tin cá nhân</span>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">CS.GO</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
+                                    </div>
+                                </a>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="#" class="primary_img">
-                                                <img src="images/logo/dota-2-logo-black-2.jpg" alt="men">
-                                            </a>
+                    <div class="row bangtin__content__left__active">
+                        <div class="col-md-12">
+                            <div class="bangtin__content__left__bt pt-2 pb-2">
+                                <a data-toggle="tab" href="#cauhinh">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2 col-2">
+                                            <i class="fa fa-cog"></i>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="#">Dota 2</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="#" class="primary_img">
-                                                <img src="images/logo/Valorant_logo.png" alt="men">
-                                            </a>
+                                        <div class="col-md-10 col-sm-10 col-10">
+                                            <span class="bangtin__content__left__bt__span">Cấu hình</span>
                                         </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="#">Valorant</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
+                                    </div>
+                                </a>
                             </div>
+                        </div>
+                    </div>
 
+                    <div class="row pb-3 bangtin__content__left__active">
+                        <div class="col-md-12 ">
+                            <div class="bangtin__content__left__bt bangtin__content__left__bt__bottom pt-2 pb-2">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2 col-2">
+                                            <i class="fa fa-sign-out-alt"></i>
+                                        </div>
+                                        <div class="col-md-10 col-sm-9 col-10">
+                                            <span class="bangtin__content__left__bt__span">Thoát</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--            End men           -->
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 tab-content">
+                <div id="bangtin" class="bangtin__content__right tab-pane active">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bangtin__banner">
+                                <span>Bảng thông tin</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bangtin__content__right__title">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-auto pr-0">
+                                    <h3>Đơn hàng của bạn</h3>
+                                </div>
+                                <div class="col-auto bangtin__content-center">
+                                    <div class="bangtin__content__right__title__nummber">
+                                        <span>02</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bangtin__content__right__body">
+                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__giai">
+                            <div class="bangtin__content__right__body__left">
+                                <div class="row bangtin__content__right__body__left__top">
+                                    <div class="col-md-8 col-sm-8 col-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <small>#123</small>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <span>Cày ELO Liên Minh</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
+                                        <div id="myStat" class="donut" data-dimension="80" data-text="44%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="44" data-icon-color="#fff"></div>                                    </div>
+                                </div>
+                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                                <div class="row bangtin__content__right__body__left__body">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Mục tiêu</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">Bạch kim 4</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Trạng thái</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">Bạch kim 3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row bangtin__content__right__body__left__bottom">
+                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
+                                        <div class="bangtin__content__right__body__left__bottom__cidel">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-7 bangtin__content__right__body__left__bottom__cidel__spam">
+                                        <span>Booster đang hoạt động</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__bottom__cc">
+                                        <div class="row">
+                                            <div class="bangtin__content__right__body__left__bottom_ct">
+                                                <a href="#"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__nep">
+                            <div class="bangtin__content__right__body__left">
+                                <div class="row bangtin__content__right__body__left__top">
+                                    <div class="col-md-8 col-sm-8 col-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <small>#124</small>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <span>Cày Rank Dota 2</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
+                                        <div id="myStat2" class="donut" data-dimension="80" data-text="88%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="88" data-icon-color="#fff"></div>                                    </div>
+                                </div>
+                                <hr  style="background: rgba(255, 255, 255, 0.2);">
+                                <div class="row bangtin__content__right__body__left__body">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Mục tiêu</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">MMR 3580</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Trạng thái</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">MMR 3260</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row bangtin__content__right__body__left__bottom">
+                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
+                                        <div class="bangtin__content__right__body__left__bottom__cidel__off">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-7">
+                                        <span>Booster đang offline</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__bottom__cc">
+                                        <div class="row">
+                                            <div class="bangtin__content__right__body__left__bottom_ct">
+                                                <a href="#"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr_one" style="background-color: rgba(255, 255, 255, 0.2);">
+                    <div class="row bangtin__content__right__title">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-auto pr-0">
+                                    <h3>Đơn đã hoàn thành</h3>
+                                </div>
+                                <div class="col-auto bangtin__content-center">
+                                    <div class="bangtin__content__right__title__nummber">
+                                        <span>01</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bangtin__content__right__footer bangtin__content__right__footer__ht">
+                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__footer__center">
+                            <div class="bangtin__content__right__body__left_ht">
+                                <div class="row bangtin__content__right__body__left__top">
+                                    <div class="col-md-8 col-sm-8 col-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <small>#123</small>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <span>Cày Ranks Tốc Chiến</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
+                                        <div id="myStat" class="donut" data-dimension="80" data-text="100%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="100" data-icon-color="#fff"></div>                                    </div>
+                                </div>
+                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                                <div class="row bangtin__content__right__body__left__body">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Mục tiêu</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">Bạc 4 - 1/3 Sao</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <span>Trạng thái</span>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <span class="text-white">Bạc 4 - 1/3 Sao</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row bangtin__content__right__body__left__bottom">
+                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_ht">
+                                        <div class="bangtin__content__right__body__left__bottom__ht">
+                                            <img src="images/hoanthanh.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-sm-7 col-7">
+                                        <span>Đã hoàn thành mục tiêu</span>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-4">
+                                        <div class="row">
+                                            <div class="bangtin__content__right__body__left__bottom_ct">
+                                                <a href="#"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ttcn" class="hoso__content__right tab-pane">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bangtin__banner">
+                                <span>Hồ Sơ Của Bạn</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bangtin__content__right__title">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-auto pr-0">
+                                    <h3>Thông tin tài khoản</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                    <form action="#">-->
+                    <div class="row hoso__content__tttk">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label >Số điện thoại</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="text" class="form-control" placeholder="0906240410">
+                                        <i class="fas fa-mobile-alt althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label >Kết nối với facebook</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="text" class="form-control" placeholder="fb.com/hoailinh19">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hoso__content__tttk">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label>Địa chỉ email</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
+                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label >Mật khẩu</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="password" class="form-control" placeholder="**********">
+                                        <i class="fas fa-lock althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr style="background-color: rgba(255, 255, 255, 0.2);">
+
+                    <div class="row bangtin__content__right__title">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-auto pr-0">
+                                    <h3>Thông tin cá nhân</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hoso__content__tttk">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-3 col-sm-3 pb-sm-3 col-4">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 aaa_in">
+                                            <input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 p-0 pt-2">
+                                            <label class="form-check-label" for="exampleRadios1">Nam</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-3 col-4">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 aaa_in">
+                                            <input type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        </div>
+                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 p-0 pt-2">
+                                            <label class="form-check-label" for="exampleRadios2">Nữ</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 col-md-12 pb-sm-3 hovaten">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label>Họ và tên</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="text" class="form-control" placeholder="Võ Hoài Linh">
+                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label >Ngày sinh</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="date" class="form-control" placeholder="17/06/0221">
+                                        <i class="fas fa-lock althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hoso__content__tttk pt-3">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-md-12 hoso__content__tttk__dt">
+                                        <label>Địa chỉ(Số nhà,đường)</label>
+                                    </div>
+                                    <div class="col-md-12 pt-3">
+                                        <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
+                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 pt-3 pb-sm-3">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label>Thành Phố</label>
+                                        </div>
+                                        <div class="col-md-12 input__tp">
+                                            <select class="form-control">
+                                                <option>Hà Nội</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 input__tp">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <label>Quận Huyện</label>
+                                        </div>
+                                        <div class="col-md-12 input__tp">
+                                            <select class="form-control">
+                                                <option>Long Biên</option>
+                                                <option>Hoàn Kiếm</option>
+                                                <option>Hai Bà Trưng</option>
+                                                <option>Đống Đa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row btn__bangtin">
+                        <div class="col-md-12">
+                            <a href="#" class="btn-get-started__bangtin"><span>Lưu thông tin</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+<!--                    </form>-->
+                </div>
+
+                <div id="cauhinh" class="tttk__content__right tab-pane">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="bangtin__banner">
+                                <span>Hồ Sơ Của Bạn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hoso__content__tttk p-3">
+                        <div class="col-md-12">
+                            <div class="hoso__content__tttk_sodu">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <div class="row hoso__content__tttk_sodu_vi">
+                                            <div class="col-md-12">
+                                                <small>Số dư trong ví</small>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <span>0.00 đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 text-right btn-get-started__tk">
+                                        <a href="#" class="btn-get-startedk"><span>Nạp tiền</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bangtin__content__right__title">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-auto pr-0">
+                                    <h3>Lịch sử giao dịch</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row hoso__content__tttk">
+                        <div class="col-md-12">
+                            <table class="table table-hover">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Mã</th>
+                                    <th scope="col">Loại giao dịch</th>
+                                    <th scope="col">Thời gian</th>
+                                    <th scope="col">Chi tiết</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>#123</td>
+                                    <td>
+                                        <span>Thanh toán dịch vụ cày thuê</span><br>
+                                        <small>-1.200.000 đ</small>
+                                    </td>
+                                    <td>15:30:00 20/11/2020</td>
+                                    <td><a href="#">Xem</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>#123</td>
+                                    <td>
+                                        <span>Thanh toán dịch vụ cày thuê</span><br>
+                                        <small>-1.200.000 đ</small>
+                                    </td>
+                                    <td>15:30:00 20/11/2020</td>
+                                    <td><a href="#">Xem</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>#123</td>
+                                    <td>
+                                        <span>Thanh toán dịch vụ cày thuê</span><br>
+                                        <small>-1.200.000 đ</small>
+                                    </td>
+                                    <td>15:30:00 20/11/2020</td>
+                                    <td><a href="#">Xem</a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                        </div>
+                        <div class="col-md-12 pt-sm-3">
+                            <div class="row">
+                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                                    <div class="row trang">
+                                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                            <div class="row p-3">
+                                                <div class="hoso__content__tttk__sotrang">
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-sm-3">
+                                                            <span>20</span>
+                                                        </div>
+                                                        <div class="col-md-2 col-sm-3">
+                                                            <i class="fas fa-chevron-down font-size-12"></i>
+                                                        </div>
+                                                        <div class="col-md-2 col-sm-3">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <span>Kết quả trên trang</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination justify-content-end">
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">Next</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-</div>
-
-<section class="abcc">
-    <section class="container-fluid section-tt">
-        <div class="container">
-            <div class="row section-tt-aaa">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <p style="color: #ffffff;font-size: 16px">Đăng ký dễ dàng</p>
-                    <h3 style="color: #ffffff">Chỉ với <span style="color: #FBBF4D;font-size: 26px">3 bước</span></h3>
-                    <div class="row pt-3">
-                        <div class="col-xl-2 col-lg-2 col-md-2 section-tt-aaa__bb">
-                            <div class="section-three pt-2"><i class="far fa-clipboard"></i></div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-12">
-                            <p class="section-tt-aaa_span">Xem giá cày thuê</p>
-                            <p class="section-tt-aaa_span_two">Nói chung là rất hợp lý với hầu hết mọi người.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <div class="fored">
-                                <i class="fas fa-chevron-down"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row pt-3">
-                        <div class="col-xl-2 col-lg-2 col-md-2 section-tt-aaa__bb">
-                            <div class="section-three pt-2"><i class="fas fa-wallet"></i></div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-12">
-                            <p class="section-tt-aaa_span">Thanh toán</p>
-                            <p class="section-tt-aaa_span_two">Hỗ trợ thanh toán với nhiều phương thức: chuyển khoản, momo...</p>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2 col-md-12">
-                            <div class="fored"><i class="fas fa-chevron-down"></i></div>
-                        </div>
-                    </div>
-
-                    <div class="row pt-3 pb-3">
-                        <div class="col-xl-2 col-lg-2 col-md-2 section-tt-aaa__bb">
-                            <div class="section-three pt-2"><i class="fas fa-wallet"></i></div>
-                        </div>
-                        <div class="col-xl-8 col-lg-8 col-md-12">
-                            <p class="section-tt-aaa_span">Tận hưởng dịch vụ</p>
-                            <p class="section-tt-aaa_span_two">Booster sẽ bắt đầu cày cho bạn, ban có thể theo dõi tiến trình ở đây</p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 pt-5">
-                    <div class="about-pic">
-                        <img src="images/eeeeeee.png" alt="">
-                        <a href="#"  class="play-btn video-popup js-modal-btn" data-video-id="axwFuPERcnI">
-                            <i class="fas fa-play-circle play-btn"></i>
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--    <img class="section-tt__img" src="images/elll.png" alt="">-->
-    </section>
-
-    <section class="section-nen-tt__img">
-        <img class="section-tt__img" src="images/slider/elll.png" alt="">
-    </section>
-
-    <section class="container-fluid section-contt">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center section-contt__icon">
-                    <span class="section-contt__lydo">Có hàng ngàn lý do</span>
-                    <h3 style="color: #ffffff;padding-top: 30px">Bạn nên chọn chúng tôi ?</h3>
-                </div>
-                <div class="col-md-12 text-center pt-5 ">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 section-contt__body">
-                            <img src="images/logo/taycam.png" alt=""><br><br>
-                            <span class="section-contt__span">Boosters chuyên nghiệp</span><br>
-                            <span class="section-contt__span__one">Có hơn 40+ booster chuyên nghiệp giúp bạn cày game nhanh nhất</span>
-                        </div>
-                        <div class="col-lg-4 col-md-6 section-contt__body">
-                            <img src="images/logo/khoa.png" alt=""><br><br>
-                            <span class="section-contt__span">Bảo mật dữ liệu của bạn</span><br>
-                            <span class="section-contt__span__one">Chúng tôi cam kết bảo mật dữ liệu của bạn một cách cao nhất.</span>
-                        </div>
-                        <div class="col-lg-4 col-md-12 section-contt__body">
-                            <img src="images/logo/tainghe.png" alt=""><br><br>
-                            <span class="section-contt__span">Hõ trợ 24/7</span><br>
-                            <span class="section-contt__span__one">Đội ngũ chúng tôi có thể hỗ trợ bạn bất cứ lúc nào bạn cần đến.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 text-center ">
-                    <p style="padding-top: 30px"><a href="#" class="arrow-a"><i class="arrow down one"></i></a></p>
-                    <p style="margin-top: -30px"><a href="#" class="arrow-a"><i class="arrow down two"></i></a></p>
-                </div>
-            </div>
-        </div>
-
-        <section class="blog_section blog_two color_two">
-            <div class="row pt-5 pb-5" style="width: 100%;">
-                <div class="col-md-12 ">
-                    <div class="text-center blog_section__title">
-                        <span>Người dùng nói về chúng tôi</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row blog_ca">
-                <div class="blog_carousel blog_column3 owl-carousel">
-                    <div class="col-lg-3">
-                        <div class="item single_blog">
-                            <figure>
-                                <div class="blog_thumb">
-                                    <a href="#">
-                                        <img  class="avatar" src="images/user/hl14.jpeg" alt="">
-                                    </a>
-                                    <div class="product_rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star-half" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <figcaption class="blog_content">
-                                    <p class="post_desc">
-                                        Dịch vụ ngon lành cành đào, rất yuy tín với thời gian cam kết. Hỗ trợ cũng hết sức tuyệt vời, sẽ tiếp tục sử dụng trong thời gian tới.
-                                    </p>
-                                    <footer class="btn_more pr-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
-                                                <div class="avatar-shadow">
-                                                    <img class="avatar-logo" src="images/logo/Liên_quan_mobile.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
-                                                <div class="row pt-3 blog_content__0__r ">
-                                                    <div class="col-lg-8 col-md-10 col-sm-9 col-8 blog_content__span__0">
-                                                        <div class="row">
-                                                            <div  class="col-md-12  blog_content__span p-0">
-                                                                Cày ELO Liên minh
-                                                            </div>
-                                                            <div class="col-md-12  blog_content__span_one">
-                                                                Chỉ từ 200k
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-2 col-sm-3 col-4 blog_contents">
-                                                        <a class="btn btn-primary" href="#" style="font-size: 14px">Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="item single_blog">
-                            <figure>
-                                <div class="blog_thumb">
-                                    <a href="#">
-                                        <img  class="avatar" src="images/user/phuonghang.jpg" alt="">
-                                    </a>
-                                    <div class="product_rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <figcaption class="blog_content">
-                                    <p class="post_desc">
-                                        Dịch vụ Cày thuê CS:GO chuyên nghiệp: Tất cả các cấp bậc đều được hỗ trợ, thậm chí là Global Elite.                                    </p>
-                                    <footer class="btn_more pr-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
-                                                <div class="avatar-shadow">
-                                                    <img class="avatar-logo" src="images/logo/sgoc.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
-                                                <div class="row pt-3 blog_content__0__r ">
-                                                    <div class="col-lg-8 col-md-10 col-sm-9 col-8 blog_content__span__0">
-                                                        <div class="row">
-                                                            <div  class="col-md-12  blog_content__span p-0">
-                                                                Cày Rank CS.GO
-                                                            </div>
-                                                            <div class="col-md-12  blog_content__span_one">
-                                                                Chỉ từ 200k
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-2 col-sm-3 col-4 blog_contents">
-                                                        <a class="btn btn-primary" href="#" style="font-size: 14px">Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="item single_blog">
-                            <figure>
-                                <div class="blog_thumb">
-                                    <a href="#">
-                                        <img  class="avatar" src="images/user/181713_dm_4.jpg" alt="">
-                                    </a>
-                                    <div class="product_rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <figcaption class="blog_content">
-                                    <p class="post_desc">
-                                        Từ cày rank, cày calibration đầu mùa, cày Battte Cup cho tới cày Book TI 2010, chúng tôi có đầy đủ các dịch vụ Dota 2 cho các bạn.                                    </p>
-                                    <footer class="btn_more pr-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
-                                                <div class="avatar-shadow">
-                                                    <img class="avatar-logo" src="images/logo/dota-2-logo-black-2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
-                                                <div class="row pt-3 blog_content__0__r ">
-                                                    <div class="col-lg-8 col-md-10 col-sm-9 col-8 blog_content__span__0">
-                                                        <div class="row">
-                                                            <div  class="col-md-12  blog_content__span p-0">
-                                                                Cày Game Dota 2
-                                                            </div>
-                                                            <div class="col-md-12  blog_content__span_one">
-                                                                Chỉ từ 200k
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-2 col-sm-3 col-4 blog_contents">
-                                                        <a class="btn btn-primary" href="#" style="font-size: 14px">Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="item single_blog">
-                            <figure>
-                                <div class="blog_thumb">
-                                    <a href="#">
-                                        <img  class="avatar" src="images/user/1623502474-2.jpg" alt="">
-                                    </a>
-                                    <div class="product_rating">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <figcaption class="blog_content">
-                                    <p class="post_desc">
-                                        Địa chỉ cày thuê ĐTCL / cày thuê TFT của chúng tôi là một trong những nơi cày thuê uy tín nhất tại Việt Nam.
-                                    </p>
-                                    <footer class="btn_more pr-3">
-                                        <div class="row">
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-12 btn_more__row">
-                                                <div class="avatar-shadow">
-                                                    <img class="avatar-logo" src="images/logo/dota-2-logo-black-2.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10 col-12 blog_content__0">
-                                                <div class="row pt-3 blog_content__0__r ">
-                                                    <div class="col-lg-8 col-md-10 col-sm-9 col-8 blog_content__span__0">
-                                                        <div class="row">
-                                                            <div  class="col-md-12  blog_content__span p-0">
-                                                                Cày Game ĐTCL
-                                                            </div>
-                                                            <div class="col-md-12  blog_content__span_one">
-                                                                Chỉ từ 200k
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-4 col-md-2 col-sm-3 col-4 blog_contents">
-                                                        <a class="btn btn-primary" href="#" style="font-size: 14px">Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </footer>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--        <img class="section-tt__img_footer pb-5" src="images/elll.png" alt="">-->
-        </section>
-
-    </section>
-
-    <section class="section-nen-tt__imgs">
-        <img class="section-tt__img" src="images/slider/elll.png" alt="">
-    </section>
-
-    <section class="container-fluid secvices-title">
-        <div class="container">
-            <div class="row pb-5">
-                <div class="col-md-12 text-center">
-                    <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
-                </div>
-            </div>
-            <div class="tab-content_2">
-                <div class="product_carousel_2 product_column4_2 owl-carousel">
-                    <div class="col-lg-3">
-                        <article class="single_product_2">
-                            <figure>
-                                <div class="product_thumb_2">
-                                    <a href="#" class="primary_img_2">
-                                        <img src="images/notify/thecao.jpg" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_2">
-                                    <h4 class="product_name">
-                                        <a href="#">Mua thẻ cào</a>
-                                    </h4>
-                                    <span>Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_2">
-                            <figure>
-                                <div class="product_thumb_2">
-                                    <a href="#" class="primary_img_2">
-                                        <img src="images/notify/gate.jpg" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_2">
-                                    <h4 class="product_name">
-                                        <a href="#">Mua tài khoản</a>
-                                    </h4>
-                                    <span>Cung cấp hầu hết các tài khoản game nhiều cấp độ</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_2">
-                            <figure>
-                                <div class="product_thumb_2">
-                                    <a href="#" class="primary_img_2">
-                                        <img src="images/notify/ck.jpg" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_2">
-                                    <h4 class="product_name">
-                                        <a href="#">Thuê tài khoản</a>
-                                    </h4>
-                                    <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_2">
-                            <figure>
-                                <div class="product_thumb_2">
-                                    <a href="#" class="primary_img_2">
-                                        <img src="images/notify/gare.jpg" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_2">
-                                    <h4 class="product_name">
-                                        <a href="#">Thuê người chơi</a>
-                                    </h4>
-                                    <span>Giúp bạn cày rank đơn giản và rất hiệu quả</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="container secvices-body pt-5">
-            <div class="row">
-                <div class="col-md-7 col-sm-7">
-                    <h3 class=""><i class="fas fa-gamepad"></i>&ensp;Tin tức mới nhất</h3>
-                </div>
-                <div class="col-md-5 col-sm-5 text-right">
-                    <a href="#">Xem thêm&ensp;<i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
-
-            <div class="tab-content_3">
-                <div class="product_carousel_3 acbc3 owl-carousel">
-                    <div class="col-lg-3">
-                        <article class="single_product_3">
-                            <figure>
-                                <div class="product_thumb_3">
-                                    <a href="#" class="primary_img_3">
-                                        <img src="images/notify/cerbebus.png" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_3">
-                                    <span>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_3">
-                            <figure>
-                                <div class="product_thumb_3">
-                                    <a href="#" class="primary_img_3">
-                                        <img src="images/notify/tonghop.png" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_3">
-                                    <span>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_3">
-                            <figure>
-                                <div class="product_thumb_3">
-                                    <a href="#" class="primary_img_3">
-                                        <img src="images/notify/tonghop.png" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_3">
-                                    <span>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <article class="single_product_3">
-                            <figure>
-                                <div class="product_thumb_3">
-                                    <a href="#" class="primary_img_3">
-                                        <img src="images/notify/sofm.png" alt="men">
-                                    </a>
-                                </div>
-                                <figcaption class="product_content_3">
-                                    <span>Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11</span>
-                                </figcaption>
-                            </figure>
-                        </article>
-                    </div>
-                </div>
-
-            </div>
-
 </section>
 
 
-</section>
+
 <footer class="ftco-footer" id="ftco-footer">
     <div class="container-fluid footer-banner-s"></div>
     <div class="container">
@@ -1266,18 +1242,24 @@ Header
 <script src="lib/wow/wow.min.js"></script>
 <script src="lib/superfish/superfish.min.js"></script>
 <script src="lib/wow/wow.min.js"></script>
+<script src="lib/Circliful/circles.min.js"></script>
+
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
 <script src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/carol.js"></script>
 <script src="js/login-register.js"></script>
 <script type="text/javascript" src="lib/appleple-modal/js/jquery-modal-video.js"></script>
-
-<script type="text/javascript" src="lib/appleple-modal/js/modal-video.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/circliful.min.js" integrity="sha512-Civ+P0HbDg/IxddLsDIPVrX9KLoscRKlZ1QIkDJS4077COoK3hFxAxIuyZUNR9NT29qB3Tx9WXQ1OxQzl5i+IA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script type="text/javascript" src="lib/appleple-modal/js/modal-video.js"></script>-->
 <script>
     $(".js-modal-btn").modalVideo();
+
 </script>
+
 <script src="js/main.js"></script>
+<script>
+    $('#myStat, #myStat2').circliful();
+</script>
 <script type="text/javascript">
     $(document).ready(function(){
         // openLoginModal();

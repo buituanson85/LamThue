@@ -284,4 +284,37 @@
     .footer-header__h3_ul__colapse{
         padding-left: 40px;
     }
+
+/*    */
+    .bangtin__banner{
+        display: none;
+    }
+
+    .hr_one{
+        display: none;
+    }
+
+    .bangtin__content__right__body__giai{
+        padding: 30px 30px;
+    }
+    .bangtin__content__right__body__nep{
+        padding: 0 30px;
+    }
+
+    .bangtin__content__right__footer__ht{
+        padding: 0 15px;
+    }
+
+    .hoso__content__tttk__sotrang{
+        width: 55px;
+        margin-top: -10px;
+    }
+    .hoso__content__tttk__sotrang span{
+        font-size: 16px;
+        color: #CCCCCC;
+        padding: 15px 10px!important;
+    }
+    .trang{
+        display: none;
+    }
 }

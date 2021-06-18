@@ -336,4 +336,60 @@
         height: 450px;
     }
 
+/*         */
+    .bangtin__banner{
+        display: none;
+    }
+
+    .hr_one{
+        display: none;
+    }
+
+    .bangtin__content__right__body__giai{
+        padding: 30px 0!important;
+    }
+    .bangtin__content__right__body__nep{
+        padding: 0 30px;
+    }
+    .bangtin__content__right__footer__ht{
+        padding: 0 15px;
+    }
+    .bangtin__content__right__body__left,
+    .bangtin__content__right__body__left_ht{
+        max-height: 380px!important;
+        min-width: 350px!important;
+    }
+    .bangtin__content__right__body__left__bottom__cidel,
+    .bangtin__content__right__body__left__bottom__cidel__spam,
+    .bangtin__content__right__body__nep,
+    .bangtin__content__right__footer__ht,
+    .bangtin__content__right__footer__center{
+        padding: 0!important;
+    }
+    .bangtin__content__right__body__left__bottom_c,
+    .bangtin__content__right__body__left__bottom_ht{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .hero-container_bangtin{
+        text-align: center;
+        padding-left: 0!important;
+    }
+
+    .input__tp{
+        padding-top: 30px;
+    }
+    .aaa_in{
+        padding-left: 0!important;
+    }
+    .trang{
+        display: none;
+    }
+    .hoso__content__tttk_sodu_vi{
+        text-align: center!important;
+    }
+    .btn-get-started__tk{
+        text-align: center!important;
+        padding-top: 30px!important;
+    }
 }

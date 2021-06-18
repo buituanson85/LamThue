@@ -291,13 +291,13 @@
                                     <div class="iq-sub-dropdown iq-user-dropdown">
                                         <div class="iq-card shadow-none m-0">
                                             <div class="iq-card-body p-0 pl-3 pr-3">
-                                                <a href="#" class="iq-sub-card setting-dropdown">
+                                                <a href="bangtin.php" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
-                                                            <i class="fa fa-user text-primary"></i>
+                                                            <i class="fa fa-newspaper text-primary"></i>
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <h6 class="mb-0">Quản lý hồ sơ</h6>
+                                                            <h6 class="mb-0">Bảng tin</h6>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -305,10 +305,10 @@
                                                 <a href="#" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
-                                                            <i class="fa fa-cog text-primary"></i>
+                                                            <i class="fa fa-user-friends text-primary"></i>
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <h6 class="mb-0">Cài đặt</h6>
+                                                            <h6 class="mb-0">Thông tin cá nhân</h6>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -319,7 +319,18 @@
                                                             <i class="fa fa-rupee-sign text-primary"></i>
                                                         </div>
                                                         <div class="media-body ml-3">
-                                                            <h6 class="mb-0">Pricing Plan</h6>
+                                                            <h6 class="mb-0">Thông tin thanh toán</h6>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <a href="#" class="iq-sub-card setting-dropdown">
+                                                    <div class="media align-items-center">
+                                                        <div class="right-icon">
+                                                            <i class="fa fa-cog text-primary"></i>
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <h6 class="mb-0">Cấu hình</h6>
                                                         </div>
                                                     </div>
                                                 </a>
