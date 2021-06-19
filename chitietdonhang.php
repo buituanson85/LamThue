@@ -652,15 +652,15 @@ Header
                                             <div class="col-md-3 bangtin__chitiet__content__right__border__top__1">
                                                 <span>Tổng số trận:&ensp;<small>12</small></span>
                                             </div>
-                                            <div class="col-md-5 pl-3">
+                                            <div class="col-md-5 pl-3 bangtin__chitiet__content__right__border__top__2">
                                                 <span>Thời gian trong game:&ensp;<small>2,568 phút</small></span>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 bangtin__chitiet__content__right__border__top__3">
                                                 <div class="row">
                                                     <div class="col-md-7">
                                                         <span>Tỷ lệ thắng:&ensp;<small>84%</small></span>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-5 bangtin__chitiet__content__right__border__top__3_2">
                                                         <img src="images/logo/face-logo.png" alt="">
 <!--                                                        <div id="myStat2" class="donut" data-dimension="50" data-text="88%" data-info="" data-width="3" data-fontsize="10" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="88" data-icon-color="#fff"></div>                                    -->
                                                     </div>
@@ -669,36 +669,39 @@ Header
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <table class="table table-dark">
+                                        <table class="table table-dark table__donhang">
                                             <thead>
                                             <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
+                                                <th scope="col" style="width: 15%">MÃ</th>
+                                                <th scope="col" style="width: 55%">GAME</th>
+                                                <th scope="col" style="width: 15%">KẾT QUẢ</th>
+                                                <th scope="col" style="width: 15%">XEM</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
+                                                <td scope="row">#12</td>
+                                                <td>Ranker Match Đang diễn ra <i class="fas fa-circle"></i> Nhân vật: Miss Fortune</td>
+                                                <td>...</td>
+                                                <td><i class="fas fa-play-circle fa-play-circle-win"></i></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
+                                                <td scope="row">#11</td>
+                                                <td>Ranker Match (1h 20’)<br>Nhân vật: Master Yi</td>
+                                                <td>Thắng</td>
+                                                <td><i class="fas fa-play-circle fa-play-circle-thang"></i></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
+                                                <td scope="row">#10</td>
+                                                <td>Ranker Match (1h 20’)<br>Nhân vật: Yassua</td>
+                                                <td><span class="span_lost">Thua</span></td>
+                                                <td><i class="fas fa-play-circle fa-play-circle-thang"></i></td>
                                             </tr>
                                             </tbody>
                                         </table>
+                                        <div class="thanhngang">
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -739,6 +742,54 @@ Header
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-md-12 pt-5">
+                                <div class="row bangtin__chat__content__right__border">
+                                    <div class="col-md-12">
+                                        <div class="row bangtin__chitiet__content__right__border__top">
+                                            <div class="col-md-3 bangtin__chat__content__right__border__top__1">
+                                                <i class="fas fa-circle"></i>&ensp;<span>Booster:&ensp;<small>#1256</small></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr style="width: 100%;background-color: rgba(255, 255, 255, 0.1);">
+                                    <div class="col-md-12 text-center">
+                                        <small>T7 22:07</small>
+                                    </div>
+                                    <div class="col-md-12 chat-one">
+                                        <span>Chào bạn</span>
+                                    </div>
+
+                                    <div class="col-md-12 chat-two pt-5">
+                                        <span>Khoảng 8h tối bác out ra em chơi chút nhé</span>
+                                    </div>
+
+                                    <div class="col-md-12 chat-three pt-5 text-right">
+                                        <span>Ok bạn</span>
+                                    </div>
+
+                                    <div class="col-md-12" style="background-color: #3A2A3D;">
+                                        <div class="row pt-3">
+                                            <div class="col-md-3 col-sm-3 col-5">
+                                                <span>Xin chào....</span>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9 col-7 text-right send__chat">
+                                                <ul style="float: right">
+                                                    <li style="float: left"><i class="far fa-laugh"></i></li>
+                                                    <li style="float: left"><i class="fas fa-camera"></i></li>
+                                                    <li class="send__chat__send" style="float: left"><a href="#" class="btn-gui"><span>Gửi</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="thanhngang_2">
+
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>

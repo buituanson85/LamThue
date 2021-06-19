@@ -609,4 +609,19 @@
         font-size: 16px!important;
     }
 
+    .bangtin__chitiet__content__right__border__top__1{
+        border-right: none;
+    }
+    .bangtin__chitiet__content__right__border__top__2,
+    .bangtin__chitiet__content__right__border__top__3,
+    .bangtin__chitiet__content__right__border__top__3_2{
+        padding-top: 10px;
+    }
+
+    .send__chat ul li{
+        margin-left: 10px;
+    }
+    .send__chat__send{
+        padding-top: 10px!important;
+    }
 }

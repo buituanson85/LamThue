@@ -427,4 +427,13 @@
         list-style: none;
         font-size: 14px;
     }
+
+    .bangtin__chitiet__content__right__border__top__1{
+        border-right: none;
+    }
+    .bangtin__chitiet__content__right__border__top__2,
+    .bangtin__chitiet__content__right__border__top__3,
+    .bangtin__chitiet__content__right__border__top__3_2{
+        padding-top: 10px;
+    }
 }
