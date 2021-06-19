@@ -60,8 +60,6 @@ Header
                            aria-label="Toggle navigation">
                             <div class="navbar-toggler-icon" data-toggle="collapse">
                                 <span class="navbar-toggler-icon navbar-toggler-icon--top"></span>
-                                <!--                                    <span class="navbar-toggler-icon navbar-toggler-icon&#45;&#45;middle"></span>-->
-                                <!--                                    <span class="navbar-toggler-icon navbar-toggler-icon&#45;&#45;bottom"></span>-->
                             </div>
                         </a>
                         <a href="index.php" class="navbar-brand">
@@ -72,20 +70,20 @@ Header
                                 <ul id="top-menu" class="navbar-nav ml-auto">
 
                                     <li class="menu-item">
-                                        <a href="#">Games</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>
-                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>
-                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>
-                                            <li class="menu-item"><a href="details.php">Valorant</a></li>
-                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>
-                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>
-                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>
-                                        </ul>
+                                        <a href="games.php">Games</a>
+                                        <!--                                        <ul class="sub-menu">-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Valorant</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>-->
+                                        <!--                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>-->
+                                        <!--                                        </ul>-->
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
-                                    <li class="menu-item"><a href="#">Tin tức</a></li>
+                                    <li class="menu-item"><a href="tintuc.php">Tin tức</a></li>
                                     <li class="menu-item">
                                         <a href="#">Liên hệ chúng tôi</a>
                                         <ul class="sub-menu">
@@ -170,30 +168,30 @@ Header
                                         </li>
 
                                         <li class="nav-item nav-icon">
-                                            <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                                            <a href="bangtin.php" class="iq-user-dropdown search-toggle d-flex align-items-center">
                                                 <img src="images/user/user.png" class="img-fluid user-m rounded-circle" alt="">
                                             </a>
                                             <div class="iq-sub-dropdown iq-user-dropdown">
                                                 <div class="iq-card shadow-none m-0">
                                                     <div class="iq-card-body p-0 pl-3 pr-3">
-                                                        <a href="#" class="iq-sub-card setting-dropdown">
+                                                        <a href="bangtin.php" class="iq-sub-card setting-dropdown">
                                                             <div class="media align-items-center">
                                                                 <div class="right-icon">
-                                                                    <i class="fa fa-user text-primary"></i>
+                                                                    <i class="fa fa-newspaper text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Manage Profile</h6>
+                                                                    <h6 class="mb-0">Bảng tin</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
 
-                                                        <a href="#" class="iq-sub-card setting-dropdown">
+                                                        <a href="bangtin.php" class="iq-sub-card setting-dropdown">
                                                             <div class="media align-items-center">
                                                                 <div class="right-icon">
-                                                                    <i class="fa fa-cog text-primary"></i>
+                                                                    <i class="fa fa-user-friends text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Settings</h6>
+                                                                    <h6 class="mb-0">Thông tin cá nhân</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -204,7 +202,18 @@ Header
                                                                     <i class="fa fa-rupee-sign text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Pricing Plan</h6>
+                                                                    <h6 class="mb-0">Thông tin thanh toán</h6>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+
+                                                        <a href="#" class="iq-sub-card setting-dropdown">
+                                                            <div class="media align-items-center">
+                                                                <div class="right-icon">
+                                                                    <i class="fa fa-cog text-primary"></i>
+                                                                </div>
+                                                                <div class="media-body ml-3">
+                                                                    <h6 class="mb-0">Cấu hình</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -215,7 +224,7 @@ Header
                                                                     <i class="fa fa-sign-out-alt text-primary"></i>
                                                                 </div>
                                                                 <div class="media-body ml-3">
-                                                                    <h6 class="mb-0">Logout</h6>
+                                                                    <h6 class="mb-0">Thoát</h6>
                                                                 </div>
                                                             </div>
                                                         </a>
@@ -293,7 +302,7 @@ Header
                                     <div class="iq-sub-dropdown iq-user-dropdown">
                                         <div class="iq-card shadow-none m-0">
                                             <div class="iq-card-body p-0 pl-3 pr-3">
-                                                <a href="#" class="iq-sub-card setting-dropdown">
+                                                <a href="bangtin.php" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
                                                             <i class="fa fa-newspaper text-primary"></i>
@@ -304,7 +313,7 @@ Header
                                                     </div>
                                                 </a>
 
-                                                <a href="#" class="iq-sub-card setting-dropdown">
+                                                <a href="bangtin.php" class="iq-sub-card setting-dropdown">
                                                     <div class="media align-items-center">
                                                         <div class="right-icon">
                                                             <i class="fa fa-user-friends text-primary"></i>
