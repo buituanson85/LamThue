@@ -1692,7 +1692,9 @@ header#main-header.menu-sticky{
   margin-top: -220px;
 }
 
-
+.tintuc_contents__left a:hover{
+  text-decoration: none;
+}
 
 
 /* responsive*/

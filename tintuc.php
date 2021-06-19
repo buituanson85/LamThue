@@ -425,12 +425,12 @@ Header
 
                 <div class="row tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
-                        <img class="tintuc_body_image" src="images/notify/cerberus-esports.png" alt="">
+                        <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/cerberus-esports.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
                         <div class="row tintuc_contents__left">
                             <div class="col-md-12">
-                                <h3>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</h3>
+                                <a href="tintucsukien.php"><h3>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</h3></a>
                             </div>
                         </div>
 
@@ -452,12 +452,12 @@ Header
 
                 <div class="row tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
-                        <img class="tintuc_body_image" src="images/notify/muaxuan.png" alt="">
+                        <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/muaxuan.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
                         <div class="row tintuc_contents__left">
                             <div class="col-md-12">
-                                <h3>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện, ĐKVĐ Team Flash vẫn trắng tay</h3>
+                                <a href="tintucsukien.php"><h3>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện, ĐKVĐ Team Flash vẫn trắng tay</h3></a>
                             </div>
                         </div>
 
@@ -479,12 +479,12 @@ Header
 
                 <div class="row tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
-                        <img class="tintuc_body_image" src="images/notify/tuannam.png" alt="">
+                        <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/tuannam.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
                         <div class="row tintuc_contents__left">
                             <div class="col-md-12">
-                                <h3>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng thứ 2 liên tiếp</h3>
+                                <a href="tintucsukien.php"><h3>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng thứ 2 liên tiếp</h3></a>
                             </div>
                         </div>
 
@@ -506,12 +506,12 @@ Header
 
                 <div class="row tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
-                        <img class="tintuc_body_image" src="images/notify/nguyetthach.png" alt="">
+                        <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/nguyetthach.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
                         <div class="row tintuc_contents__left">
                             <div class="col-md-12">
-                                <h3>Tại sao Bùa Nguyệt Thạch trở thành trang bị được game thủ LMHT ưa chuộng?</h3>
+                                <a href="tintucsukien.php"><h3>Tại sao Bùa Nguyệt Thạch trở thành trang bị được game thủ LMHT ưa chuộng?</h3></a>
                             </div>
                         </div>
 
@@ -533,12 +533,12 @@ Header
 
                 <div class="row tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
-                        <img class="tintuc_body_image" src="images/notify/meta.png" alt="">
+                        <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/meta.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
                         <div class="row tintuc_contents__left">
                             <div class="col-md-12">
-                                <h3>Meta đường giữa đang chuyển mình ra sao ở mùa giải thứ 11?</h3>
+                                <a href="tintucsukien.php"><h3>Meta đường giữa đang chuyển mình ra sao ở mùa giải thứ 11?</h3></a>
                             </div>
                         </div>
 

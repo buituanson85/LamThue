@@ -83,7 +83,7 @@ Header
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
-                                    <li class="menu-item"><a href="#">Tin tức</a></li>
+                                    <li class="menu-item"><a href="tintuc.php">Tin tức</a></li>
                                     <li class="menu-item">
                                         <a href="#">Liên hệ chúng tôi</a>
                                         <ul class="sub-menu">
