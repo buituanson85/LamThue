@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/carol.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/main.min.css" integrity="sha512-NK4HHauNM/PN8erIU9un7qlAoRfjrk8rXxJOBXrksOn0232Kq1l5A9yGBuhIDuvLUr/plS0j1RDhsXHlXwoaEA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/main.min.css" integrity="sha512-NK4HHauNM/PN8erIU9un7qlAoRfjrk8rXxJOBXrksOn0232Kq1l5A9yGBuhIDuvLUr/plS0j1RDhsXHlXwoaEA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
     <link rel="stylesheet" href="css/caythue.css">
     <!--    <link rel="stylesheet" href="css/mobienav.css">-->
     <link rel="stylesheet" href="css/login-register.css">
@@ -364,674 +364,323 @@ Header
 <!--==========================
   Hero Section
 ============================-->
-<section id="hero_bangtin">
-    <div class="hero-container_bangtin">
-        <span class="arena__title__h1">My Pages</span><span class="arena__title__h1">/</span><span class="arena__title__h1">Bảng tin</span>
+<section id="hero_tintuc">
+    <div class="container hero-container__tintuc">
+        <div class="row">
+            <div class="col-md-12 hero-container__tintuc__pages">
+                <span class="arena__title__tintuc">Games</span>
+            </div>
+            <div class="col-md-12 hero-container__tintuc__title">
+                <h3>Tin tức tổng hợp</h3>
+            </div>
+        </div>
     </div>
 </section><!-- #hero -->
 
-<section class="arena__nen anhnen__bangtin"></section>
-<hr style="background-color: rgba(255, 255, 255, 0.2);z-index: -1">
-<section class="bangtin__content">
+<section class="arena__games anhnen__bangtin"></section>
+
+<section class="tintuc-slider">
     <div class="container">
-        <div class="row bangtin__content__left__active">
-            <div class="col-xl-3 col-lg-3 col-md-4">
-                <div class="bangtin__content__left nav nav-tabs">
-                    <div class="row bangtin__content__left__active">
-                        <div class="col-md-12 p-0">
-                            <div class="nen-profile"></div>
-                        </div>
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-12 pr-0 tintuc-slider__sss">
+                <div class="tintuc-slider__backgoru">
+<!--                    <img class="tintuc-slider__backgoru__img" src="images/slider/dr-mundo.png" alt="">-->
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 tintuc-slider__fff">
+                <div class="row tintuc-slider__backgoru__right">
+                    <div class="col-md-12 tintuc-slider__right__span">
+                        <span>Tin tức Game</span>
                     </div>
-                    <div class="row bangtin__content__left__profile">
-                        <div class="col-md-12 bangtin__content__left__avantar p-0">
-                            <div class="profile_bangtin">
-                                <img  class="avatar__bangtin" src="images/user/hl14.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__ten">
-                            <span>Hoài Linh 19</span>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__TK">
-                            <small>Thành viên VIP</small>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__id">
-                            <span>ID: 22192021</span>
-                        </div>
+                    <div class="col-md-12 tintuc-slider__right__h3">
+                        <h3>Dr. Mundo đi rừng lần đầu trở lại đấu trường LEC sau 7 năm vắng bóng</h3>
                     </div>
-
-                    <div class="row active bangtin__content__left__active thth">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#bangtin">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-newspaper"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Bảng tin</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                    <hr style="background-color: rgba(255, 255, 255, 0.2);width: 100%">
+                    <div class="col-md-12 tintuc-slider__right__small">
+                        <small>
+                            Ngày thứ 6 vừa qua (29/01), trong trận đấu giữa hai đội tuyển SK Gaming cùng với Schalke 04,
+                            người đi rừng của SK là Tynx đã khiến cho nhiều người bất ngờ khi lựa chọn con bài Dr. Mundo cho
+                            vị trí đi rừng.
+                        </small>
                     </div>
-
-                    <div class="row bangtin__content__left__active">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#ttcn">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-user-friends"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Thông tin cá nhân</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row bangtin__content__left__active">
-                        <div class="col-md-12">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#cauhinh">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-cog"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Cấu hình</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row pb-3 bangtin__content__left__active">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt bangtin__content__left__bt__bottom pt-2 pb-2">
-                                <a href="#">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-sign-out-alt"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-9 col-10">
-                                            <span class="bangtin__content__left__bt__span">Thoát</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    <div class="col-md-12 text-right tintuc-slider__top">
+                        <div class="tintuc-slider__right__border">
+                            <a href="#"><span class="tintuc-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 tab-content">
-                <div id="bangtin" class="bangtin__content__right tab-pane active">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Bảng thông tin</span>
-                            </div>
-                        </div>
+        </div>
+
+        <div class="row tintuc_contents">
+            <div class="col-lg-8 col-md-12">
+                <div class="row tintuc_contents__nen">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 tintuc_contents__bg">
+                        <span>Mới cập nhật</span>
                     </div>
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-auto pr-0">
-                                    <h3>Đơn hàng của bạn</h3>
-                                </div>
-                                <div class="col-auto bangtin__content-center">
-                                    <div class="bangtin__content__right__title__nummber">
-                                        <span>02</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-10 ">
+
                     </div>
-                    <div class="row bangtin__content__right__body">
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__giai">
-                            <div class="bangtin__content__right__body__left">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <small>#123</small>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span>Cày ELO Liên Minh</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat" class="donut" data-dimension="80" data-text="44%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="44" data-icon-color="#fff"></div>                                    </div>
-                                </div>
-                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Mục tiêu</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">Bạch kim 4</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Trạng thái</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">Bạch kim 3</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
 
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
-                                        <div class="bangtin__content__right__body__left__bottom__cidel">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-7 bangtin__content__right__body__left__bottom__cidel__spam">
-                                        <span>Booster đang hoạt động</span>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__bottom__cc">
-                                        <div class="row">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__nep">
-                            <div class="bangtin__content__right__body__left">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <small>#124</small>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span>Cày Rank Dota 2</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat2" class="donut" data-dimension="80" data-text="88%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="88" data-icon-color="#fff"></div>                                    </div>
-                                </div>
-                                <hr  style="background: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Mục tiêu</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">MMR 3580</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Trạng thái</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">MMR 3260</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
-                                        <div class="bangtin__content__right__body__left__bottom__cidel__off">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-7">
-                                        <span>Booster đang offline</span>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__bottom__cc">
-                                        <div class="row">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row tintuc_body">
+                    <div class="col-md-4 tintuc_body__left">
+                        <img class="tintuc_body_image" src="images/notify/cerberus-esports.png" alt="">
                     </div>
-                    <hr class="hr_one" style="background-color: rgba(255, 255, 255, 0.2);">
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-auto pr-0">
-                                    <h3>Đơn đã hoàn thành</h3>
-                                </div>
-                                <div class="col-auto bangtin__content-center">
-                                    <div class="bangtin__content__right__title__nummber">
-                                        <span>01</span>
-                                    </div>
-                                </div>
+                    <div class="col-md-8 tintuc_body__right">
+                        <div class="row tintuc_contents__left">
+                            <div class="col-md-12">
+                                <h3>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="row bangtin__content__right__footer bangtin__content__right__footer__ht">
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__footer__center">
-                            <div class="bangtin__content__right__body__left_ht">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <small>#123</small>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span>Cày Ranks Tốc Chiến</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat" class="donut" data-dimension="80" data-text="100%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="100" data-icon-color="#fff"></div>                                    </div>
-                                </div>
-                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-8">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Mục tiêu</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">Bạc 4 - 1/3 Sao</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-auto">
-                                                        <span>Trạng thái</span>
-                                                    </div>
-                                                    <div class="col-auto">
-                                                        <span class="text-white">Bạc 4 - 1/3 Sao</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_ht">
-                                        <div class="bangtin__content__right__body__left__bottom__ht">
-                                            <img src="images/hoanthanh.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-7">
-                                        <span>Đã hoàn thành mục tiêu</span>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4">
-                                        <div class="row">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="row tintuc_contents__left__time">
+                            <div class="col-md-12">
+                                <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__footer">
+                            <div class="col-md-12">
+                                <span>Một sự bổ sung nhân lực vô cùng chất lượng tới từ vị trí của CES. Liệu với ngoại binh người Hàn này, CES có thể bay cao...</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="ttcn" class="hoso__content__right tab-pane">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Hồ Sơ Của Bạn</span>
-                            </div>
-                        </div>
+                <hr style="width: 100%;background-color: #CCCCCC">
+
+                <div class="row tintuc_body">
+                    <div class="col-md-4 tintuc_body__left">
+                        <img class="tintuc_body_image" src="images/notify/muaxuan.png" alt="">
                     </div>
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-auto pr-0">
-                                    <h3>Thông tin tài khoản</h3>
-                                </div>
+                    <div class="col-md-8 tintuc_body__right">
+                        <div class="row tintuc_contents__left">
+                            <div class="col-md-12">
+                                <h3>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện, ĐKVĐ Team Flash vẫn trắng tay</h3>
                             </div>
                         </div>
-                    </div>
-<!--                    <form action="#">-->
-                    <div class="row hoso__content__tttk">
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label >Số điện thoại</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="text" class="form-control" placeholder="0906240410">
-                                        <i class="fas fa-mobile-alt althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label >Kết nối với facebook</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="text" class="form-control" placeholder="fb.com/hoailinh19">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row hoso__content__tttk">
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label>Địa chỉ email</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
-                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
+                        <div class="row tintuc_contents__left__time">
+                            <div class="col-md-12">
+                                <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label >Mật khẩu</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="password" class="form-control" placeholder="**********">
-                                        <i class="fas fa-lock althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <hr style="background-color: rgba(255, 255, 255, 0.2);">
-
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-auto pr-0">
-                                    <h3>Thông tin cá nhân</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttk">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-md-3 col-sm-3 pb-sm-3 col-4">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 aaa_in">
-                                            <input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 p-0 pt-2">
-                                            <label class="form-check-label" for="exampleRadios1">Nam</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-sm-3 col-4">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 aaa_in">
-                                            <input type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                        </div>
-                                        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-4 p-0 pt-2">
-                                            <label class="form-check-label" for="exampleRadios2">Nữ</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-6 col-md-12 pb-sm-3 hovaten">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label>Họ và tên</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="text" class="form-control" placeholder="Võ Hoài Linh">
-                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label >Ngày sinh</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="date" class="form-control" placeholder="17/06/0221">
-                                        <i class="fas fa-lock althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttk pt-3">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="form-group">
-                                <div class="row">
-                                    <div class="col-md-12 hoso__content__tttk__dt">
-                                        <label>Địa chỉ(Số nhà,đường)</label>
-                                    </div>
-                                    <div class="col-md-12 pt-3">
-                                        <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
-                                        <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 pt-3 pb-sm-3">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <label>Thành Phố</label>
-                                        </div>
-                                        <div class="col-md-12 input__tp">
-                                            <select class="form-control">
-                                                <option>Hà Nội</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6 input__tp">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <label>Quận Huyện</label>
-                                        </div>
-                                        <div class="col-md-12 input__tp">
-                                            <select class="form-control">
-                                                <option>Long Biên</option>
-                                                <option>Hoàn Kiếm</option>
-                                                <option>Hai Bà Trưng</option>
-                                                <option>Đống Đa</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row btn__bangtin">
-                        <div class="col-md-12">
-                            <a href="#" class="btn-get-started__bangtin"><span>Lưu thông tin</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
-                    </div>
-<!--                    </form>-->
-                </div>
-
-                <div id="cauhinh" class="tttk__content__right tab-pane">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Hồ Sơ Của Bạn</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttk pt-5 pb-3 pl-3 pr-3">
-                        <div class="col-md-12">
-                            <div class="hoso__content__tttk_sodu">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <div class="row hoso__content__tttk_sodu_vi">
-                                            <div class="col-md-12">
-                                                <small>Số dư trong ví</small>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span>0.00 đ</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 text-right btn-get-started__tk">
-                                        <a href="#" class="btn-get-startedk"><span>Nạp tiền</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-auto pr-0">
-                                    <h3>Lịch sử giao dịch</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttk">
-                        <div class="col-md-12">
-                            <table class="table table-hover">
-                                <thead>
-                                <tr>
-                                    <th scope="col">Mã</th>
-                                    <th scope="col">Loại giao dịch</th>
-                                    <th scope="col">Thời gian</th>
-                                    <th scope="col">Chi tiết</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                        </div>
-                        <div class="col-md-12 pt-sm-3">
-                            <div class="row">
-                                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
-                                    <div class="row trang">
-                                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                            <div class="row p-3">
-                                                <div class="hoso__content__tttk__sotrang">
-                                                    <div class="row">
-                                                        <div class="col-md-2 col-sm-3">
-                                                            <span>20</span>
-                                                        </div>
-                                                        <div class="col-md-2 col-sm-3">
-                                                            <i class="fas fa-chevron-down font-size-12"></i>
-                                                        </div>
-                                                        <div class="col-md-2 col-sm-3">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <span>Kết quả trên trang</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-end">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">Next</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
+                        <div class="row tintuc_contents__left__footer">
+                            <div class="col-md-12">
+                                <span>Thất bại nối tiếp thất bại, liệu có còn cơ hội nào cho nhà đương kim vô địch Team Flash?</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <hr style="width: 100%;background-color: #CCCCCC">
+
+                <div class="row tintuc_body">
+                    <div class="col-md-4 tintuc_body__left">
+                        <img class="tintuc_body_image" src="images/notify/tuannam.png" alt="">
+                    </div>
+                    <div class="col-md-8 tintuc_body__right">
+                        <div class="row tintuc_contents__left">
+                            <div class="col-md-12">
+                                <h3>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng thứ 2 liên tiếp</h3>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__time">
+                            <div class="col-md-12">
+                                <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__footer">
+                            <div class="col-md-12">
+                                <span>Đối thủ của họ chỉ là LGD, một trong những đội tuyển đang có phong độ không tốt.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="width: 100%;background-color: #CCCCCC">
+
+                <div class="row tintuc_body">
+                    <div class="col-md-4 tintuc_body__left">
+                        <img class="tintuc_body_image" src="images/notify/nguyetthach.png" alt="">
+                    </div>
+                    <div class="col-md-8 tintuc_body__right">
+                        <div class="row tintuc_contents__left">
+                            <div class="col-md-12">
+                                <h3>Tại sao Bùa Nguyệt Thạch trở thành trang bị được game thủ LMHT ưa chuộng?</h3>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__time">
+                            <div class="col-md-12">
+                                <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__footer">
+                            <div class="col-md-12">
+                                <span>Đây là trang bị cực kỳ phù hợp cho các tướng hỗ trợ buff và cấu rỉa.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="width: 100%;background-color: #CCCCCC">
+
+                <div class="row tintuc_body">
+                    <div class="col-md-4 tintuc_body__left">
+                        <img class="tintuc_body_image" src="images/notify/meta.png" alt="">
+                    </div>
+                    <div class="col-md-8 tintuc_body__right">
+                        <div class="row tintuc_contents__left">
+                            <div class="col-md-12">
+                                <h3>Meta đường giữa đang chuyển mình ra sao ở mùa giải thứ 11?</h3>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__time">
+                            <div class="col-md-12">
+                                <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
+                            </div>
+                        </div>
+
+                        <div class="row tintuc_contents__left__footer">
+                            <div class="col-md-12">
+                                <span>Đường giữa luôn là điểm nóng, là trung tâm của mọi sự chú ý. Rất nhiều tuyển thủ hàng đầu thế giới đã làm nên...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                        <div class="row trang">
+                            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                <div class="row p-3">
+                                    <div class="hoso__content__tttk__sotrang">
+                                        <div class="row">
+                                            <div class="col-md-2 col-sm-3">
+                                                <span>20</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-3">
+                                                <i class="fas fa-chevron-down font-size-12"></i>
+                                            </div>
+                                            <div class="col-md-2 col-sm-3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <span>Kết quả trên trang</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 tintuc_right">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 tintuc_right__input">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <div class="tintuc_right__search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 tintuc_contents__menu">
+                        <div class="row tintuc_contents__nen">
+                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 tintuc_contents__bg">
+                                <span>MEDIA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 contents__menu__video">
+                        <iframe class="tintuc_contents__menu__video"  src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1"></iframe>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-6 pt-4 tintuc_contents__menus">
+                        <div class="row tintuc_contents__nen">
+                            <div class="col-xl-5 col-lg-6 col-md-5 col-sm-4 col-5 tintuc_contents__bg">
+                                <span>BÀI VIẾT HAY</span>
+                            </div>
+                        </div>
+
+                        <div class="row pt-3">
+                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
+                                <div class="tintuc_right_list">
+                                    <span>01</span>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
+                                <span>Jinx sẽ trở thành ‘mối hiểm họa’ ở bản cập nhật 11.3</span>
+                            </div>
+                        </div>
+
+                        <div class="row pt-3">
+                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
+                                <div class="tintuc_right_list">
+                                    <span>02</span>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
+                                <span>Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ ..</span>
+                            </div>
+                        </div>
+
+                        <div class="row pt-3">
+                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
+                                <div class="tintuc_right_list">
+                                    <span>03</span>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
+                                <span>LMHT: Taliyah đi rừng có thể sẽ biến mất sau ..</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 pt-3 pl-2 pr-2 tintuc_right_qc_c">
+                        <div class="tintuc_right_qc">
+                            <div class="row tintuc_right_qc_title">
+                                <div class="col-md-10">
+                                    <h3>Nạp thẻ liền tay
+                                        Ăn ngay khuyến mãi</h3>
+                                </div>
+                            </div>
+                            <div class="row pl-3 pr-3 tintuc_right_qc_foot">
+                                <div class="col-md-12 btn-get-starteds">
+                                    <a href="" class="btn-get-startedd"><span>Xem chi tiết</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 
 
@@ -1296,3 +945,4 @@ Header
 
 </body>
 </html>
+

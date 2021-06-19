@@ -10,8 +10,9 @@ body{
   padding: 0;
   margin: 0;
   color: #fff;
-  background: #130516;
+  background: #130516!important;
   font-family: 'Roboto', sans-serif;
+  z-index: 9999;
 }
 
 .container-fluid{
@@ -583,7 +584,14 @@ header#main-header.menu-sticky{
 .anhnen__bangtin{
   /*border-bottom: 1px solid #CCCCCC;*/
 }
-
+.arena__games{
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(19, 5, 22, 0) 38.4%, #130516 100%);    background-size: cover;
+  /*object-fit: cover;*/
+  margin-top: -150px;
+  z-index: 9;
+}
 #hero_bangtin {
   display: table;
   width: 100%;
@@ -603,6 +611,9 @@ header#main-header.menu-sticky{
   padding-left: 12%;
   margin-top: -90px!important;
 }
+
+
+
 .arena__title__h1{
   color:  rgba(255, 255, 255, 0.2);
 }
@@ -640,6 +651,7 @@ header#main-header.menu-sticky{
 .bangtin__content{
   padding: 30px 30px 50px 30px;
   margin-top: -105px;
+  background: #130516!important;
 }
 .nen-profile{
   width: 100%;
@@ -1031,6 +1043,656 @@ header#main-header.menu-sticky{
   width: 100%;
   margin: 0 auto;
 }
+
+.form-danhsach{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  padding: 5px 10px;
+}
+
+.images-chitiet{
+  width: 70px;
+  height: 70px;
+}
+.images-chitiet__images{
+  max-width: 100%;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.bangtin__content__right__body__left__topelo{
+  padding-left: 30px!important;
+}
+
+.bangtin__content__right__title__boximage{
+  width: 30px;
+  height: 30px;
+}
+.bangtin__content__right__title__image{
+  background-size: cover;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.boder-left{
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bangtin__content__right__title__boximage__dongho{
+  /*width: 40px;*/
+  /*height: 40px;*/
+}
+
+.bangtin__content__right__title__boximage__dongho i{
+  font-size: 32px!important;
+  color: #FBBF4D!important;
+}
+.bangtin__chitiet__content__right__border{
+  border-top: 2px solid #FBBF4D;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+.bangtin__content__right__luachonthem{
+  padding: 30px 0 30px 0;
+}
+.bangtin__content__right__luachonthem span{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bangtin__content__right__luachonthem__border{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.bangtin__content__right__luachonthem__border h3{
+  font-size: 16px;
+  color: #ffffff;
+}
+.bangtin__content__right__bacham{
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.bangtin__chitiet__content__right__border__top{
+  padding: 20px 20px;
+  /*border-right: 1px solid rgba(255, 255, 255, 0.5);*/
+}
+.bangtin__chitiet__content__right__border__top span{
+  font-size: 16px;
+}
+.bangtin__chitiet__content__right__border__top__1{
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.bangtin__chitiet__content__right__border__top small{
+  font-size: 16px;
+  color: #FBBF4D;
+}
+
+
+/*            games  */
+#hero_game {
+  display: table;
+  width: 100%;
+  height: 450px;
+  /*height: auto!important;*/
+  background: url(../images/slider/bg1.png);
+  background-size: cover;
+  object-fit: contain;
+}
+
+#hero_game .hero-container__games{
+  background: linear-gradient(270deg, #130516 0%, rgba(19, 5, 22, 0) 41.15%, rgba(19, 5, 22, 0) 66.15%, #130516 100%);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 12%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero-container__games__title h3{
+  color: #FBBF4D;
+  font-size: 36px;
+  line-height: 100px;
+}
+
+
+.arena__title__game{
+  color:  rgba(255, 255, 255, 0.2);
+}
+
+#hero_game h1 {
+  margin: 20px 0;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #FBBF4D;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  #hero_game h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero_game h2 {
+  color: #CCCCCC;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero_game h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.hero-container__games__pages{
+  margin-top: -70px;
+  width: 100%;
+}
+.arena__title__game{
+  width: 100%;
+}
+
+.games-content__border{
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+  border: 1px solid #FBBF4D;
+  border-radius: 5px;
+}
+
+.ames-content__border__oe{
+  width: 100%;
+  max-height: 150px!important;
+}
+.games-content__border__two{
+  width: 100%;
+  /*max-height: 50px!important;*/
+}
+.games-content__border__logo{
+  width: 60px;
+  height: 60px;
+}
+
+.games-content__border__one{
+  padding: 20px 20px;
+}
+.games-content__border__one span{
+  font-size: 16px;
+  text-transform: uppercase;
+  /*line-height: 42px;*/
+}
+
+.games-content__border__two{
+  padding-top: 80px;
+  text-align: right;
+}
+
+.games-content__border__two i{
+  color: #fff;
+}
+.games-content__border__two__span{
+  font-size: 16px;
+  color: #fff;
+  line-height: 32px;
+}
+
+.games-content__border__two a:hover{
+  text-decoration: none;
+}
+.games-content__border__two a:hover span,
+.games-content__border__two a:hover i{
+  color: #FBBF4D;
+}
+
+.games-content__footer{
+  padding: 50px 0;
+}
+.games-content__footer h3{
+  color: #fff;
+  font-size: 24px;
+}
+
+.games-content__footer span{
+  color: #FBBF4D;
+  font-size: 24px;
+}
+
+.games-content__footer__hr{
+  border: 1px solid  rgba(255, 255, 255, 0.2);
+  width: 270px;
+  /*height: 1px;*/
+  margin-top: 25px;
+}
+.games-content__footer__world{
+  padding: 30px 0;
+}
+.games-content__footer__world span{
+  font-size: 16px;
+  color: #FBBF4D;
+}
+
+.games-content__footer__world small{
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*           tin tức             */
+
+#hero_tintuc {
+  display: table;
+  width: 100%;
+  height: 450px;
+  /*height: auto!important;*/
+  background: url(../images/slider/bg1.png);
+  background-size: cover;
+  object-fit: contain;
+}
+
+.hero-container__tintuc__title h3{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 60px;
+  /*line-height: 100px;*/
+}
+
+#hero_tintuc .hero-container__tintuc{
+  background: linear-gradient(270deg, #130516 0%, rgba(19, 5, 22, 0) 41.15%, rgba(19, 5, 22, 0) 66.15%, #130516 100%);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 12%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.arena__title__tintuc{
+  color:  rgba(255, 255, 255, 0.5);
+}
+
+#hero_tintuc h1 {
+  margin: 20px 0;
+  font-weight: 700;
+  /*line-height: 56px;*/
+  text-transform: uppercase;
+  color: #FBBF4D;
+  /*padding-top: 30px;*/
+}
+
+@media (max-width: 768px) {
+  #hero_tintuc h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero_tintuc h2 {
+  color: #CCCCCC;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 768px) {
+  #hero_tintuc h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.hero-container__tintuc__pages{
+  margin-top: -60px;
+  width: 100%;
+}
+.arena__title__tintuc{
+  width: 100%;
+}
+
+.tintuc-slider__backgoru{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*display: table-cell;*/
+  /*margin: 0;*/
+  /*text-align: center;*/
+  background-image: url("../images/slider/dr-mundo.png");
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 5px 0px 0px 5px;
+}
+.tintuc-slider__sss{
+  background: linear-gradient(180deg, rgba(19, 5, 22, 0) 33.42%, rgba(19, 5, 22, 0.9) 100%);
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+
+.tintuc-slider__backgoru__img{
+  background-size: cover;
+  object-fit: contain;
+  width: 100%;
+  display: inline-block;
+  /*background-position: center center;*/
+  /*margin: 0 auto;*/
+  border-radius: 5px 0px 0px 5px;
+}
+.tintuc-slider__backgoru__right{
+  width: 100%;
+  /*height: 100%;*/
+  padding: 30px 20px;
+  background: linear-gradient(141.32deg, #310E38 56%, #51195E 100%);
+  border-radius: 0px 5px 5px 0px;
+}
+.tintuc-slider__right__span{
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tintuc-slider__backgoru__right h3{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FBBF4D;
+}
+.tintuc-slider__right__h3{
+  /*padding: 20px 20px;*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tintuc-slider__right__small{
+  padding-top: 20px;
+}
+.tintuc-slider__right__small small{
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.tintuc-slider__right__border{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 110px;
+  padding: 3px 5px;
+}
+.tintuc-slider__right__border:hover{
+  border: 1px solid#FBBF4D;
+  background: #FBBF4D;
+  color: #171717!important;
+}
+
+.tintuc-slider__right__border:hover span,
+.tintuc-slider__right__border:hover i{
+  color: #171717!important;
+}
+
+.tintuc-slider__right__border a:hover{
+  text-decoration: none;
+}
+.tintuc-slider__right__border a:hover span{
+  color: #171717;
+}
+.tintuc-slider__right__border a:hover i{
+  color: #171717;
+}
+.tintuc-content__border__two__span{
+  font-size: 12px;
+  color: #fff;
+  line-height: 32px;
+}
+.tintuc-slider__top{
+  padding-left: 220px;
+  padding-top: 30px;
+}
+
+.tintuc_contents__bg{
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-radius: 2px;
+}
+.tintuc_contents__bg span{
+  line-height: 40px!important;
+}
+
+.tintuc_contents__nen{
+  /*order-bottom: 40px solid rgba(255, 255, 255, 0.1);*/
+  /*border-right: 50px solid transparent;*/
+  /*height: 40px;*/
+  max-height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 92.04%);
+  border-radius: 2px;
+  /*padding: 30px 30px;*/
+}
+.tintuc_contents__menu{
+  padding: 30px 30px;
+}
+.tintuc_contents{
+  padding: 50px 10px 50px;
+}
+.tintuc_body{
+  padding: 30px 0;
+}
+
+.tintuc_contents__left{
+  padding: 0 20px;
+}
+.tintuc_contents__left h3{
+  font-size: 18px;
+  line-height: 24px;
+  color: #FBBF4D;
+}
+
+.tintuc_contents__left__time i,
+.tintuc_contents__left__time small{
+  font-size: 14px;
+  color: #666666;
+  line-height: 20px;
+}
+.tintuc_contents__left__time{
+  padding: 10px 20px;
+}
+.tintuc_contents__left__footer{
+  padding: 0 20px;
+
+}
+.tintuc_contents__left__footer span{
+  color: rgba(255, 255, 255, 0.8);
+}
+.tintuc_body_image{
+  background-size: cover;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.tintuc_right__input input{
+  position: relative;
+  width: 100%;
+  max-height: 40px;
+}
+
+.tintuc_right__search{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #FBBF4D;
+}
+.tintuc_right__search i{
+  color: #000000;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.tintuc_contents__nen{
+  /*padding-left: 30px!important;*/
+  /*padding-right: 30px!important;*/
+}
+.tintuc_contents__menus{
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+}
+.page-link {
+  background-color: #FBBF4D!important;
+  color: #250C2B;
+  border-color: #250C2B!important;
+}
+
+.tintuc_contents__menu__video{
+  width: 100%;
+  height: 190px;
+  padding-bottom: 30px;
+}
+
+.tintuc_right_list{
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.tintuc_right_list span{
+  padding-left: 8px;
+  margin-top: 5px;
+  width: 100%;
+  line-height: 42px;
+}
+
+.tintuc_right_menu{
+  padding-top: 5px;
+}
+.tintuc_right_qc{
+  background-image: url("../images/volam.png");
+  width: 100%;
+  background-size: cover;
+  object-fit: contain;
+  height: 240px;
+}
+
+.tintuc_right_qc h3{
+  font-size: 24px;
+  line-height: 24px;
+}
+.tintuc_right_qc_title{
+  padding: 130px 20px 20px 20px;
+}
+.btn-get-startedd{
+  border: 1px solid #FBBF4D;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.btn-get-startedd span{
+  color: #ffffff;
+}
+.btn-get-starteds a:hover{
+
+  text-decoration: none!important;
+  background-color: #FBBF4D;
+}
+.btn-get-starteds a:hover span{
+  color: #171717;
+}
+
+.tintuc-slider{
+  margin-top: -220px;
+}
+
+.sukien-slider__backgoru{
+  width: 100%;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*display: table-cell;*/
+  /*margin: 0;*/
+  /*text-align: center;*/
+  background-image: url("../images/slider/dr-mundo.png");
+  vertical-align: middle;
+  display: inline-block;
+  border-radius: 5px 5px 0px 0px;
+  border-top: 3px solid #FBBF4D;
+}
+
+.sukien_contents{
+  padding: 30px 0;
+}
+
+.sukien_contents small{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+}
+
+.sukien_contents ul li{
+  list-style: none;
+  margin-left: 25px;
+}
+.sukien_contents ul li i{
+  font-size: 16px;
+  color: #CCCCCC;
+}
+.sukien_contents ul li span{
+  color: #CCCCCC;
+}
+.sukien_contents__title{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sukien_contents__title h3{
+  font-size: 28px;
+  line-height: 38px;
+  color: #FBBF4D;
+  padding-left: 20px;
+}
+
+.sukien_contents__body{
+  padding: 30px 30px 10px 30px;
+}
+
+.sukien_contents__body p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.sukien_contents__image img{
+  max-width: 100%;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.sukien_contents__image{
+  padding: 20px 30px;
+}
+.chuthich{
+  text-align: center;
+  /*padding-bottom: 50px;*/
+}
+
+.chuthich small{
+  font-size: 14px;
+  color: #666666;
+}
+
+.sukien-slider{
+  margin-top: -220px;
+}
+
+
 
 
 /* responsive*/

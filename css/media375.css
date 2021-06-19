@@ -180,9 +180,11 @@
     .content-detailss_title_i{
         padding-top: 30px;
         font-size: 14px;
-        margin-left: -45px;
+        margin-left: -5px;
     }
-
+    .content-detail_1 img{
+        padding-top: 20px!important;
+    }
     .content-detailss__desc{
         padding: 0 30px;
     }
@@ -230,7 +232,18 @@
         /*padding-left: 60px!important;*/
         padding-bottom: 30px!important;
     }
-
+    .dongia{
+        text-align: center!important;
+    }
+    .banner-left-title{
+        font-size: 18px!important;
+    }
+    .banner-left__dongia{
+        font-size: 16px!important;
+    }
+    .banner-left__dong{
+        font-size: 16px!important;
+    }
     .secvices-title__kk{
         display: none;
     }
@@ -406,6 +419,194 @@
     }
     .trang{
         display: none;
+    }
+
+    .bangtin__content__right__body__left__top__2{
+        max-height: 190px!important;
+    }
+    .bangtin__content__right__body__left__topelo h3{
+        font-size: 14px;
+    }
+    .bangtin__content__right__body__nep_2{
+        padding-top: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        min-width: 260px;
+    }
+    .bangtin__content__right__body__left__circle_2{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        /*padding-right: 120px;*/
+    }
+    .bangtin__content__right__body__left__top__2__2{
+        padding-left: 30px;
+    }
+    .bangtin__content__right__body__left__topelo{
+        padding-left: 30px!important;
+    }
+    .bangtin__content__right__body__left__topelo span{
+        font-size: 12px!important;
+    }
+    .bangtin__content__right__title__chtiet h3{
+        font-size: 16px!important;
+    }
+
+    .boder-left{
+        border-left: none!important;
+    }
+
+    .game__lmht{
+        padding-top: 50px;
+    }
+    .games-tocchien{
+        padding-top: 50px;
+    }
+    .games-content__footer__hr{
+        width: 270px!important;
+    }
+    .games-content__footer,
+    .games-content__footer__body{
+        padding-left: 30px;
+    }
+
+    .tintuc-slider__backgoru{
+        height: 340px!important;
+        width: 100%;
+    }
+    .tintuc-slider__sss{
+        padding-right: 30px!important;
+        border: none!important;
+    }
+    .tintuc-slider__fff{
+        padding-left: 30px!important;
+    }
+    .tintuc-slider__top{
+        padding-left: 80px!important;
+    }
+    .tintuc_body__right{
+        padding-top: 30px;
+    }
+
+    .tintuc_body_image{
+        padding-left: 20px!important;
+    }
+
+    .tintuc_contents__menu{
+        order: 2;
+    }
+    .tintuc_right__input{
+        order: 1;
+        padding-top: 30px;
+    }
+    .tintuc_right__search{
+        position: absolute;
+        right: 15px;
+        top: 30px;
+    }
+    .contents__menu__video{
+        order: 2;
+    }
+    .tintuc_contents__menus{
+        order: 1;
+        padding: 30px 30px;
+    }
+    .tintuc_right_qc_c{
+        order: 2;
+        padding-top: 30px!important;
+    }
+    .tintuc_right_list_span{
+        line-height: 32px!important;
+    }
+
+    .sukien_contents ul li i{
+        font-size: 12px!important;
+
+    }
+    .sukien_contents ul li{
+        margin-left: 0!important;
+        margin-right: 10px;
+    }
+    .sukien_contents ul{
+        float: left!important;
+        padding-left: 0;
+        padding-top: 20px;
+
+    }
+
+    .arena__title_nen_row ul li{
+        margin-left: 10px!important;
+        list-style: none;
+        font-size: 16px!important;
+        float: none!important;
+        border: none!important;
+    }
+    .arena__title_nen_row ul{
+        width: 100%;
+        margin-top: -80px!important;
+    }
+    .arena__title_nen__slider{
+        margin-top: -65px!important;
+    }
+    .arena__bodysss{
+        width: 100%;
+        padding: 0!important;
+    }
+    .arena__title_span{
+        font-size: 16px!important;
+    }
+
+    .arena__bodysss_img{
+        padding-left: 0!important;
+    }
+    .li_none{
+        display: none!important;
+    }
+
+    .arena__bodysss{
+        margin: 0 auto!important;
+    }
+    .content-detailss__loaitaikhoan{
+        margin: 0 auto!important;
+    }
+    .content-detailss__desc__tt{
+        margin: 0 auto!important;
+    }
+    .banner-footer{
+        margin: 0 auto!important;
+    }
+    .banner-left-content{
+        width: 100% !important;
+        margin: 0 auto!important;
+    }
+    .text-center secvices-title__title{
+        font-size: 16px!important;
+    }
+    .content-detailss__desc__titme{
+        font-size: 18px!important;
+        font-weight: 400;
+        line-height: 32px;
+        color: #FBBF4D;
+    }
+    .banner__icon i{
+        font-size: 16px!important;
+    }
+    .banner__span__left span,
+    .banner__span__right span{
+        font-size: 14px!important;
+    }
+    .banner__span__right{
+        text-align: left;
+        padding-left: 50px;
+    }
+    .banner-banner__span span{
+        font-size: 14px!important;
+    }
+    .banner-banner__icon i{
+        font-size: 14px!important;
+    }
+    .custom-checkbox span{
+        font-size: 16px!important;
     }
 
 }

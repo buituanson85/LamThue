@@ -369,12 +369,12 @@
                 </div>
             </div>
             <div class="row arena__bodysss">
-                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-2 p-0">
+                <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-3 p-0 arena__bodysss_img">
                     <a href="#" class="arena__title_img">
-                        <img src="images/logo/l-m-h-t.png" alt="">
+                        <img src="images/logo/logolmmm.png" alt="">
                     </a>&ensp;
                 </div>
-                <div class="col-xl-11 col-lg-11 col-md-11 col-sm-10 col-10 arena__title_spansss">
+                <div class="col-xl-11 col-lg-11 col-md-10 col-sm-10 col-9 arena__title_spansss p-0">
                     <span class="arena__title_span">Liên minh Huyền thoại </span>
                 </div>
             </div>
@@ -382,18 +382,22 @@
 </section>
 
 <section class="arena__title_nen">
-    <div class="container p-0">
-      <div class="row text-center arena__title_nen_row p-0">
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 arena__title_nen__a arena__title_nen__ab p-0">
-            <a href="#" class="arena__title_nen__aa"><span class="arena__title_nen__span__color arena__title_nen__span__color__active">Cày ELO Liên Minh</span></a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 p-0 arena__title_nen__a arena__title_nen__ac p-0">
-            <a href="#" class="arena__title_nen__aa" ><span class="arena__title_nen__span arena__title_nen__span__color">Phân Hạng Đầu Mùa</span></a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-4 arena__title_nen__ad p-0">
-            <a href="#" class="arena__title_nen__aa"><span class="arena__title_nen__span__color pl-1">Cày Chuỗi Thăng Hạng</span></a>
-        </div>
-      </div>
+    <div class="container p-0 arena__title_nen__slider">
+          <div class="row text-center arena__title_nen_row p-0">
+              <ul style="float: left">
+                  <li style="float: left">
+                      <a href="#" class="arena__title_nen__aa"><span class="arena__title_nen__span__color arena__title_nen__span__color__active">Cày ELO Liên Minh</span></a>
+                  </>
+                  <li class="li_none" style="float: left">|</li>
+                  <li style="float: left" class="boder__li">
+                      <a href="#" class="arena__title_nen__aa" ><span class="arena__title_nen__span arena__title_nen__span__color">Phân Hạng Đầu Mùa</span></a>
+                  </li>
+                  <li class="li_none" style="float: left">|</li>
+                  <li style="float: left">
+                      <a href="#" class="arena__title_nen__aa"><span class="arena__title_nen__span__color pl-1">Cày Chuỗi Thăng Hạng</span></a>
+                  </li>
+              </ul>
+          </div>
     </div>
 </section>
 <!--<section class="banner-backgrour"></section>-->
@@ -408,7 +412,7 @@
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 content-detailss_title_i">
                 <div class="row">
                     <div class="col-md-5 col-4">
-                        <span>Chia sẻ:</span>
+                        <span class="content-detailss_title_i__spam">Chia sẻ:</span>
                     </div>
                     <div class="col-md-1 col-1">
                         <a href="#"><i class="fas fa-link"></i></a>
@@ -541,7 +545,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6">
-                                        <div class="custom-control custom-checkbox">
+                                        <div class="custom-control custom-checkbox checkbox__xxx">
                                             <input name="caythue_checkbox" type="checkbox" id="customCheck2" class="custom-control-input">
                                             <label class="custom-control-label" for="customCheck2"><span class="content-detailss__footer_title__checkbox">Xem trực tiếp +349.000₫</span></label>
                                         </div>
@@ -649,11 +653,11 @@
                                     <div class="col-md-12">
                                         <div class="banner-left-header">
                                             <h4 class="banner-left-title text-center">Thông tin thanh toán</h4>
-                                            <div class="row pt-3">
-                                                <div class="col-md-6">
+                                            <div class="row pt-3 dongia">
+                                                <div class="col-md-6 col-sm-6 col-6">
                                                     <span class="banner-left__dongia">Đơn giá</span>
                                                 </div>
-                                                <div class="col-md-6 text-right">
+                                                <div class="col-md-6 col-sm-6 col-6 text-right">
                                                     <span class="banner-left__dong">330.000 đ</span>
                                                 </div>
                                             </div>
@@ -673,13 +677,13 @@
                                     </div>
                                 </div>
                                 <div class="row pb-3">
-                                    <div class="col-md-1">
+                                    <div class="col-md-1 col-sm-1 col-1">
                                         <span class="banner__icon"><i class="fas fa-times"></i></span>
                                     </div>
-                                    <div class="col-md-6 banner__span__left">
+                                    <div class="col-md-6 col-sm-6 col-8 banner__span__left">
                                         <span class="banner__span">Xem trực tiếp</span>
                                     </div>
-                                    <div class="col-md-5 banner__span__right">
+                                    <div class="col-md-5 col-sm-5 col-12 banner__span__right">
                                         <span class="banner__monney">349.000 đ</span>
                                     </div>
                                 </div>
@@ -688,10 +692,10 @@
                                     <div class="col-md-12">
                                         <div class="banner-banner">
                                             <div class="row">
-                                                <div class="col-md-2 banner-banner__icon">
+                                                <div class="col-md-2 col-sm-2 col-3 banner-banner__icon">
                                                     <span><i class="fas fa-wrench"></i></span>
                                                 </div>
-                                                <div class="col-md-10 banner-banner__span">
+                                                <div class="col-md-10 col-sm-10 col-9 banner-banner__span">
                                                     <span>Áp dụng</span>
                                                 </div>
                                             </div>
@@ -735,7 +739,7 @@
         </div>
         <hr style="background-color: #CCCCCC;">
         <div class="row pt-5 content-detailss__hr">
-            <div class="col-md-2 col-sm-2 col-3">
+            <div class="col-md-2 col-sm-2 col-3 content-detailss__hss">
                 <img src="images/logo/nguoidunglogo.png" alt="">
             </div>
             <div class="col-md-10 col-sm-10 col-9">
@@ -768,81 +772,78 @@
                 <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
             </div>
         </div>
-        <div class="row games">
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                <div class="row secvices-title__footer_image">
-                    <div class="col-md-12">
-                        <a href=""><img src="images/notify/thecao.jpg" alt=""></a>
-                    </div>
+        <div class="tab-content_2">
+            <div class="product_carousel_2 product_column4_2 owl-carousel">
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/thecao.jpg" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua thẻ cào</a>
+                                </h4>
+                                <span>Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game</span>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                        <span class="secvices-title__body">Mua thẻ cào</span>
-                    </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/gate.jpg" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua tài khoản</a>
+                                </h4>
+                                <span>Cung cấp hầu hết các tài khoản game nhiều cấp độ</span>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                            <span class="secvices-title__footer secvices-title__footer__details">
-                                Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game
-                            </span>
-                    </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/ck.jpg" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê tài khoản</a>
+                                </h4>
+                                <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                <div class="row secvices-title__footer_image">
-                    <div class="col-md-12">
-                        <a href=""><img src="images/notify/thecao.jpg" alt=""></a>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                        <span class="secvices-title__body">Mua tài khoản</span>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                            <span class="secvices-title__foote secvices-title__footer__details">
-                                Cung cấp hầu hết các tài khoản game nhiều cấp độ
-                            </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                <div class="row secvices-title__footer_image">
-                    <div class="col-md-12">
-                        <a href=""><img src="images/notify/thecao.jpg" alt=""></a>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                        <span class="secvices-title__body">Thuê tài khoản</span>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                            <span class="secvices-title__footer secvices-title__footer__details">
-                                Một giải pháp kinh tế cho những trải nghiệm mới
-                            </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                <div class="row secvices-title__footer_image">
-                    <div class="col-md-12">
-                        <a href=""><img src="images/notify/thecao.jpg" alt=""></a>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                        <span class="secvices-title__body">Thuê người chơi</span>
-                    </div>
-                </div>
-                <div class="row pt-3">
-                    <div class="col-md-12">
-                            <span class="secvices-title__footer secvices-title__footer__details">
-                                Giúp bạn cày rank đơn giản và rất hiệu quả
-                            </span>
-                    </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/gare.jpg" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê người chơi</a>
+                                </h4>
+                                <span>Giúp bạn cày rank đơn giản và rất hiệu quả</span>
+                            </figcaption>
+                        </figure>
+                    </article>
                 </div>
             </div>
         </div>

@@ -60,8 +60,6 @@ Header
                            aria-label="Toggle navigation">
                             <div class="navbar-toggler-icon" data-toggle="collapse">
                                 <span class="navbar-toggler-icon navbar-toggler-icon--top"></span>
-                                <!--                                    <span class="navbar-toggler-icon navbar-toggler-icon&#45;&#45;middle"></span>-->
-                                <!--                                    <span class="navbar-toggler-icon navbar-toggler-icon&#45;&#45;bottom"></span>-->
                             </div>
                         </a>
                         <a href="index.php" class="navbar-brand">
@@ -72,16 +70,16 @@ Header
                                 <ul id="top-menu" class="navbar-nav ml-auto">
 
                                     <li class="menu-item">
-                                        <a href="#">Games</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>
-                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>
-                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>
-                                            <li class="menu-item"><a href="details.php">Valorant</a></li>
-                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>
-                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>
-                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>
-                                        </ul>
+                                        <a href="games.php">Games</a>
+<!--                                        <ul class="sub-menu">-->
+<!--                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">Valorant</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>-->
+<!--                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>-->
+<!--                                        </ul>-->
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
@@ -565,7 +563,7 @@ Header
 
                     <div class="row pt-3 pb-3">
                         <div class="col-xl-2 col-lg-2 col-md-2 section-tt-aaa__bb">
-                            <div class="section-three pt-2"><i class="fas fa-wallet"></i></div>
+                            <div class="section-three pt-2"><i class="fas fa-thumbs-up"></i></i></div>
                         </div>
                         <div class="col-xl-8 col-lg-8 col-md-12">
                             <p class="section-tt-aaa_span">Tận hưởng dịch vụ</p>
@@ -902,6 +900,7 @@ Header
                     <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
                 </div>
             </div>
+
             <div class="tab-content_2">
                 <div class="product_carousel_2 product_column4_2 owl-carousel">
                     <div class="col-lg-3">

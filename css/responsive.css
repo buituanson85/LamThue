@@ -102,6 +102,37 @@
     .bangtin__content__right__body__left__bottom__cc{
         padding-top: 10px!important;
     }
+    .boder-left{
+        border-left: none!important;
+    }
+
+    .games-tocchien{
+        padding-top: 50px;
+    }
+
+    .games-content__footer__hr{
+        width: 200px!important;
+    }
+
+    .games-content_body{
+        margin: 0 auto;
+    }
+
+    .tintuc-slider__top{
+        padding-left: 130px!important;
+        padding-top: 30px!important;
+    }
+
+    /*        sự kiện  */
+
+    .arena__bodysss_img{
+        margin: 0 auto!important;
+        padding-left: 0px !important;
+    }
+    .arena__title_img{
+        padding-left: 0!important;
+    }
+
 }
 /* oooooooooooooooooooo*/
 

@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
 /*********** Navbar ************/
 
 .arena__title__h1_span{
@@ -699,9 +694,11 @@ body{
 }
 
 .content-detailss_title_i i{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.5);
 }
-
+.content-detailss_title_i span{
+    color: rgba(255, 255, 255, 0.5);
+}
 .content-detailss_title_i a:hover{
     color: #FBBF4D;
 }
@@ -777,6 +774,7 @@ body{
     border-bottom: 1px solid #321238;
     border-left: 1px solid #321238;
     border-top: 10px solid #321238;
+    width: 100%;
 }
 .content-detailss__loaitaikhoan__title{
     color: #CCCCCC;
@@ -1045,7 +1043,12 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
-
+.content-detailss__desc__tt{
+    width: 100%;
+}
+.custom-checkbox{
+    width: 100%;
+}
 .banner-footer a:hover{
     color: #FBBF4D;
     text-decoration: none;
@@ -1056,6 +1059,7 @@ body{
     font-weight: 400;
     line-height: 32px;
     padding-top: 80px;
+    width: 100%;
 }
 
 .arena__title_nen_row a:hover span{
@@ -1100,7 +1104,23 @@ body{
     color: #FBBF4D!important;
 }
 
+.arena__title_nen_row ul li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 14px;
+}
 
+.arena__title_nen_row ul li span{
+    list-style: none;
+    font-size: 16px;
+}
+.custom-control-input{
+    max-width: 50%!important;
+}
+.arena__bodysss_img{
+    margin: 0 auto!important;
+    padding-left: 30px!important;
+}
 
 
 
