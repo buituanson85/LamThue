@@ -566,40 +566,38 @@ Header
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-7">
+                    <div class="col-xl-9 col-lg-8 col-md-8 col-sm-7 col-4">
                         <div class="row trang">
                             <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                <div class="row p-3">
-                                    <div class="hoso__content__tttk__sotrang">
-                                        <div class="row">
-                                            <div class="col-md-2 col-sm-3">
-                                                <span>20</span>
-                                            </div>
-                                            <div class="col-md-2 col-sm-3">
-                                                <i class="fas fa-chevron-down font-size-12"></i>
-                                            </div>
-                                            <div class="col-md-2 col-sm-3">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <select class="form-control">
+                                    <option>5</option>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                </select>
                             </div>
-                            <div class="col-md-6">
-                                <span>Kết quả trên trang</span>
+                            <div class="col-md-4">
+                                <span class="trang_span">Kết quả trên trang</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-5 col-8 pl-0">
                         <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-end">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
                                 </li>
                                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                                 <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -693,8 +691,8 @@ Header
 
 
 
+<div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
-    <div class="container-fluid footer-banner-s"></div>
     <div class="container">
         <div class="row footer-header">
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">

@@ -48,9 +48,9 @@ Header
 ============================-->
 <header id="main-header">
     <div class="main-header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
+        <div class="container">
+            <div class="row p-0">
+                <div class="col-sm-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <a href="#" class="navbar-toggler c-toggler"
                            data-toggle="collapse"
@@ -71,15 +71,6 @@ Header
 
                                     <li class="menu-item">
                                         <a href="games.php">Games</a>
-<!--                                        <ul class="sub-menu">-->
-<!--                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">Valorant</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>-->
-<!--                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>-->
-<!--                                        </ul>-->
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
@@ -377,7 +368,8 @@ Header
     <div class="hero-container">
         <h1 class="arena__title__h1">Level Up dễ dàng</h1>
         <h2>Nếu bạn không có nhiều thời gian, chúng tôi có thể giúp bạn.  Đội ngũ booster chuyên nghiệp của chúng tôi sẽ giúp tài khoản của bạn sẽ level up dễ dàng...</h2>
-        <a href="#" class="btn-get-started"><span>Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
+        <a href="#" class="btn10"><span>Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
+        <div class="transition"></div>
     </div>
 </section><!-- #hero -->
 
@@ -387,143 +379,139 @@ Header
 </section>
 
 <div class="container banner-slider">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="tab-content">
-                <div class="tab-pane fade show active">
-                    <div class="row">
-                        <div class="product_carousel product_column4 owl-carousel">
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/l-m-h-t.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">LMHT</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/ll_logo.svg.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">Tốc chiến</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/team-anim.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a  href="details.php">Đấu trường chân lý</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/Liên_quan_mobile.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">Liên quân Mobile</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="details.php" class="primary_img">
-                                                <img src="images/logo/sgoc.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="details.php">CS.GO</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="#" class="primary_img">
-                                                <img src="images/logo/dota-2-logo-black-2.jpg" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="#">Dota 2</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                            <div class="col-lg-3 text-center">
-                                <article class="single_product">
-                                    <figure>
-                                        <div class="product_thumb">
-                                            <a href="#" class="primary_img">
-                                                <img src="images/logo/Valorant_logo.png" alt="men">
-                                            </a>
-                                        </div>
-                                        <figcaption class="product_content">
-                                            <h4 class="product_name">
-                                                <a href="#">Valorant</a>
-                                            </h4>
-                                        </figcaption>
-                                    </figure>
-                                </article>
-                            </div>
-
-                        </div>
+    <div class="tab-content">
+        <div class="tab-pane fade show active">
+            <div class="row">
+                <div class="product_carousel product_column4 owl-carousel">
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="details.php" class="primary_img">
+                                        <img src="images/logo/l-m-h-t.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="details.php">LMHT</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
                     </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="details.php" class="primary_img">
+                                        <img src="images/logo/ll_logo.svg.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="details.php">Tốc chiến</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="details.php" class="primary_img">
+                                        <img src="images/logo/team-anim.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a  href="details.php">Đấu trường chân lý</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="details.php" class="primary_img">
+                                        <img src="images/logo/Liên_quan_mobile.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="details.php">Liên quân Mobile</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="details.php" class="primary_img">
+                                        <img src="images/logo/sgoc.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="details.php">CS.GO</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="#" class="primary_img">
+                                        <img src="images/logo/dota-2-logo-black-2.jpg" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="#">Dota 2</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-3 text-center">
+                        <article class="single_product">
+                            <figure>
+                                <div class="product_thumb">
+                                    <a href="#" class="primary_img">
+                                        <img src="images/logo/Valorant_logo.png" alt="men">
+                                    </a>
+                                </div>
+                                <figcaption class="product_content">
+                                    <h4 class="product_name">
+                                        <a href="#">Valorant</a>
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+
                 </div>
-                <!--            End men           -->
             </div>
         </div>
+        <!--            End men           -->
     </div>
 </div>
 
 <section class="abcc">
     <section class="container-fluid section-tt">
-        <div class="container">
+        <div class="container p-0">
             <div class="row section-tt-aaa">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <p style="color: #ffffff;font-size: 16px">Đăng ký dễ dàng</p>
@@ -598,7 +586,7 @@ Header
                     <span class="section-contt__lydo">Có hàng ngàn lý do</span>
                     <h3 style="color: #ffffff;padding-top: 30px">Bạn nên chọn chúng tôi ?</h3>
                 </div>
-                <div class="col-md-12 text-center pt-5 ">
+                <div class="col-md-12 text-center pt-5">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 section-contt__body">
                             <img src="images/logo/taycam.png" alt=""><br><br>
@@ -981,10 +969,10 @@ Header
 
         <div class="container secvices-body pt-5">
             <div class="row">
-                <div class="col-md-7 col-sm-7">
+                <div class="col-md-7 col-sm-7 col-7">
                     <h3 class=""><i class="fas fa-gamepad"></i>&ensp;Tin tức mới nhất</h3>
                 </div>
-                <div class="col-md-5 col-sm-5 text-right">
+                <div class="col-md-5 col-sm-5 col-5 text-right">
                     <a href="#">Xem thêm&ensp;<i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
@@ -1058,8 +1046,9 @@ Header
 
 
 </section>
+
+<div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
-    <div class="container-fluid footer-banner-s"></div>
     <div class="container">
         <div class="row footer-header">
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">

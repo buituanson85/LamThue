@@ -29,17 +29,7 @@
         text-align: center;
         justify-content: center;
     }
-    .section-tt-aaa__bb{
-        align-items: center!important;
-        padding-left: 46%;
-        padding-bottom: 20px;
-    }
-    .section-three{
-        font-size: 24px!important;
-        width: 60px;
-        height: 60px;
-        /*line-height: 43px;*/
-    }
+
 
     .section-contt__mdd{
         padding: 50px 0;
@@ -182,34 +172,6 @@
         font-size: 20px;
     }
 
-    .content-detailss__desc__select__ht{
-        /*padding-left: 30px;*/
-        padding: 0!important;
-        padding-left: 30px!important;
-        padding-right: 30px!important;
-    }
-    .content-detailss__desc__select__mm{
-        padding: 0!important;
-        /*padding-top: 30px;*/
-        padding-top: 30px!important;
-        padding-left: 30px!important;
-        padding-right: 30px!important;
-
-        /*padding-left: 30px!important;*/
-        /*padding-right: 18px!important;*/
-    }
-    .content-detailss__desc__select__mv{
-        padding: 0!important;
-        padding-top: 10px!important;
-        padding-left: 30px!important;
-        padding-right: 30px!important;
-    }
-    .content-detailss__desc__select__xl{
-        padding: 0!important;
-        padding-top: 30px!important;
-        padding-left: 30px!important;
-        padding-right: 30px!important;
-    }
     .content-detailss__footer_title{
         font-size: 18px;
 
@@ -224,10 +186,7 @@
         text-align: left!important;
         padding-top: 10px!important;
     }
-    .content-detailss__desc__tt{
-        padding-left: 100px;
-        padding-bottom: 30px!important;
-    }
+
 
     .content-detailss__hr{
         padding-bottom: 200px!important;
@@ -435,5 +394,86 @@
     .bangtin__chitiet__content__right__border__top__3,
     .bangtin__chitiet__content__right__border__top__3_2{
         padding-top: 10px;
+    }
+
+
+
+    .section-nen-tt__img{
+        margin-top: -120px;
+    }
+
+    .section-tt-aaa__bb{
+        margin: 0 auto!important;
+        padding-bottom: 20px;
+    }
+    .section-three{
+        margin: 0 auto;
+        font-size: 24px!important;
+        width: 60px;
+        height: 60px;
+        /*line-height: 43px;*/
+    }
+    .fored{
+        padding: 0!important;
+        margin: 0 auto;
+    }
+
+
+
+/*     sửa details   */
+
+    .arena__title_nen_row_fix ul li{
+        list-style: none;
+    }
+    .arena__title_nen_row_fix ul{
+        margin-top: -20px;
+    }
+    .arena__title_nen_row_fix ul li:nth-child(2) span,
+    .arena__title_nen_row_fix ul li:nth-child(3) span{
+        padding-left: 20px!important;
+    }
+    .arena__title_nen_row_fix ul li:nth-child(2),
+    .arena__title_nen_row_fix ul li:nth-child(3){
+        margin-left: 20px;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .arena__titles ul{
+        padding-top: 80px;
+    }
+    .arena__bodysss ul{
+        line-height: 48;
+    }
+    .arena__bodysss ul li span{
+        font-size: 32px;
+    }
+    .content-detailss_title_span__ul ul li{
+        margin-left: 15px;
+    }
+    .content-detail__body__title span{
+        padding-left: 0px!important;
+    }
+    .content-detailss__desccc__selecs .content-detailss__desc__select__ht:nth-child(2),
+    .content-detailss__desccc__selecs .content-detailss__desc__select__ht:nth-child(3){
+        padding-top: 40px!important;
+    }
+    .content-detailss__desc__span{
+        padding-top: 10px;
+        text-align: left!important;
+    }
+
+    .banner-left__dongia{
+        font-size: 18px!important;
+    }
+
+    .luachon ul li i{
+        color: #F78457;
+        font-size: 24px;
+    }
+    .content-detailss__loaitaikhoan{
+        padding-bottom: 30px;
+    }
+
+    .container_khampha__45{
+        margin-top: -170px!important;
     }
 }

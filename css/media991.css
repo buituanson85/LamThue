@@ -33,11 +33,7 @@
         height: 60px;
         /*line-height: 43px;*/
     }
-    .section-tt-aaa__bb{
-        align-items: center!important;
-        padding-left: 337px;
-        padding-bottom: 20px;
-    }
+
     .blog_section{
         padding-top: 20px!important;
     }
@@ -158,10 +154,6 @@
     }
     .content-detailss_title_span{
         font-size: 24px;
-    }
-    .content-detailss__desc__tt{
-        padding-left: 180px;
-        padding-bottom: 30px!important;
     }
 
     .secvices-title__kk{
@@ -297,7 +289,54 @@
         font-size: 16px!important;
     }
 
+    .section-nen-tt__img{
+        margin-top: -170px;
+    }
+
+    .section-tt-aaa__bb{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .section-three{
+        margin: 0 auto;
+    }
+
+    .fored{
+        padding: 0!important;
+        margin: 0 auto;
+    }
+    .arena__titles ul{
+        padding-top: 80px;
+    }
+    .arena__bodysss ul{
+        line-height: 52;
+    }
+    .content-detailss__desc__span{
+        padding-top: 10px;
+        text-align: left!important;
+    }
 
 
+    .content-detailss__desccc__selecs{
+        padding-top: 30px!important;
+    }
+
+    .banner-left__dongia{
+        font-size: 18px!important;
+    }
+    .banner-left-title{
+        font-size: 32px!important;
+    }
+
+    .luachon ul li i{
+        color: #F78457;
+        font-size: 24px;
+    }
+    .content-detailss__loaitaikhoan{
+        padding-bottom: 30px;
+    }
+    .container_khampha__45{
+        margin-top: -120px!important;
+    }
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmm*/

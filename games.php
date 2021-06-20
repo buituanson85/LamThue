@@ -48,9 +48,9 @@ Header
 ============================-->
 <header id="main-header">
     <div class="main-header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
+        <div class="container">
+            <div class="row p-0">
+                <div class="col-sm-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <a href="#" class="navbar-toggler c-toggler"
                            data-toggle="collapse"
@@ -71,15 +71,6 @@ Header
 
                                     <li class="menu-item">
                                         <a href="games.php">Games</a>
-                                        <!--                                        <ul class="sub-menu">-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Valorant</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>-->
-                                        <!--                                        </ul>-->
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
@@ -611,8 +602,8 @@ Header
 </section>
 
 
+<div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
-    <div class="container-fluid footer-banner-s"></div>
     <div class="container">
         <div class="row footer-header">
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">

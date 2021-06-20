@@ -132,6 +132,16 @@
     .arena__title_img{
         padding-left: 0!important;
     }
+    .content-detail__body__title span{
+        padding-left: 0px!important;
+    }
+    .content-detailss__desc__span{
+        padding-top: 10px;
+        text-align: left!important;
+    }
+    .container_khampha__45{
+        margin-top: -120px!important;
+    }
 
 }
 /* oooooooooooooooooooo*/
