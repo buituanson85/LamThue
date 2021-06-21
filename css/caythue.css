@@ -84,7 +84,7 @@
 .arena__title .arena__title__button a{
     background-color: #FBBF4D;
     border-color: #FBBF4D;
-    color: #171717;
+    color: #130516;
     border-radius: 30px;
     padding: 10px 35px;
     text-decoration: none;
@@ -533,7 +533,7 @@
     /*background-size: cover;*/
     height: 100%;
     /*z-index: 2;*/
-    z-index: -1;
+    z-index: 1;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 86.92%);
 }
 .footer-header{
@@ -1298,7 +1298,7 @@
 
 
 .content-detailss select.form-control {
-    color: #171717!important;
+    color: #130516!important;
     background-color: #FBBF4D!important;
     border-color: #FBBF4D!important;
     line-height: 2;
@@ -1444,4 +1444,8 @@
     width: 100%;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.25);
+}
+
+.bangtin__content__right__body__left__bottom__ht{
+    margin-top: -10px;
 }

@@ -389,9 +389,9 @@ Header
 <section class="arena__games anhnen__bangtin"></section>
 
 <section class="tintuc-slider">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-8 col-md-12 pr-0 tintuc-slider__sss">
+    <div class="container marinautooo oooopppp">
+        <div class="row marinautooo">
+            <div class="col-xl-8 col-lg-8 col-md-12 tintuc-slider__sss">
                 <div class="tintuc-slider__backgoru">
 <!--                    <img class="tintuc-slider__backgoru__img" src="images/slider/dr-mundo.png" alt="">-->
                 </div>
@@ -423,7 +423,7 @@ Header
 
         <div class="row tintuc_contents">
             <div class="col-lg-8 col-md-12">
-                <div class="row tintuc_contents__nen">
+                <div class="row tintuc_contents__nen ">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 tintuc_contents__bg">
                         <span>Mới cập nhật</span>
                     </div>
@@ -565,42 +565,44 @@ Header
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-xl-9 col-lg-8 col-md-8 col-sm-7 col-4">
-                        <div class="row trang">
-                            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                <select class="form-control">
-                                    <option>5</option>
-                                    <option>10</option>
-                                    <option>20</option>
-                                    <option>30</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <span class="trang_span">Kết quả trên trang</span>
+                <div class="col-md-12 pt-sm-3 trang_content pl-0 pr-0">
+                    <div class="row marinautooo">
+                        <div class="col-xl-9 col-lg-8 col-md-7 col-sm-7 col-1 p-0">
+                            <div class="row marinautooo trang">
+                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                    <select class="form-control">
+                                        <option>5</option>
+                                        <option>10</option>
+                                        <option>20</option>
+                                        <option>30</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-5 col-md-4">
+                                    <span class="trang_span">Kết quả trên trang</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-5 col-8 pl-0">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>

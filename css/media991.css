@@ -201,9 +201,16 @@
     .hr_one{
         display: none;
     }
-    /*.bangtin__content__right__body__left{*/
-    /*    padding: 0!important;*/
-    /*}*/
+    .bangtin__content__right__body__left{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .bangtin__content__right__body__left__bottom__cc{
+        padding-top: 20px!important;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
     .hoso__content__tttk__sotrang{
         margin-top: -10px;
     }
@@ -211,11 +218,22 @@
         padding: 8px 10px!important;
 
     }
+    .bangtin__content__right__body__left__bottom{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .trang{
         display: none;
     }
     .bangtin__content__right__body__left__topelo h3{
         font-size: 18px;
+    }
+    .bangtin__content__right__body__left__topelo{
+        padding-left: 0!important;
+    }
+    .lichsuchoigame{
+        padding-left: 0;
     }
     .bangtin__content__right__body__nep_2{
         padding-top: 0!important;
@@ -224,13 +242,15 @@
 
     }
     .bangtin__content__right__body__left__top__2{
-        max-height: 160px!important;
+        max-height: 200px!important;
         padding-left: 0!important;
     }
     .bangtin__content__right__body__left__circle_2{
         padding-left: 30px!important;
     }
-
+    .tiendo{
+        padding-left: 0;
+    }
     .boder-left{
         border-left: none!important;
     }
@@ -245,13 +265,30 @@
         height: 340px!important;
         width: 100%;
     }
+    .oooopppp{
+        padding: 0;
+    }
     .tintuc-slider__sss{
-        padding-right: 30px!important;
-        border: none!important;
+        padding: 0;
+
+    }
+    .tintuc-slider__backgoru{
+        border-radius: 0!important;
     }
     .tintuc-slider__fff{
-        padding-left: 30px!important;
+        padding: 0;
+
     }
+    .tintuc-slider__backgoru__right{
+        border-radius: 0!important;
+    }
+    /*.tintuc-slider__sss{*/
+    /*    padding-right: 30px!important;*/
+    /*    border: none!important;*/
+    /*}*/
+    /*.tintuc-slider__fff{*/
+    /*    padding-left: 30px!important;*/
+    /*}*/
     .tintuc-slider__top{
         padding-left: 280px!important;
     }
@@ -281,9 +318,9 @@
 
 /*          */
 
-    .tintuc-slider__sss{
-        padding: 0 20px!important;
-    }
+    /*.tintuc-slider__sss{*/
+    /*    padding: 0 20px!important;*/
+    /*}*/
 
     .sukien_contents ul li i{
         font-size: 16px!important;

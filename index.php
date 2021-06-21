@@ -48,7 +48,7 @@ Header
 ============================-->
 <header id="main-header">
     <div class="main-header">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row p-0">
                 <div class="col-sm-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
