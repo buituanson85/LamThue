@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="css/caythue.css">
-<!--    <link rel="stylesheet" href="css/mobienav.css">-->
     <link rel="stylesheet" href="css/login-register.css">
     <link rel="stylesheet" href="lib/appleple-modal/css/modal-video.min.css">
 
@@ -29,7 +28,7 @@
     <!-- Bootstrap CSS File -->
 
     <!-- Libraries CSS Files -->
-    <!--  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+      <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
