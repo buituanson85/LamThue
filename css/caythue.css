@@ -512,18 +512,20 @@
 .tab-content_3{
     padding: 50px 0;
 }
-#ftco-footer{
-    /*display: table;*/
+.ftco-footer{
+    display: table;
     position: relative;
     background-size: cover;
     max-width: 100%;
-    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    /*height: 100%;*/
     padding-bottom: 50px;
     /*opacity: 0.7;*/
     background: url(../images/slider/bg-banner-ss.png) top center fixed;
     object-fit: contain;
-    /*background-repeat: no-repeat;*/
-    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .footer-banner-s{
     max-width: 100%;
@@ -541,13 +543,18 @@
     width: 100%;
     margin: 0 auto;
 }
+.footer-header__top{
+    width: 100%;
+    margin: 0 auto;
+}
 
 .footer-header__left{
     border: 1px solid #3A1243;
-    width: 350px;
-    height: 250px;
+    /*width: 350px;*/
+    /*height: 250px;*/
     background-color: #3A1243;
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 .ftco-footer li{
     padding-top: 10px;
@@ -866,7 +873,7 @@
 
 
 .footer-header__left__td{
-    font-size: 16px;
+    font-size: 18px;
     color: #ffffff;
 }
 .footer-header__left__td_span{
@@ -1459,3 +1466,32 @@
 .bangtin__content__right__body__left__bottom__ht{
     margin-top: -10px;
 }
+
+.footer-banner-sss{
+    padding-right: 0;
+    padding-left: 0;
+}
+.footer-header__top{
+    padding-right: 0;
+    padding-left: 0;
+}
+.ftco__row{
+    padding-left: 0;
+}
+
+.footer-header__games_h3__left__footer,
+.text-right ftco-footer__ii{
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

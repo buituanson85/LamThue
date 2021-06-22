@@ -846,46 +846,46 @@
 
 <div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
-    <div class="container">
-        <div class="row footer-header">
+    <div class="container footer-banner-sss">
+        <div class="row marinautooo footer-header">
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">
-                <div class="row footer-headers footer-header__left">
+                <div class="row marinautooo footer-headers footer-header__left">
                     <div class="col-md-12">
-                        <div class="row pt-4 pl-2 footer-header__left__tdht">
-                            <div class="col-md-1 col-sm-2 col-2">
+                        <div class="row marinautooo pt-4 footer-header__left__tdht">
+                            <div class="col-md-1 col-sm-1 col-2">
                                 <img src="images/logo/Vector%20(4).png" alt="">
                             </div>
                             <div  class="col-md-8 col-sm-10 col-10 footer-header__left__td_spanss"><span class="footer-header__left__td">Tổng đài hỗ trợ</span></div>
                         </div>
-                        <div class="row pt-3 pl-2">
-                            <div class="col-md-7 col-sm-12">
+                        <div class="row marinautooo pt-3">
+                            <div class="col-xl-7 col-lg-12 col-md-7 col-sm-12 chamsoc">
                                 <span class="footer-header__left__td_span">Chăm sóc khách hàng</span>
                             </div>
-                            <div class="col-md-5 col-sm-12 footer-header__left__td_span_two">
-                                <div class="row">
+                            <div class="col-xl-5 col-lg-12 col-md-5 col-sm-12 footer-header__left__td_span_two">
+                                <div class="row marinautooo">
                                     <span class="footer-header__left__td_span_one" >84 123 456 789</span>
                                     <span class="footer-header__left__td_span_one span-fot">84 123 456 789</span>
                                 </div>
                             </div>
                         </div>
-                        <hr style="background-color: #CCCCCC!important;">
-                        <div class="row pl-2">
-                            <div class="col-md-7 col-sm-12">
+                        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                        <div class="row marinautooo boosters">
+                            <div class="col-xl-7 col-lg-6 col-md-7 col-sm-12">
                                 <span style="font-size: 14px;;color: #ffffff">Quản lý boosters</span>
                             </div>
-                            <div class="col-md-5 col-sm-12 footer-header__left__td_span__boosters">
-                                <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-5 col-sm-12 footer-header__left__td_span__boosters">
+                                <div class="row marinautooo">
                                     <span style="font-size: 14px;color: #FBBF4D">84 123 456 788</span>
                                 </div>
                             </div>
                         </div>
-                        <hr style="background-color: #CCCCCC!important;">
-                        <div class="row pl-2">
-                            <div class="col-md-7 col-sm-3 col-3">
+                        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                        <div class="row marinautooo email">
+                            <div class="col-xl-7 col-lg-6 col-md-7 col-sm-2 col-3">
                                 <span style="font-size: 14px;;color: #ffffff">Email:</span>
                             </div>
-                            <div class="col-md-5 col-sm-9 col-9">
-                                <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-5 col-sm-9 col-9">
+                                <div class="row marinautooo">
                                     <span style="font-size: 14px;color: #FBBF4D">lienhe@caythue.io</span>
                                 </div>
                             </div>
@@ -894,7 +894,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 footer__tt">
-                <div class="row footer-headers p-0">
+                <div class="row marinautooo footer-headers p-0">
                     <div class="col-md-12">
                         <h3 class="footer-header__h3">
                             <a id="ftco-footer__collapse" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" >THÔNG TIN</a>
@@ -951,9 +951,9 @@
                 </div>
             </div>
         </div>
-        <hr style="background-color: #CCCCCC">
-        <div class="row ftco-footer__footer">
-            <div class="col-lg-6 col-md-8 col-sm-12">
+        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+        <div class="row marinautooo ftco-footer__footer">
+            <div class="col-lg-6 col-md-8 col-sm-12 ftco__row">
                 <p class="ftco-footer__tt">
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2021 (c) CàyThuê.io - All Rights Reserved
                 </p>

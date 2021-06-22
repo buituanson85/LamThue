@@ -382,158 +382,111 @@ Header
     </div>
 </section><!-- #hero -->
 
-<section class="arena__games anhnen__bangtin"></section>
+<section class="arena__games anhnen__bangtin amada"></section>
 
 <section class="games-content">
     <div class="container p-0">
         <div class="row games-content_body pb-3">
-            <div class="game__dota2 col-xl-4 col-lg-6 col-md-6">
-                <div class="games-content__border" style="background-image: url('images/notify/dota_games.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12 ames-content__border__oe">
-                            <div class="row marinautooo">
-                                <div class="col-md-2 col-sm-2 col-4">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/dodotata2.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
 
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>DOTA 2</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/dota_games.png" /></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/dodotata2.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Dota 2</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
-            <div class="game__lmht col-xl-4 col-lg-6 col-md-6">
-                <div class="games-content__border" style="background-image: url('images/notify/bgr-legen.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-2 col-sm-2 col-4">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/lelegen.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
-
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>LIÊN MINH HUYỀN THOẠI</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="#"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/bgr-legen.png" alt=""></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/lelegen.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Liên minh huyền thoại</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6 games-tocchien">
-                <div class="games-content__border" style="background-image: url('images/notify/Hinh-nen-Toc-Chien-6 1.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-2 col-sm-2 col-4">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/nogotocchien.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
-
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>TỐC CHIẾN</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="#"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/Hinh-nen-Toc-Chien-6%201.png" alt=""></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/nogotocchien.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Tốc chiến</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6 pt-5">
-                <div class="games-content__border" style="background-image: url('images/notify/nendtcl.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-2 col-sm-2 col-4 p-0">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/logodtclll.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
-
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>Đấu trường chân lý</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="#"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/nendtcl.png" alt=""></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/logodtclll.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Đấu trường chân lý</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6 pt-5">
-                <div class="games-content__border" style="background-image: url('images/notify/nenlienquanmobie.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-2 col-sm-2 col-4">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/logolienquanmobie.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
-
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>LIÊN quân mobile</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="#"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/nenlienquanmobie.png" alt=""></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/logolienquanmobie.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Liên quân mobile</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6 pt-5">
-                <div class="games-content__border" style="background-image: url('images/notify/nencsgo.png');">
-                    <div class="row games-content__border__one">
-                        <div class="col-md-12">
-                            <div class="row">
-                                <div class="col-md-2 col-sm-2 col-4">
-                                    <div class="games-content__border__logo">
-                                        <img src="images/logo/logocsgoo.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-2">
-
-                                </div>
-                                <div class="col-md-6 col-sm-6 col-6 text-right">
-                                    <span>CS.GO</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 games-content__border__two">
-                            <a href="#"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                        </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="hover01 column_games">
+                    <div>
+                        <figure class="figure_game"><img src="images/notify/nencsgo.png" alt=""></figure>
                     </div>
+                </div>
+                <div class="logo__games">
+                    <img src="images/logo/logocsgoo.png" alt="">
+                </div>
+                <div class="text__games">
+                    <span>Cs.go</span>
+                </div>
+                <div class="btn__games">
+                    <a href="details.php"><span class="games-content__border__two__span">Xem chi tiết</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
                 </div>
             </div>
 
@@ -607,46 +560,46 @@ Header
 
 <div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
-    <div class="container">
-        <div class="row footer-header">
+    <div class="container footer-banner-sss">
+        <div class="row marinautooo footer-header">
             <div class="col-lg-4 col-md-6 col-sm-12 footer-header__top">
-                <div class="row footer-headers footer-header__left">
+                <div class="row marinautooo footer-headers footer-header__left">
                     <div class="col-md-12">
-                        <div class="row pt-4 pl-2 footer-header__left__tdht">
-                            <div class="col-md-1 col-sm-2 col-2">
+                        <div class="row marinautooo pt-4 footer-header__left__tdht">
+                            <div class="col-md-1 col-sm-1 col-2">
                                 <img src="images/logo/Vector%20(4).png" alt="">
                             </div>
                             <div  class="col-md-8 col-sm-10 col-10 footer-header__left__td_spanss"><span class="footer-header__left__td">Tổng đài hỗ trợ</span></div>
                         </div>
-                        <div class="row pt-3 pl-2">
-                            <div class="col-md-7 col-sm-12">
+                        <div class="row marinautooo pt-3">
+                            <div class="col-xl-7 col-lg-12 col-md-7 col-sm-12 chamsoc">
                                 <span class="footer-header__left__td_span">Chăm sóc khách hàng</span>
                             </div>
-                            <div class="col-md-5 col-sm-12 footer-header__left__td_span_two">
-                                <div class="row">
+                            <div class="col-xl-5 col-lg-12 col-md-5 col-sm-12 footer-header__left__td_span_two">
+                                <div class="row marinautooo">
                                     <span class="footer-header__left__td_span_one" >84 123 456 789</span>
                                     <span class="footer-header__left__td_span_one span-fot">84 123 456 789</span>
                                 </div>
                             </div>
                         </div>
-                        <hr style="background-color: #CCCCCC!important;">
-                        <div class="row pl-2">
-                            <div class="col-md-7 col-sm-12">
+                        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                        <div class="row marinautooo boosters">
+                            <div class="col-xl-7 col-lg-6 col-md-7 col-sm-12">
                                 <span style="font-size: 14px;;color: #ffffff">Quản lý boosters</span>
                             </div>
-                            <div class="col-md-5 col-sm-12 footer-header__left__td_span__boosters">
-                                <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-5 col-sm-12 footer-header__left__td_span__boosters">
+                                <div class="row marinautooo">
                                     <span style="font-size: 14px;color: #FBBF4D">84 123 456 788</span>
                                 </div>
                             </div>
                         </div>
-                        <hr style="background-color: #CCCCCC!important;">
-                        <div class="row pl-2">
-                            <div class="col-md-7 col-sm-3 col-3">
+                        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+                        <div class="row marinautooo email">
+                            <div class="col-xl-7 col-lg-6 col-md-7 col-sm-2 col-3">
                                 <span style="font-size: 14px;;color: #ffffff">Email:</span>
                             </div>
-                            <div class="col-md-5 col-sm-9 col-9">
-                                <div class="row">
+                            <div class="col-xl-7 col-lg-6 col-md-5 col-sm-9 col-9">
+                                <div class="row marinautooo">
                                     <span style="font-size: 14px;color: #FBBF4D">lienhe@caythue.io</span>
                                 </div>
                             </div>
@@ -655,7 +608,7 @@ Header
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 footer__tt">
-                <div class="row footer-headers p-0">
+                <div class="row marinautooo footer-headers p-0">
                     <div class="col-md-12">
                         <h3 class="footer-header__h3">
                             <a id="ftco-footer__collapse" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3" >THÔNG TIN</a>
@@ -712,9 +665,9 @@ Header
                 </div>
             </div>
         </div>
-        <hr style="background-color: #CCCCCC">
-        <div class="row ftco-footer__footer">
-            <div class="col-lg-6 col-md-8 col-sm-12">
+        <hr style="background-color: rgba(255, 255, 255, 0.2);">
+        <div class="row marinautooo ftco-footer__footer">
+            <div class="col-lg-6 col-md-8 col-sm-12 ftco__row">
                 <p class="ftco-footer__tt">
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> 2021 (c) CàyThuê.io - All Rights Reserved
                 </p>

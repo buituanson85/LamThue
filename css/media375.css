@@ -105,16 +105,16 @@
     .footer-header__left__td_span_two{
         /*padding-top: 15px;*/
         text-align: center;
-        margin-left: 20px;
         padding-top: 10px;
     }
     .span-fot{
-        margin-left: 30px;
+        margin-left: 10px;
     }
-
+    .footer-banner-sss{
+        padding: 0 30px;
+    }
     .footer-header__left__td_span__boosters{
         padding-top: 10px;
-        margin-left: 20px;
     }
     /*.footer__tt{*/
     /*    padding-top: 30px;*/
@@ -219,11 +219,6 @@
         padding: 0 10px;
     }
 
-    .footer-header__left{
-        width: 290px!important;
-        height: 290px!important;
-        /*padding-left: 60px;*/
-    }
     .footer-header__h3_ul li a{
         font-size: 16px;
         line-height: 32px;
@@ -251,16 +246,9 @@
         font-size: 16px;
     }
     .footer-header__h3_ul__colapse{
-        padding-left: 40px;
     }
-    .footer__tt{
-        padding-top: 50px!important;
-        padding-left: 50px!important;
-    }
-    .footer-header__games{
-        padding-top: 50px!important;
-        padding-left: 50px!important;
-    }
+
+
     .footer-header__top span{
         font-size: 16px;
     }
@@ -1006,5 +994,122 @@
     }
     .hoanthanh-content__body{
         padding-bottom: 50px;
+    }
+
+
+    .footer__tt{
+        padding-top: 50px!important;
+        /*padding-left: 50px!important;*/
+        width: 100%;
+        margin: 0 auto;
+        text-align: center!important;
+        border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+        padding-bottom: 30px;
+    }
+    .footer-header__games_h3__left__header ul,
+    .footer-header__games_h3__left__footer{
+        padding-left: 0;
+    }
+
+    .footer-header__games
+    {
+        padding-top: 50px!important;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center!important;
+    }
+    .closer_menu{
+        display: block!important;
+
+    }
+    .closer_menu i{
+        color: #FBBF4D!important;
+        font-size: 28px;
+    }
+
+
+    .games-content_body .col-xl-4:nth-child(1) .logo__games{
+        position: absolute;
+        left: 30px!important;
+        top: 20px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(2) .logo__games{
+        position: absolute;
+        left: 30px!important;
+        top: 50px!important;
+    }
+
+    .games-content_body .col-xl-4:nth-child(2) .text__games{
+        position: absolute;
+        top: 50px!important;
+        right: 30px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(1) .text__games{
+        position: absolute;
+        top: 30px!important;
+        right: 30px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(1) .btn__games,
+    .games-content_body .col-xl-4:nth-child(2) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 120px!important;
+    }
+
+
+    .games-content_body .col-xl-4:nth-child(3) .logo__games,
+    .games-content_body .col-xl-4:nth-child(4) .logo__games{
+        position: absolute;
+        left: 20px!important;
+        top: 30px!important;
+    }
+
+    .games-content_body .col-xl-4:nth-child(3) .text__games,
+    .games-content_body .col-xl-4:nth-child(4) .text__games{
+        position: absolute;
+        top: 50px!important;
+        right: 30px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(3) .btn__games,
+    .games-content_body .col-xl-4:nth-child(4) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 110px!important;
+    }
+
+
+
+    .games-content_body .col-xl-4:nth-child(5) .logo__games,
+    .games-content_body .col-xl-4:nth-child(6) .logo__games{
+        position: absolute;
+        left: 30px!important;
+        top: 50px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(5) .btn__games,
+    .games-content_body .col-xl-4:nth-child(6) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 120px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(5) .text__games,
+    .games-content_body .col-xl-4:nth-child(6) .text__games{
+        position: absolute;
+        top: 50px!important;
+        right: 30px!important;
+    }
+
+    .games-content_body .col-xl-4:nth-child(2),
+    .games-content_body .col-xl-4:nth-child(3){
+        padding-top: 30px;
+    }
+
+    .figure_game {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Zoom In #1 */
+    .hover01 .figure_game img {
+        width: 100%;
     }
 }

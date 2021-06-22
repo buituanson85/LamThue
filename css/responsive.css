@@ -81,10 +81,18 @@
     }
 
     .footer-header__left{
-        width: 330px!important;
+        /*width: 380px!important;*/
         /*height: 220px!important;*/
     }
-
+    .span-fot{
+        margin-left: 20px;
+    }
+    .footer-header__left__td_span_two{
+        padding-top: 20px;
+    }
+    .footer-header__top{
+        padding-bottom: 50px;
+    }
 /*     bang tin   */
 
     .bangtin__content__right__body__left{
@@ -155,6 +163,78 @@
     }
     .hoanthanh-content__donhang{
         /*padding-bottom: 80px!important;*/
+    }
+    .footer-header__top{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .games-content_body .col-xl-4:nth-child(1) .logo__games,
+    .games-content_body .col-xl-4:nth-child(2) .logo__games{
+        position: absolute;
+        left: 90px!important;
+        top: 20px!important;
+    }
+
+    .games-content_body .col-xl-4:nth-child(1) .text__games,
+    .games-content_body .col-xl-4:nth-child(2) .text__games{
+        position: absolute;
+        top: 30px!important;
+        right: 100px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(1) .btn__games,
+    .games-content_body .col-xl-4:nth-child(2) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 100px!important;
+    }
+
+
+    .games-content_body .col-xl-4:nth-child(3) .logo__games,
+    .games-content_body .col-xl-4:nth-child(4) .logo__games{
+        position: absolute;
+        left: 70px!important;
+        top: 30px!important;
+    }
+
+    .games-content_body .col-xl-4:nth-child(3) .text__games,
+    .games-content_body .col-xl-4:nth-child(4) .text__games{
+        position: absolute;
+        top: 50px!important;
+        right: 80px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(3) .btn__games,
+    .games-content_body .col-xl-4:nth-child(4) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 100px!important;
+    }
+
+
+
+    .games-content_body .col-xl-4:nth-child(5) .logo__games,
+    .games-content_body .col-xl-4:nth-child(6) .logo__games{
+        position: absolute;
+        left: 90px!important;
+        top: 50px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(5) .btn__games,
+    .games-content_body .col-xl-4:nth-child(6) .btn__games{
+        position: absolute;
+        bottom: 20px!important;
+        right: 100px!important;
+    }
+    .games-content_body .col-xl-4:nth-child(5) .text__games,
+    .games-content_body .col-xl-4:nth-child(6) .text__games{
+        position: absolute;
+        top: 50px!important;
+        right: 100px!important;
+    }
+
+
+    .games-content_body .col-xl-4:nth-child(3){
+        padding-top: 30px;
     }
 }
 /* oooooooooooooooooooo*/
