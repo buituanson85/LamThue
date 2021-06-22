@@ -634,6 +634,7 @@
                         <div class="row content-detailss__desccc__selecsss">
                             <div class="col-md-12">
                                 <div class="banner-left-content content-detailss__desccc__selecsss">
+                                    <form action="thanhtoandonhang.php">
                                     <div class="row content-detailss__desccc__selecs">
                                         <div class="col-md-12">
                                             <div class="banner-left-header content-detailss__desccc__selecsss">
@@ -698,6 +699,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    </form>
                                 </div>
                             </div>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 content-detailss__desccc__selecsss">

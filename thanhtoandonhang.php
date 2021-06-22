@@ -503,7 +503,7 @@ Header
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 btn-define-btn hoanthanh-content__color__body__span__right pl-0 pr-0">
-                                        <a href="#" class="btn-define">
+                                        <a href="hoanthanh.php" class="btn-define">
                                             <span>
                                                 Thanh Toán
                                             </span>
