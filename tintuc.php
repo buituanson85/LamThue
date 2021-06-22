@@ -48,7 +48,7 @@ Header
 ============================-->
 <header id="main-header">
     <div class="main-header">
-        <div class="container-fluid">
+        <div class="container-fluid con-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -71,15 +71,6 @@ Header
 
                                     <li class="menu-item">
                                         <a href="games.php">Games</a>
-                                        <!--                                        <ul class="sub-menu">-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Dota 2</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Liên minh huyền thoại</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Tốc chiến</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Valorant</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Đấu trường chân lý</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">Liên quân mobie</a></li>-->
-                                        <!--                                            <li class="menu-item"><a href="details.php">CS.GO</a></li>-->
-                                        <!--                                        </ul>-->
                                     </li>
                                     <li class="menu-item"><a href="#">Boosters</a></li>
                                     <li class="menu-item"><a href="#">Sản phẩm gợi ý</a></li>
@@ -375,7 +366,7 @@ Header
 ============================-->
 <section id="hero_tintuc">
     <div class="container hero-container__tintuc">
-        <div class="row">
+        <div class="row marinautooo">
             <div class="col-md-12 hero-container__tintuc__pages">
                 <span class="arena__title__tintuc">Games</span>
             </div>
@@ -422,7 +413,7 @@ Header
         </div>
 
         <div class="row tintuc_contents">
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-8 col-md-12 p-0">
                 <div class="row tintuc_contents__nen ">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 tintuc_contents__bg">
                         <span>Mới cập nhật</span>
@@ -437,20 +428,20 @@ Header
                         <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/cerberus-esports.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
-                        <div class="row tintuc_contents__left">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <a href="tintucsukien.php"><h3>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</h3></a>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__time">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__time">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__footer">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__footer">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <span>Một sự bổ sung nhân lực vô cùng chất lượng tới từ vị trí của CES. Liệu với ngoại binh người Hàn này, CES có thể bay cao...</span>
                             </div>
                         </div>
@@ -464,20 +455,20 @@ Header
                         <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/muaxuan.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
-                        <div class="row tintuc_contents__left">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <a href="tintucsukien.php"><h3>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện, ĐKVĐ Team Flash vẫn trắng tay</h3></a>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__time">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__time">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__footer">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__footer">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <span>Thất bại nối tiếp thất bại, liệu có còn cơ hội nào cho nhà đương kim vô địch Team Flash?</span>
                             </div>
                         </div>
@@ -486,25 +477,25 @@ Header
 
                 <hr style="width: 100%;background-color: #CCCCCC">
 
-                <div class="row tintuc_body">
+                <div class="row marinautooo tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
                         <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/tuannam.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
-                        <div class="row tintuc_contents__left">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <a href="tintucsukien.php"><h3>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng thứ 2 liên tiếp</h3></a>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__time">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__time">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__footer">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__footer">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <span>Đối thủ của họ chỉ là LGD, một trong những đội tuyển đang có phong độ không tốt.</span>
                             </div>
                         </div>
@@ -513,25 +504,25 @@ Header
 
                 <hr style="width: 100%;background-color: #CCCCCC">
 
-                <div class="row tintuc_body">
+                <div class="row marinautooo tintuc_body">
                     <div class="col-md-4 tintuc_body__left">
                         <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/nguyetthach.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
-                        <div class="row tintuc_contents__left">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <a href="tintucsukien.php"><h3>Tại sao Bùa Nguyệt Thạch trở thành trang bị được game thủ LMHT ưa chuộng?</h3></a>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__time">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__time">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__footer">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__footer">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <span>Đây là trang bị cực kỳ phù hợp cho các tướng hỗ trợ buff và cấu rỉa.</span>
                             </div>
                         </div>
@@ -545,20 +536,20 @@ Header
                         <a href="tintucsukien.php"><img class="tintuc_body_image" src="images/notify/meta.png" alt=""></a>
                     </div>
                     <div class="col-md-8 tintuc_body__right">
-                        <div class="row tintuc_contents__left">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <a href="tintucsukien.php"><h3>Meta đường giữa đang chuyển mình ra sao ở mùa giải thứ 11?</h3></a>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__time">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__time">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <i class="far fa-clock"></i>&ensp;<small>1 giờ trước</small>
                             </div>
                         </div>
 
-                        <div class="row tintuc_contents__left__footer">
-                            <div class="col-md-12">
+                        <div class="row marinautooo tintuc_contents__left__footer">
+                            <div class="col-md-12 tintuc_contents__left__2">
                                 <span>Đường giữa luôn là điểm nóng, là trung tâm của mọi sự chú ý. Rất nhiều tuyển thủ hàng đầu thế giới đã làm nên...</span>
                             </div>
                         </div>
@@ -569,7 +560,7 @@ Header
                     <div class="row marinautooo">
                         <div class="col-xl-9 col-lg-8 col-md-7 col-sm-7 col-1 p-0">
                             <div class="row marinautooo trang">
-                                <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+                                <div class="col-xl-1 col-lg-3 col-md-6 col-sm-6 p-0">
                                     <select class="form-control">
                                         <option>5</option>
                                         <option>10</option>
@@ -582,7 +573,7 @@ Header
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 phantrang">
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination">
                                     <li class="page-item">
@@ -606,8 +597,9 @@ Header
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4 col-md-12 tintuc_right">
-                <div class="row">
+                <div class="row marinautooo">
                     <div class="col-lg-12 col-md-6 tintuc_right__input">
                         <input type="text" placeholder="Tìm kiếm">
                         <div class="tintuc_right__search">
@@ -669,15 +661,15 @@ Header
                         </div>
                     </div>
 
-                    <div class="col-lg-12 col-md-12 pt-3 pl-2 pr-2 tintuc_right_qc_c">
+                    <div class="col-lg-12 col-md-12 pt-3 tintuc_right_qc_c">
                         <div class="tintuc_right_qc">
-                            <div class="row tintuc_right_qc_title">
+                            <div class="row marinautooo tintuc_right_qc_title">
                                 <div class="col-md-10">
                                     <h3>Nạp thẻ liền tay
                                         Ăn ngay khuyến mãi</h3>
                                 </div>
                             </div>
-                            <div class="row pl-3 pr-3 tintuc_right_qc_foot">
+                            <div class="row marinautooo pl-3 pr-3 tintuc_right_qc_foot">
                                 <div class="col-md-12 btn-get-starteds">
                                     <a href="" class="btn-get-startedd"><span>Xem chi tiết</span></a>
                                 </div>

@@ -184,9 +184,7 @@
     }
 
 /*          */
-    #hero_bangtin .hero-container_bangtin {
-        padding-left: 15%!important;
-    }
+
 
     .bangtin__content__right__body__nep,
     .bangtin__content__right__body__giai{
@@ -306,14 +304,18 @@
     }
     .contents__menu__video{
         order: 2;
+        padding-right: 0!important;
     }
     .tintuc_contents__menus{
         order: 1;
-        padding: 0 30px;
+        /*padding: 0 30px;*/
+        padding-left: 0!important;
     }
     .tintuc_right_qc_c{
         order: 2;
         padding-top: 30px!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
     }
 
 /*          */
@@ -373,7 +375,49 @@
         padding-bottom: 30px;
     }
     .container_khampha__45{
+        margin-top: -100px!important;
+    }
+    .hoanthanh-content__body{
+        padding-bottom: 50px;
+    }
+    .container_khampha__new{
         margin-top: -120px!important;
+    }
+    .games-content_body .game__dota2:nth-child(3){
+        padding-top: 15px;
+    }
+
+    .game__teee{
+        padding-left: 0;
+    }
+
+
+    .tintuc_contents{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .phantrang{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right__input{
+        padding-left: 0;
+    }
+    .tintuc_contents__menu{
+        padding-right: 0;
+    }
+    .tintuc_contents__left__2,
+    .tintuc_contents__left__time,
+    .tintuc_contents__left__footer{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hoanthanh-content__body__2{
+        padding-bottom: 100px!important;
     }
 }
 /* mmmmmmmmmmmmmmmmmmmmmmmmm*/

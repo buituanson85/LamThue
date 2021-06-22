@@ -46,7 +46,7 @@
 <!-- Start NavBar  -->
 <header id="main-header">
     <div class="main-header">
-        <div class="container-fluid">
+        <div class="container-fluid con-fluid">
             <div class="row p-0">
                 <div class="col-sm-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -534,9 +534,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 content-detailss__desccc__selecs__checkboxx">
-                                        <div class="custom-control custom-checkbox checkbox__xxx">
-                                            <input name="caythue_checkbox" type="checkbox" id="customCheck2" class="custom-control-input">
-                                            <label class="custom-control-label" for="customCheck2"><span class="content-detailss__footer_title__checkbox">Xem trực tiếp +349.000₫</span></label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input name="caythue_checkbox" type="checkbox" id="customCheck6" class="custom-control-input">
+                                            <label class="custom-control-label"  for="customCheck6"><span class="content-detailss__footer_title__checkbox">Cày cấp tốc+299.000₫</span></label>
                                         </div>
                                     </div>
                                 </div>
@@ -565,12 +565,7 @@
                                             <label class="custom-control-label" for="customCheck5"><span class="content-detailss__footer_title__checkbox">Chọn tướng+30.00%</span></label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-6 content-detailss__desccc__selecs__checkboxx">
-                                        <div class="custom-control custom-checkbox">
-                                            <input name="caythue_checkbox" type="checkbox" id="customCheck6" class="custom-control-input">
-                                            <label class="custom-control-label"  for="customCheck6"><span class="content-detailss__footer_title__checkbox">Cày cấp tốc+299.000₫</span></label>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -668,7 +663,7 @@
                                         <div class="col-md-12">
                                             <ul class="content-detailss__desccc__selecsss">
                                                 <li><i class="fas fa-times"></i></li>
-                                                <li><span>Xem trực tiếp</span></li>
+                                                <li><span>Đặt lịch cày</span></li>
                                                 <li><span>349.000 đ</span></li>
                                             </ul>
                                         </div>
@@ -749,9 +744,9 @@
         </div>
 
     </div>
-    <div class="container pt-3 sxxsxsx content-detailss__desccc__selecsss pl-0 pr-0">
+    <div class="container pt-3  sxxsxsx content-detailss__desccc__selecsss pl-0 pr-0">
         <div class="row content-detailss__desccc__selecsss">
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-8 container_khampha__45">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-8 container_khampha__new  container_khampha__45">
                 <div class="container_khampha_span">Khám phá dịch vụ khác</div>
             </div>
         </div>
@@ -772,7 +767,7 @@
                         <figure>
                             <div class="product_thumb_2">
                                 <a href="#" class="primary_img_2">
-                                    <img src="images/notify/thecao.jpg" alt="men">
+                                    <img src="images/notify/newthecao.png" alt="men">
                                 </a>
                             </div>
                             <figcaption class="product_content_2">
@@ -790,7 +785,7 @@
                         <figure>
                             <div class="product_thumb_2">
                                 <a href="#" class="primary_img_2">
-                                    <img src="images/notify/gate.jpg" alt="men">
+                                    <img src="images/notify/newmuataikhoan.png" alt="men">
                                 </a>
                             </div>
                             <figcaption class="product_content_2">
@@ -808,7 +803,7 @@
                         <figure>
                             <div class="product_thumb_2">
                                 <a href="#" class="primary_img_2">
-                                    <img src="images/notify/ck.jpg" alt="men">
+                                    <img src="images/notify/thuetk.png" alt="men">
                                 </a>
                             </div>
                             <figcaption class="product_content_2">
@@ -826,7 +821,7 @@
                         <figure>
                             <div class="product_thumb_2">
                                 <a href="#" class="primary_img_2">
-                                    <img src="images/notify/gare.jpg" alt="men">
+                                    <img src="images/notify/newchuyenkhoaa.png" alt="men">
                                 </a>
                             </div>
                             <figcaption class="product_content_2">

@@ -86,9 +86,6 @@
     }
 
 /*     bang tin   */
-    #hero_bangtin .hero-container_bangtin {
-        padding-left: 10%!important;
-    }
 
     .bangtin__content__right__body__left{
         max-height: 320px;
@@ -142,10 +139,23 @@
         padding-top: 10px;
         text-align: left!important;
     }
-    .container_khampha__45{
+    .container_khampha__new{
         margin-top: -120px!important;
     }
 
+    .games-content_body .game__dota2:nth-child(3){
+        padding-top: 15px;
+    }
+    .thahtoandonhang__nen{
+        margin-top: 0!important;
+    }
+
+    .thahtoandonhang{
+        margin-top: -0!important;
+    }
+    .hoanthanh-content__donhang{
+        /*padding-bottom: 80px!important;*/
+    }
 }
 /* oooooooooooooooooooo*/
 

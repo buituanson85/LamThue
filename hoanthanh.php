@@ -39,6 +39,7 @@
     <link href="css/media640.css" rel="stylesheet">
     <link href="css/media540.css" rel="stylesheet">
     <link href="css/media375.css" rel="stylesheet">
+    <link href="css/panel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,7 +50,7 @@ Header
 <header id="main-header">
     <div class="main-header">
         <div class="container">
-            <div class="row p-0">
+            <div class="row">
                 <div class="col-sm-12 p-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <a href="#" class="navbar-toggler c-toggler"
@@ -364,268 +365,195 @@ Header
 <!--==========================
   Hero Section
 ============================-->
-<section id="hero_tintuc">
-    <div class="container hero-container__tintuc">
-        <div class="row">
-            <div class="col-md-12 hero-container__tintuc__pages">
-                <span class="arena__title__tintuc">Games</span>
-            </div>
+<section id="hero__hoanthanh">
+    <div class="container hoanthanh">
+        <div class="hero-container_hoanthanh">
+            <span class="arena__title__h1">Tài khoản</span><span class="arena__title__h1">/</span><span class="arena__title__h1">Giỏ hàng</span>
         </div>
     </div>
 </section><!-- #hero -->
 
-<section class="arena__games anhnen__bangtin"></section>
+<section class="arena__nen__hoanthanh">
 
-<section class="sukien-slider">
-    <div class="container">
+</section>
+
+<section class="hoanthanh-content">
+    <div class="container p-0">
         <div class="row marinautooo">
-            <div class="col-xl-12 col-lg-12 col-md-12 tintuc-slider__ssss">
-                <div class="sukien-slider__backgoru">
-                    <!--                    <img class="tintuc-slider__backgoru__img" src="images/slider/dr-mundo.png" alt="">-->
+            <div class="col-md-12 p-0">
+                <div class="hoanthanh-content__top">
+                    <div class="row marinautooo ht-content__color">
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-shopping-cart">&ensp;</i><span>Kiểm tra giỏ hàng</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-wallet">&ensp;</i><span>Thanh toán đơn hàng</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-check-square"></i>&ensp;<span>Hoàn thành</span>
+                        </div>
+                    </div>
+                    <img class="img__one" src="images/arrow.png" alt="">
+                    <img class="img__two" src="images/arrow.png" alt="">
                 </div>
             </div>
         </div>
 
-        <div class="row sukien_contents">
-            <div class="col-lg-8 col-md-12">
-                <div class="row marinautooo">
-                    <div class="col-lg-5 col-md-4 col-sm-5">
-                        <small>Đăng trong Tin tức.   12/12.2020</small>
-                    </div>
-                    <div class="col-lg-7 col-md-8 col-sm-7">
-                        <ul style="float: right">
-                            <li style="float: right"><i class="fas fa-link"></i></li>
-                            <li style="float: right"><i class="fab fa-facebook"></i></li>
-                            <li style="float: right"><i class="fab fa-pinterest"></i></li>
-                            <li style="float: right"><i class="fab fa-twitter-square"></i></li>
-                            <li style="float: right"><span>Chia sẻ:</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row sukien_contents__title">
-                    <div class="col-md-12">
-                        <h3>Dr. Mundo đi rừng lần đầu trở lại đấu trường LEC sau 7 năm vắng bóng</h3>
-                    </div>
-                </div>
-
-                <div class="row marinautooo">
-                    <div class="col-md-12">
-                        <hr style="width: 100%;background-color: rgba(255, 255, 255, 0.5);">
-                    </div>
-                </div>
-
-                <div class="row pt-2 sukien_contents__body">
-                    <div class="col-md-12">
-                        <p>
-                            Vậy là vòng bảng LPL Mùa Xuân 2021 đã kết thúc sau gần ba tháng tranh tài. Những thế lực cũ tưởng như đã tàn lụi
-                            bất ngờ trỗi dậy, đánh bật những gã khổng lồ mới nổi một vài mùa gần đây.
-                        </p>
-                        <p>
-                            Royal Never Give Up và EDward Gaming không còn là những “bóng ma” tại LPL, họ đã hồi sinh mạnh mẽ sau những nỗ lực cải
-                            tổ đầu mùa hiệu quả. Còn nhớ tại vòng bảng Mùa Hè năm ngoái, RNG và EDG đã nắm tay nhau đứng ngoài cuộc chơi, chứng kiến
-                            Top Esports, JD Gaming và Suning cạnh tranh tấm vé đi CKTG. Không ai dám chắc chừng nào họ trở lại trong bối cảnh LMHT
-                            Trung Quốc cạnh tranh quá khốc liệt.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row sukien_contents__image">
-                    <div class="col-md-12">
-                        <img src="images/hinh-nen-tuong-Dr.Mundo-trong-lien-minh-huyen-thoai-17.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row marinautooo chuthich">
-                    <div class="col-md-12">
-                        <small>Chú thích cho hình ảnh</small>
-                    </div>
-                </div>
-
-                <div class="row pt-3 sukien_contents__body">
-                    <div class="col-md-12">
-                        <p>
-                            Đội đầu bảng Mùa Xuân năm nay là RNG, thật khó tin khi một RNG thất thường năm 2020 lại thi đấu chắc chắn đến thế.
-                            Ngay cả cựu xạ thủ huyền thoại Uzi cũng từng nhận định một cách bi quan, rằng RNG không còn là đối thủ xứng tầm với
-                            Suning. Kết quả RNG thắng 2-1. Trận thắng SN là khởi đầu của một chuỗi “hiệu ứng” bộc phát giúp RNG bùng nổ xuyên
-                            suốt mùa giải. Công thần Xiaohu lần đầu tiên trong sự nghiệp chơi vai trò đường trên, anh và đồng đội thi đấu xuất
-                            sắc như thể trong đội hình vẫn còn những Mlxg, Uzi, AmazingJ thời đỉnh cao phong độ.
-                        </p>
-                        <p>
-                            Về phần EDG, đội tuyển này đã biến mất khỏi top đầu LPL kể từ sau năm 2018. Họ thi đấu nhạt nhòa với những đội hình
-                            gồm nhiều nhân tố mới. Một mình đường giữa Scout không thể làm nên chuyện khi xung quanh anh là những người đồng đội
-                            vẫn còn thiếu kinh nghiệm. Giờ đây, mọi thứ đã thay đổi, Viper và Flandre đã trở thành hai mảnh ghép hoàn hảo đưa EDG
-                            trở lại top đầu LPL.
-                        </p>
-
-                        <p>
-                            Với ngôi nhất và nhì bảng LPL, RNG và EDG có cơ hội gặp nhau trong trận chung kết. Vòng Playoffs năm nay được chia
-                            thành 2 nhánh riêng biệt, các đội từ vòng 1 đến vòng 3 sẽ bị loại trực tiếp chỉ sau một trận BO5.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <hr style="width: 100%;background-color: rgba(255, 255, 255, 0.5);">
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="tab-content_3">
-                            <div class="product_carousel_3 defff owl-carousel">
-                                <div class="col-lg-3">
-                                    <article class="single_product_3">
-                                        <figure>
-                                            <div class="product_thumb_3">
-                                                <a href="#" class="primary_img_3">
-                                                    <img src="images/notify/cerbebus.png" alt="men">
-                                                </a>
-                                            </div>
-                                            <figcaption class="product_content_3">
-                                                <span>Cerberus Esports chiêu mộ thành công người đi đường trên tới từ Hàn Quốc</span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <article class="single_product_3">
-                                        <figure>
-                                            <div class="product_thumb_3">
-                                                <a href="#" class="primary_img_3">
-                                                    <img src="images/notify/tonghop.png" alt="men">
-                                                </a>
-                                            </div>
-                                            <figcaption class="product_content_3">
-                                                <span>[VCS Mùa Xuân 2021] Tổng kết tuần 2: Pentakill đầu tiên xuất hiện...</span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <article class="single_product_3">
-                                        <figure>
-                                            <div class="product_thumb_3">
-                                                <a href="#" class="primary_img_3">
-                                                    <img src="images/notify/tonghop.png" alt="men">
-                                                </a>
-                                            </div>
-                                            <figcaption class="product_content_3">
-                                                <span>LPL Mùa Xuân 2021 – Tuần 5: SofM giành MVP, SN hủy diệt LGD để có chiến thắng...</span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <article class="single_product_3">
-                                        <figure>
-                                            <div class="product_thumb_3">
-                                                <a href="#" class="primary_img_3">
-                                                    <img src="images/notify/sofm.png" alt="men">
-                                                </a>
-                                            </div>
-                                            <figcaption class="product_content_3">
-                                                <span>Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ đầu mùa 11</span>
-                                            </figcaption>
-                                        </figure>
-                                    </article>
-                                </div>
+        <div class="row marinautooo hoanthanh-content__body hoanthanh-content__body__2">
+            <div class="hoanthanh-content__center hoanthanh-content__center_2">
+                <div class="row marinautooo ht-content">
+                    <div class="col-xl-8 col-lg-9 col-md-9">
+                        <div class="row marinautooo">
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
+                                <i class="far fa-check-circle"></i>
                             </div>
-
+                            <div class="col-xl-8 col-lg-9 col-md-10 col-sm-10 hoanthanh-content__bpd">
+                                <span>
+                                    Cảm ơn bạn đã lựa chọn chúng tôi, thông tin đơn hàng đây hoặc bạn có
+                                    thể xem lại trong mục,Cá nhân -> Đơn hàng của bạn
+                                </span>
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <hr style="width: 100%;background: rgba(255, 255, 255, 0.2);">
+                <div class="row marinautooo content__top__body">
+                    <div class="col-md-12">
+                        <div class="row marinautooo">
+                            <div class="col-md-12">
+                                <span>Đơn hàng của bạn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row marinautooo ht-content__table">
+                    <div class="col-md-12">
+                        <table class="table table-responsives table-hover">
+                            <thead class="marinautooo">
+                            <tr class="marinautooo">
+                                <th scope="col">Mã</th>
+                                <th scope="col">Sản phẩm</th>
+                                <th scope="col">Đơn giá</th>
+                                <th scope="col">Tình trạng</th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            <tbody class="marinautooo">
+                            <tr>
+                                <td>#123</td>
+                                <td>
+                                    <span>Cày ELO Liên Minh</span><br>
+                                    <small>Bạch Kim 4, loại đơn đôi,điểm cộng mỗi ván, ... </small>
+                                </td>
+                                <td>679.000 đ</td>
+                                <td>Đã Thanh toán</td>
+                                <td><a href="#">Theo dõi&ensp;<i class="fas fa-chevron-right"></i></a></td>
+                            </tr>
+
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-12 tintuc_right">
-                <div class="row marinautooo">
-                    <div class="col-lg-12 col-md-6 tintuc_right__input">
-                        <input type="text" placeholder="Tìm kiếm">
-                        <div class="tintuc_right__search">
-                            <i class="fas fa-search"></i>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-6 tintuc_contents__menu">
-                        <div class="row tintuc_contents__nen">
-                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5 tintuc_contents__bg">
-                                <span>MEDIA</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-6 contents__menu__video">
-                        <iframe class="tintuc_contents__menu__video"  src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1"></iframe>
-                    </div>
+        </div>
 
 
-                    <div class="col-lg-12 col-md-6 pt-4 tintuc_contents__menus">
-                        <div class="row tintuc_contents__nen">
-                            <div class="col-xl-5 col-lg-6 col-md-5 col-sm-4 col-5 tintuc_contents__bg">
-                                <span>BÀI VIẾT HAY</span>
-                            </div>
-                        </div>
 
-                        <div class="row pt-3">
-                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
-                                <div class="tintuc_right_list">
-                                    <span>01</span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
-                                <span>Jinx sẽ trở thành ‘mối hiểm họa’ ở bản cập nhật 11.3</span>
-                            </div>
-                        </div>
+    </div>
 
-                        <div class="row pt-3">
-                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
-                                <div class="tintuc_right_list">
-                                    <span>02</span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
-                                <span>Những vị tướng LMHT đang rơi vào trạng thái ‘chết’ ..</span>
-                            </div>
-                        </div>
-
-                        <div class="row pt-3">
-                            <div class="col-md-2 col-sm-2 col-2 tintuc_right_menu">
-                                <div class="tintuc_right_list">
-                                    <span>03</span>
-                                </div>
-                            </div>
-                            <div class="col-md-10 col-sm-10 col-10 tintuc_right_list_span">
-                                <span>LMHT: Taliyah đi rừng có thể sẽ biến mất sau ..</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-12 pt-3 tintuc_right_qc_c">
-                        <div class="tintuc_right_qc">
-                            <div class="row marinautooo tintuc_right_qc_title">
-                                <div class="col-md-10">
-                                    <h3>Nạp thẻ liền tay
-                                        Ăn ngay khuyến mãi</h3>
-                                </div>
-                            </div>
-                            <div class="row marinautooo pl-3 pr-3 tintuc_right_qc_foot">
-                                <div class="col-md-12 btn-get-starteds">
-                                    <a href="" class="btn-get-startedd"><span>Xem chi tiết</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container pt-3 sxxsxsx content-detailss__desccc__selecsss pl-0 pr-0">
+        <div class="row content-detailss__desccc__selecsss">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-8 container_khampha__45">
+                <div class="container_khampha_span">Khám phá dịch vụ khác</div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="container-fluid secvices-title secvices-title__details  thahtoandonhang pt-5">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-md-12 text-center">
+                <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
+            </div>
+        </div>
+        <div class="tab-content_2">
+            <div class="product_carousel_2 product_column4_2 owl-carousel">
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newthecao.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua thẻ cào</a>
+                                </h4>
+                                <span>Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
 
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newmuataikhoan.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua tài khoản</a>
+                                </h4>
+                                <span>Cung cấp hầu hết các tài khoản game nhiều cấp độ</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
 
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/thuetk.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê tài khoản</a>
+                                </h4>
+                                <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newchuyenkhoaa.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê người chơi</a>
+                                </h4>
+                                <span>Giúp bạn cày rank đơn giản và rất hiệu quả</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
@@ -885,8 +813,48 @@ Header
         });
     });
 </script>
+<script>
+    /**/
 
+    jQuery( document ).ready(function() {
+
+        var back =jQuery(".prev");
+        var	next = jQuery(".next");
+        var	steps = jQuery(".step");
+
+        next.bind("click", function() {
+            jQuery.each( steps, function( i ) {
+                if (!jQuery(steps[i]).hasClass('current') && !jQuery(steps[i]).hasClass('done')) {
+                    jQuery(steps[i]).addClass('current');
+                    jQuery(steps[i - 1]).removeClass('current').addClass('done');
+                    return false;
+                }
+            })
+        });
+        back.bind("click", function() {
+            jQuery.each( steps, function( i ) {
+                if (jQuery(steps[i]).hasClass('done') && jQuery(steps[i + 1]).hasClass('current')) {
+                    jQuery(steps[i + 1]).removeClass('current');
+                    jQuery(steps[i]).removeClass('done').addClass('current');
+                    return false;
+                }
+            })
+        });
+
+    })
+</script>
+<script>
+    $(document).ready(function() {
+        $('.collapse.in').prev('.panel-heading').addClass('active');
+        $('#accordion, #bs-collapse')
+            .on('show.bs.collapse', function(a) {
+                $(a.target).prev('.panel-heading').addClass('active');
+            })
+            .on('hide.bs.collapse', function(a) {
+                $(a.target).prev('.panel-heading').removeClass('active');
+            });
+    });
+</script>
 </body>
 </html>
-
 

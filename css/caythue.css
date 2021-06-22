@@ -538,6 +538,8 @@
 }
 .footer-header{
     padding: 60px 0 30px 0;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .footer-header__left{
@@ -732,7 +734,8 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    color: #FBBF4D;
+    /*color: #130516!important;*/
+    color: #FBBF4D!important;
 }
 .content-detailss__desc__desc{
     font-size: 16px;
@@ -794,7 +797,12 @@
     margin-top: -30px;
     padding-bottom: 50px!important;
 }
-
+.thahtoandonhang{
+    margin-top: -60px!important;
+}
+.hoanthanh-content__donhang{
+    padding-bottom: 50px!important;
+}
 .abcc{
     margin-top: 100px;
 }
@@ -1048,7 +1056,7 @@
 }
 .arena__titles{
     font-size: 16px;
-    color: #CCCCCC;
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     line-height: 32px;
     width: 100%;
@@ -1172,7 +1180,7 @@
 /*  sua details     */
 
 .arena__titles ul{
-    padding-top: 120px;
+    padding-top: 80px;
     padding-left: 0;
 }
 .arena__titles ul li{
@@ -1191,7 +1199,7 @@
 
 .arena__bodysss ul{
     padding: 0!important;
-    line-height: 45;
+    line-height: 48;
 }
 .arena__bodysss ul li{
     list-style: none;
@@ -1272,6 +1280,7 @@
     width: 100%;
     margin: 0 auto;
     background-color: #321238;
+    /*background-color: #130516!important;*/
     border-radius: 10px;
 }
 
@@ -1338,6 +1347,7 @@
     border: 1px solid #FBBF4D;
     box-sizing: border-box;
     border-radius: 2px;
+    background: #321238;
 }
 .content-detailss__desc__select span{
     color: #CCCCCC;

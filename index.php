@@ -48,9 +48,9 @@ Header
 ============================-->
 <header id="main-header">
     <div class="main-header">
-        <div class="container-fluid">
-            <div class="row p-0">
-                <div class="col-sm-12 p-0">
+        <div class="container-fluid con-fluid">
+            <div class="row">
+                <div class="col-sm-12">
                     <nav class="navbar navbar-expand-lg navbar-light p-0">
                         <a href="#" class="navbar-toggler c-toggler"
                            data-toggle="collapse"
@@ -896,7 +896,7 @@ Header
                             <figure>
                                 <div class="product_thumb_2">
                                     <a href="#" class="primary_img_2">
-                                        <img src="images/notify/thecao.jpg" alt="men">
+                                        <img src="images/notify/newthecao.png" alt="men">
                                     </a>
                                 </div>
                                 <figcaption class="product_content_2">
@@ -914,7 +914,7 @@ Header
                             <figure>
                                 <div class="product_thumb_2">
                                     <a href="#" class="primary_img_2">
-                                        <img src="images/notify/gate.jpg" alt="men">
+                                        <img src="images/notify/newmuataikhoan.png" alt="men">
                                     </a>
                                 </div>
                                 <figcaption class="product_content_2">
@@ -932,7 +932,7 @@ Header
                             <figure>
                                 <div class="product_thumb_2">
                                     <a href="#" class="primary_img_2">
-                                        <img src="images/notify/ck.jpg" alt="men">
+                                        <img src="images/notify/thuetk.png" alt="men">
                                     </a>
                                 </div>
                                 <figcaption class="product_content_2">
@@ -950,7 +950,7 @@ Header
                             <figure>
                                 <div class="product_thumb_2">
                                     <a href="#" class="primary_img_2">
-                                        <img src="images/notify/gare.jpg" alt="men">
+                                        <img src="images/notify/newchuyenkhoaa.png" alt="men">
                                     </a>
                                 </div>
                                 <figcaption class="product_content_2">
@@ -968,7 +968,7 @@ Header
         </div>
 
         <div class="container secvices-body pt-5">
-            <div class="row">
+            <div class="row marinautooo">
                 <div class="col-md-7 col-sm-7 col-7">
                     <h3 class=""><i class="fas fa-gamepad"></i>&ensp;Tin tức mới nhất</h3>
                 </div>

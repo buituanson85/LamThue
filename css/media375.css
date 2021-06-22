@@ -111,9 +111,7 @@
     .span-fot{
         margin-left: 30px;
     }
-    .footer-header__left{
-        margin: 0 auto!important;
-    }
+
     .footer-header__left__td_span__boosters{
         padding-top: 10px;
         margin-left: 20px;
@@ -318,7 +316,7 @@
         padding: 0 30px;
     }
     .bangtin__content__right__footer__ht{
-        padding: 0 15px;
+        padding: 0 15px!important;
     }
     .bangtin__content__right__body{
         padding: 0!important;
@@ -334,14 +332,13 @@
         padding-left: 30px;
     }
 
-    .bangtin__content__right__body__left_ht{
-        max-height: 380px!important;
-        min-width: 300px!important;
-    }
+    /*.bangtin__content__right__body__left_ht{*/
+    /*    max-height: 380px!important;*/
+    /*    min-width: 300px!important;*/
+    /*}*/
     .bangtin__content__right__body__left__bottom__cidel,
     .bangtin__content__right__body__left__bottom__cidel__spam,
-    .bangtin__content__right__body__nep,
-    .bangtin__content__right__footer__ht,
+    .bangtin__content__right__body__nep
     .bangtin__content__right__footer__center{
         padding: 0!important;
     }
@@ -430,9 +427,7 @@
     .games-tocchien{
         padding-top: 50px;
     }
-    .games-content__footer__hr{
-        width: 270px!important;
-    }
+
     .games-content__footer,
     .games-content__footer__body{
         padding-left: 30px;
@@ -452,6 +447,7 @@
 
     .tintuc_body_image{
         padding-left: 20px!important;
+        padding-right: 20px;
     }
 
     .tintuc_contents__menu{
@@ -761,6 +757,7 @@
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;
     }
+
     .tab-content{
         padding: 0;
     }
@@ -806,5 +803,208 @@
         border-radius: 0!important;
         width: 100%;
         margin: 0 auto!important;
+    }
+
+    .game__teee{
+        padding-left: 0;
+    }
+
+    .bangtin__content__bbb{
+        padding-left: 15px!important;
+    }
+    .bangttin{
+        padding: 0 15px!important;
+    }
+
+    .img__one{
+        display: none;
+    }
+    .img__two{
+        display: none;
+    }
+    .hoanthanh-content{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .hero-container_hoanthanh{
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .hoanthanh-content__color__body__span__right{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .hoanthanh-content__color__body__span__left{
+        padding-bottom: 10px;
+    }
+    .hoanthanh-content__color__body__span__left span{
+        font-size: 16px;
+    }
+    .hoanthanh-content__color__body__span__left h3{
+        font-size: 20px;
+    }
+    .btn-define{
+        padding: 10px 15px;
+    }
+    .panel-title span{
+        font-size: 14px!important;
+    }
+    .panel-title i{
+        font-size: 18px;
+    }
+    .hoanthanh-content__color__body{
+        padding: 15px!important;
+    }
+
+    .panel-body__tkht ul{
+        padding-left: 0!important;
+    }
+    .panel-body__tkht ul li span{
+        font-size: 12px;
+        line-height: 20px!important;
+    }
+    .panel-body__tkht ul li i{
+        font-size: 16px;
+    }
+    .panel-body__tkht ul li{
+        list-style: none;
+        margin-left: 0;
+    }
+    .hoanthanh-content__color__body{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .napthemtaikhoa{
+        padding: 5px 20px;
+    }
+    .panel-body__tkht{
+        padding-top: 0!important;
+    }
+    .panel-body__tkht ul,
+    .panel-body__tkht ul li{
+        float: none;
+    }
+
+
+    .tintuc_contents,
+    .tintuc_body__right{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tintuc_contents{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .phantrang{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right__input{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_contents__menu{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tintuc_right__search{
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+    .tintuc_contents__menus{
+        order: 1;
+        padding: 30px 0;
+    }
+    .contents__menu__video{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right_qc_c{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tintuc-slider{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .tintuc_contents,
+    .tintuc_body__right{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tintuc_contents{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .phantrang{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right__input{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_contents__menu{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .tintuc_right__search{
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+    .tintuc_contents__menus{
+        order: 1;
+        padding: 30px 0;
+    }
+    .contents__menu__video{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .tintuc_right_qc_c{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tintuc_body__right,
+    .tintuc_contents__left__footer,
+    .tintuc_contents__left__time,
+    .tintuc_contents__left__2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hero-container__tintuc__title h3{
+        font-size: 24px!important;
+        margin-top: -60px;
+        text-align: center;
+    }
+    .hero-container__tintuc__pages{
+        margin-top: -140px!important;
+        text-align: center;
+    }
+    .border__TT__VV{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .bangtin__content__right__title,
+    .bangtin__content__right__body {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .footer-header__h3{
+        margin: 0 auto;
+    }
+    .hoanthanh-content__body{
+        padding-bottom: 50px;
     }
 }

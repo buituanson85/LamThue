@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/carol.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/main.min.css" integrity="sha512-NK4HHauNM/PN8erIU9un7qlAoRfjrk8rXxJOBXrksOn0232Kq1l5A9yGBuhIDuvLUr/plS0j1RDhsXHlXwoaEA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/circliful/2.0.17/main.min.css" integrity="sha512-NK4HHauNM/PN8erIU9un7qlAoRfjrk8rXxJOBXrksOn0232Kq1l5A9yGBuhIDuvLUr/plS0j1RDhsXHlXwoaEA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
     <link rel="stylesheet" href="css/caythue.css">
     <!--    <link rel="stylesheet" href="css/mobienav.css">-->
     <link rel="stylesheet" href="css/login-register.css">
@@ -39,6 +39,7 @@
     <link href="css/media640.css" rel="stylesheet">
     <link href="css/media540.css" rel="stylesheet">
     <link href="css/media375.css" rel="stylesheet">
+    <link href="css/panel.css" rel="stylesheet">
 </head>
 
 <body>
@@ -364,684 +365,252 @@ Header
 <!--==========================
   Hero Section
 ============================-->
-<section id="hero_bangtin">
-    <div class="container bangttin">
-        <div class="hero-container_bangtin">
-            <span class="arena__title__h1">My Pages</span><span class="arena__title__h1">/</span><span class="arena__title__h1">Bảng tin</span>
+<section id="hero__hoanthanh">
+    <div class="container hoanthanh">
+        <div class="hero-container_hoanthanh">
+            <span class="arena__title__h1">Tài khoản</span><span class="arena__title__h1">/</span><span class="arena__title__h1">Giỏ hàng</span>
         </div>
     </div>
 </section><!-- #hero -->
 
-<section class="arena__nen anhnen__bangtin"></section>
-<hr style="background-color: rgba(255, 255, 255, 0.2);z-index: -1">
-<section class="bangtin__content">
-    <div class="container p-0">
-        <div class="row bangtin__content__left__active">
-            <div class="bangtin__content__bbb col-xl-3 col-lg-3 col-md-4 pl-0">
-                <div class="bangtin__content__left nav nav-tabs marinauto">
-                    <div class="row bangtin__content__left__active">
-                        <div class="col-md-12 p-0">
-                            <div class="nen-profile"></div>
-                        </div>
-                    </div>
-                    <div class="row bangtin__content__left__profile marinauto">
-                        <div class="col-md-12 bangtin__content__left__avantar p-0">
-                            <div class="profile_bangtin">
-                                <img  class="avatar__bangtin" src="images/user/hl14.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__ten">
-                            <span>Hoài Linh 19</span>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__TK">
-                            <small>Thành viên VIP</small>
-                        </div>
-                        <div class="col-md-12 bangtin__content__left__id">
-                            <span>ID: 22192021</span>
-                        </div>
-                    </div>
+<section class="arena__nen__hoanthanh">
 
-                    <div class="row bangtin__content__left__active thth marinauto">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#bangtin">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-newspaper"></i>
+</section>
+
+<section class="hoanthanh-content">
+    <div class="container hoanthanh-content__donhang p-0">
+        <div class="row marinautooo">
+            <div class="col-md-12 p-0">
+                <div class="hoanthanh-content__top">
+                    <div class="row marinautooo hoanthanh-content__color">
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-shopping-cart">&ensp;</i><span>Kiểm tra giỏ hàng</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-wallet">&ensp;</i><span>Thanh toán đơn hàng</span>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            &ensp;<i class="fas fa-check-square"></i>&ensp;<span>Hoàn thành</span>
+                        </div>
+                    </div>
+                    <img class="img__one" src="images/arrow.png" alt="">
+                    <img class="img__two" src="images/arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row marinautooo hoanthanh-content__body">
+            <div class="hoanthanh-content__center">
+                <div class="row marinautooo hoanthanh-content__color__body">
+
+                    <div class="col-md-12">
+                        <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="far fa-money-bill-alt"></i>&ensp;&ensp;<span>Tài khoản hiện tại</span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <div class="row marinautooo panel-body__tkht">
+                                            <div class="col-xl-6 col-lg-7 col-md-12 offset-xl-3 offset-lg-2 pl-0 pr-0">
+                                                <ul>
+                                                    <li><i class="fas fa-info-circle"></i></li>
+                                                    <li><span>Tài khoản của bạn không đủ vui lòng nạp thêm</span></li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Bảng tin</span>
+                                        <div class="row marinautooo text-center panel-body__tktt_hover">
+                                            <div class="col-md-12">
+                                                <a href="#" class="napthemtaikhoa"><span>Nạp thêm tài khoản</span></a>
+                                            </div>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
+                            <!-- end of panel -->
+
+                            <div class="panel">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <i class="fas fa-wallet"></i>&ensp;&ensp;<span>Ví điện tử (VNpay, Momo)</span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of panel -->
+
+                            <div class="panel">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <i class="fas fa-university"></i>&ensp;&ensp;<span>Ngân hàng nội địa</span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of panel -->
+
+                            <div class="panel">
+                                <div class="panel-heading" role="tab" id="headingFour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <i class="fas fa-exchange-alt"></i>&ensp;&ensp;<span>Chuyển khoản ngân hàng</span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end of panel -->
+
                         </div>
+<!--                        <hr style="color: rgba(255, 255, 255, 0.2); width: 100%;height: 25px;z-index: 99">-->
                     </div>
 
-                    <div class="row bangtin__content__left__active ">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#ttcn">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-user-friends"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Thông tin cá nhân</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-md-12">
+                        <div class="row marinautooo pt-3">
+                            <div class="col-xl-7 col-lg-6 col-md-4 col-sm-1">
 
-                    <div class="row active bangtin__content__left__active">
-                        <div class="col-md-12">
-                            <div class="bangtin__content__left__bt pt-2 pb-2">
-                                <a data-toggle="tab" href="#cauhinh">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-cog"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-10 col-10">
-                                            <span class="bangtin__content__left__bt__span">Cấu hình</span>
-                                        </div>
-                                    </div>
-                                </a>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="row pb-3 bangtin__content__left__active">
-                        <div class="col-md-12 ">
-                            <div class="bangtin__content__left__bt bangtin__content__left__bt__bottom pt-2 pb-2">
-                                <a href="#">
-                                    <div class="row">
-                                        <div class="col-md-2 col-sm-2 col-2">
-                                            <i class="fa fa-sign-out-alt"></i>
-                                        </div>
-                                        <div class="col-md-10 col-sm-9 col-10">
-                                            <span class="bangtin__content__left__bt__span">Thoát</span>
+                            <div class="col-xl-5 col-lg-6 col-md-8 col-sm-11 pl-0 pr-0">
+                                <div class="row marinautooo hoanthanh-content__color__body__span">
+                                    <div class="col-md-6 col-sm-6 hoanthanh-content__color__body__span__left pl-0 pr-0">
+                                        <div class="row marinautooo">
+                                            <div class="col-md-12 col-sm-12">
+                                                <span>Tổng thanh toán</span>
+                                            </div>
+                                            <div class="col-md-12 col-sm-12">
+                                                <h3>679.000 đ</h3>
+                                            </div>
                                         </div>
                                     </div>
-                                </a>
+                                    <div class="col-md-6 col-sm-6 btn-define-btn hoanthanh-content__color__body__span__right pl-0 pr-0">
+                                        <a href="#" class="btn-define">
+                                            <span>
+                                                Thanh Toán
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xl-9 col-lg-9 col-md-8 pr-0 tab-content">
-                <div id="bangtin" class="bangtin__content__right tab-pane">
-                    <div class="row marinautooo">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Bảng thông tin</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row bangtin__content__right__title ">
-                        <div class="col-md-12 bangtin__content__right__title__a">
-                            <div class="row marinautooo">
-                                <div class="col-auto pr-0 bangtin__content__right__title__b">
-                                    <h3>Đơn hàng của bạn</h3>
-                                </div>
-                                <div class="col-auto bangtin__content-center">
-                                    <div class="bangtin__content__right__title__nummber">
-                                        <span>02</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row bangtin__content__right__body ">
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__giai">
-                            <div class="bangtin__content__right__body__left">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12">
-                                                <small>#123</small>
-                                            </div>
-                                            <div class="col-md-12 eloelo">
-                                                <span>Cày ELO Liên Minh</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat" class="donut" data-dimension="50" data-text="44%" data-info="" data-width="3" data-fontsize="16" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="44" data-icon-color="#fff">
+        </div>
+    </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-12">
-                                        <div class="row marinautooo muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Mục tiêu</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">Bạch kim 4</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="row marinautooo muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Trạng thái</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">Bạch kim 3</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
-                                        <div class="bangtin__content__right__body__left__bottom__cidel">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-10 col-md-10 col-sm-7 col-5 bangtin__content__right__body__left__bottom__cidel__spam">
-                                        <span>Booster đang hoạt động</span>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4 col-6 bangtin__content__right__body__left__bottom__cc">
-                                        <div class="row marinauto">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__giai">
-                            <div class="bangtin__content__right__body__left">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row marinauto">
-                                            <div class="col-md-12">
-                                                <small>#124</small>
-                                            </div>
-                                            <div class="col-md-12 eloelo">
-                                                <span>Cày Rank Dota 2</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat" class="donut" data-dimension="50" data-text="88%" data-info="" data-width="3" data-fontsize="14" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="88" data-icon-color="#fff">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-12">
-                                        <div class="row marinauto muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Mục tiêu</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">MMR 3580</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="row marinauto muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Trạng thái</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">MMR 3260</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
-                                        <div class="bangtin__content__right__body__left__bottom__cidel__off">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-10 col-md-10 col-sm-7 col-5 bangtin__content__right__body__left__bottom__cidel__spam">
-                                        <span>Booster đang offline</span>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4 col-6 bangtin__content__right__body__left__bottom__cc">
-                                        <div class="row marinauto">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <hr class="hr_one" style="background-color: rgba(255, 255, 255, 0.2);">
-
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12 bangtin__content__right__title_col">
-                            <div class="row marinautooo">
-                                <div class="col-auto pr-0">
-                                    <h3>Đơn đã hoàn thành</h3>
-                                </div>
-                                <div class="col-auto bangtin__content-center">
-                                    <div class="bangtin__content__right__title__nummber">
-                                        <span>01</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row bangtin__content__right__footer__ht">
-
-                        <div class="col-xl-6 col-lg-6 col-md-12 bangtin__content__right__body__giai">
-                            <div class="bangtin__content__right__body__left_ht">
-                                <div class="row bangtin__content__right__body__left__top">
-                                    <div class="col-md-8 col-sm-8 col-8">
-                                        <div class="row marinauto">
-                                            <div class="col-md-12">
-                                                <small>#123</small>
-                                            </div>
-                                            <div class="col-md-12 eloelo">
-                                                <span>Cày Rank Tốc Chiến</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-4 bangtin__content__right__body__left__circle">
-                                        <div id="myStat" class="donut" data-dimension="50" data-text="88%" data-info="" data-width="3" data-fontsize="14" data-fgcolor="#FBBF4D" data-bgcolor="#250C2B" data-fill="transparent" data-total="100" data-part="88" data-icon-color="#fff">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                <div class="row bangtin__content__right__body__left__body">
-                                    <div class="col-md-12">
-                                        <div class="row marinauto muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Mục tiêu</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">Bạc 4 - 1/3 Sao</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="row marinauto muctieu">
-                                            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-6">
-                                                <span>Trạng thái</span>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
-                                                <span class="text-white">Bạc 4 - 1/3 Sao</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row bangtin__content__right__body__left__bottom">
-                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 bangtin__content__right__body__left__bottom_c">
-                                        <div class="bangtin__content__right__body__left__bottom__ht">
-                                            <img src="images/hoanthanh.png" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7 col-lg-10 col-md-10 col-sm-7 col-5 bangtin__content__right__body__left__bottom__cidel__spam">
-                                        <span>Đơn đã hoàn thành</span>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4 col-6 bangtin__content__right__body__left__bottom__cc">
-                                        <div class="row marinauto">
-                                            <div class="bangtin__content__right__body__left__bottom_ct">
-                                                <a href="chitietdonhang.php"><span>Chi tiết&ensp;<i class="fas fa-angle-double-right"></i></span></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div id="ttcn" class="hoso__content__right tab-pane">
-                    <div class="row marinautooo">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Hồ Sơ Của Bạn</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row marinautooo  border__TT__VV">
-                        <div class="border__TT marinautooo">
-                            <div class="row bangtin__content__right__title marinautooo">
-                                <div class="col-md-12">
-                                    <div class="row marinautooo">
-                                        <div class="col-auto">
-                                            <h3>Thông tin tài khoản</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--                    <form action="#">-->
-                            <div class="row hoso__content__tttk marinautooo">
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label >Số điện thoại</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="text" class="form-control marinautooo" placeholder="0906240410">
-                                                <i class="fas fa-mobile-alt althoso__content__tttk__i"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12">
-                                                <label >Kết nối với facebook</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="text" class="form-control" placeholder="fb.com/hoailinh19">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row hoso__content__tttk marinautooo">
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label>Địa chỉ email</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
-                                                <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-6 col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label >Mật khẩu</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="password" class="form-control" placeholder="**********">
-                                                <i class="fas fa-lock althoso__content__tttk__i"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row marinautooo">
-                                <div class="col-md-12">
-                                    <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                                </div>
-                            </div>
-
-                            <div class="row bangtin__content__right__title marinautooo">
-                                <div class="col-md-12">
-                                    <div class="row marinautooo">
-                                        <div class="col-auto pr-0">
-                                            <h3>Thông tin cá nhân</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row hoso__content__tttk">
-                                <div class="col-md-12">
-                                    <div class="row marinautooo">
-                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 pb-sm-3 col-3">
-                                            <div class="row marinautooo">
-                                                <div style="float: left" class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 aaa_in">
-                                                    <input style="float: left" class="customss" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                                    <label style="float: left" class="form-check-label" for="exampleRadios1">Nam</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-3">
-                                            <div class="row marinautooo">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 aaa_in">
-                                                    <input class="customss" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                                                    <label class="form-check-label" for="exampleRadios2">Nữ</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-lg-6 col-md-12 pb-sm-3 hovaten">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label>Họ và tên</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="text" class="form-control" placeholder="Võ Hoài Linh">
-                                                <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label >Ngày sinh</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="date" class="form-control" placeholder="17/06/0221">
-<!--                                                <i class="fas fa-lock althoso__content__tttk__i"></i>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row hoso__content__tttk marinautooo pt-3">
-                                <div class="col-lg-6 col-md-12">
-                                    <div class="form-group">
-                                        <div class="row marinautooo">
-                                            <div class="col-md-12 hoso__content__tttk__dt">
-                                                <label>Địa chỉ(Số nhà,đường)</label>
-                                            </div>
-                                            <div class="col-md-12 pt-3">
-                                                <input type="text" class="form-control" placeholder="vohoailinh@gmail.com">
-                                                <i class="far fa-envelope althoso__content__tttk__i"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 pt-3 pb-sm-3">
-                                    <div class="row marinautooo">
-                                        <div class="col-md-6 col-sm-6">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <label>Thành Phố</label>
-                                                </div>
-                                                <div class="col-md-12 input__tp">
-                                                    <select class="form-control">
-                                                        <option>Hà Nội</option>
-                                                        <option>Hồ Chí Minh</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 input__tp">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <label>Quận Huyện</label>
-                                                </div>
-                                                <div class="col-md-12 input__tp">
-                                                    <select class="form-control">
-                                                        <option>Long Biên</option>
-                                                        <option>Hoàn Kiếm</option>
-                                                        <option>Hai Bà Trưng</option>
-                                                        <option>Đống Đa</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row btn__bangtin marinautooo">
-                                <div class="col-md-12">
-                                    <a href="#" class="btn-get-started__bangtin"><span>Lưu thông tin</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-<!--                    </form>-->
-                </div>
-
-                <div id="cauhinh" class="tttk__content__right active tab-pane">
-                    <div class="row marinautooo">
-                        <div class="col-md-12">
-                            <div class="bangtin__banner">
-                                <span>Hồ Sơ Của Bạn</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttkss pt-5 pb-3">
-                        <div class="col-md-12">
-                            <div class="hoso__content__tttk_sodu">
-                                <div class="row marinautooo">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <div class="row hoso__content__tttk_sodu_vi marinautooo">
-                                            <div class="col-md-12">
-                                                <small>Số dư trong ví</small>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <span>0.00 đ</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 text-right btn-get-started__tk">
-                                        <a href="#" class="btn-get-startedk"><span>Nạp tiền</span>&ensp;<i class="fas fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row bangtin__content__right__title">
-                        <div class="col-md-12">
-                            <div class="row marinautooo">
-                                <div class="col-auto pr-0">
-                                    <h3>Lịch sử giao dịch</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row hoso__content__tttk">
-                        <div class="col-md-12">
-                            <table class="table table-responsives table-hover">
-                                <thead class="marinautooo">
-                                <tr class="marinautooo">
-                                    <th scope="col">Mã</th>
-                                    <th scope="col">Loại giao dịch</th>
-                                    <th scope="col">Thời gian</th>
-                                    <th scope="col">Chi tiết</th>
-                                </tr>
-                                </thead>
-                                <tbody class="marinautooo">
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>#123</td>
-                                    <td>
-                                        <span>Thanh toán dịch vụ cày thuê</span><br>
-                                        <small>-1.200.000 đ</small>
-                                    </td>
-                                    <td>15:30:00 20/11/2020</td>
-                                    <td><a href="#">Xem</a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <hr style="background-color: rgba(255, 255, 255, 0.2);">
-                        </div>
-                        <div class="col-md-12 pt-sm-3 trang_content pl-0 pr-0">
-                            <div class="row marinautooo">
-                                <div class="col-xl-9 col-lg-8 col-md-7 col-sm-7 col-1 p-0">
-                                    <div class="row marinautooo trang">
-                                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                                            <select class="form-control">
-                                                <option>5</option>
-                                                <option>10</option>
-                                                <option>20</option>
-                                                <option>30</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-5 col-md-4">
-                                            <span class="trang_span">Kết quả trên trang</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                                    <nav aria-label="Page navigation example">
-                                        <ul class="pagination">
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Previous">
-                                                    <span aria-hidden="true">&laquo;</span>
-                                                    <span class="sr-only">Previous</span>
-                                                </a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#" aria-label="Next">
-                                                    <span aria-hidden="true">&raquo;</span>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+    <div class="container pt-3 sxxsxsx content-detailss__desccc__selecsss pl-0 pr-0">
+        <div class="row content-detailss__desccc__selecsss">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-8 container_khampha__45">
+                <div class="container_khampha_span">Khám phá dịch vụ khác</div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="container-fluid secvices-title secvices-title__details  thahtoandonhang pt-5">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-md-12 text-center">
+                <span class="text-center secvices-title__title">Khám phá các dịch vụ khác</span>
+            </div>
+        </div>
+        <div class="tab-content_2">
+            <div class="product_carousel_2 product_column4_2 owl-carousel">
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newthecao.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua thẻ cào</a>
+                                </h4>
+                                <span>Hỗ trợ hơn 30 loại thẻ cào, thẻ điện thoại, thẻ game</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
 
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newmuataikhoan.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Mua tài khoản</a>
+                                </h4>
+                                <span>Cung cấp hầu hết các tài khoản game nhiều cấp độ</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/thuetk.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê tài khoản</a>
+                                </h4>
+                                <span>Một giải pháp kinh tế cho những trải nghiệm mới</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+
+                <div class="col-lg-3">
+                    <article class="single_product_2">
+                        <figure>
+                            <div class="product_thumb_2">
+                                <a href="#" class="primary_img_2">
+                                    <img src="images/notify/newchuyenkhoaa.png" alt="men">
+                                </a>
+                            </div>
+                            <figcaption class="product_content_2">
+                                <h4 class="product_name">
+                                    <a href="#">Thuê người chơi</a>
+                                </h4>
+                                <span>Giúp bạn cày rank đơn giản và rất hiệu quả</span>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="footer-banner-s"></div>
 <footer class="ftco-footer" id="ftco-footer">
@@ -1301,6 +870,47 @@ Header
         });
     });
 </script>
+<script>
+    /**/
 
+    jQuery( document ).ready(function() {
+
+        var back =jQuery(".prev");
+        var	next = jQuery(".next");
+        var	steps = jQuery(".step");
+
+        next.bind("click", function() {
+            jQuery.each( steps, function( i ) {
+                if (!jQuery(steps[i]).hasClass('current') && !jQuery(steps[i]).hasClass('done')) {
+                    jQuery(steps[i]).addClass('current');
+                    jQuery(steps[i - 1]).removeClass('current').addClass('done');
+                    return false;
+                }
+            })
+        });
+        back.bind("click", function() {
+            jQuery.each( steps, function( i ) {
+                if (jQuery(steps[i]).hasClass('done') && jQuery(steps[i + 1]).hasClass('current')) {
+                    jQuery(steps[i + 1]).removeClass('current');
+                    jQuery(steps[i]).removeClass('done').addClass('current');
+                    return false;
+                }
+            })
+        });
+
+    })
+</script>
+<script>
+    $(document).ready(function() {
+        $('.collapse.in').prev('.panel-heading').addClass('active');
+        $('#accordion, #bs-collapse')
+            .on('show.bs.collapse', function(a) {
+                $(a.target).prev('.panel-heading').addClass('active');
+            })
+            .on('hide.bs.collapse', function(a) {
+                $(a.target).prev('.panel-heading').removeClass('active');
+            });
+    });
+</script>
 </body>
 </html>
